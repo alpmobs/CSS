@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Dashboard */
+
+.dashboard-avatar .profile-thumb img {
+  background: url("../../images/default-source/site-images/avatar-db.png") no-repeat scroll 0 0 transparent;
+}
+
+.profile-upload-pic > img {
+  background: url("../../images/default-source/site-images/avatar-db.png") no-repeat scroll 0 0 transparent;
+}
+
+.mychannel-wrap .btn-black {
+  float: left;
+  line-height: 20px;
+}
+
+.input-wrap > input#C007_txtTitle {
+  clear: both;
+  display: block;
+  overflow: hidden;
+}
+
+.dashboard #C007_enableEdit .form-wrap .input-wrap > label {
+  margin: 0;
+}
+
+.main .dashboard.content {
+	width: 620px !important;
+}
+
+.dashboard aside.profile-right {
+  width: 362px !important;
+}
+
+section.profile-upload-pic {
+  float: right;
+}

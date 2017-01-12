@@ -1,0 +1,286 @@
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+body {
+  background: none repeat scroll 0 0 #fafafa;
+  font-family: "Open Sans",sans-serif;
+}
+
+.wrap.pledge {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  margin: 11% auto 0;
+  width: 30%;
+}
+
+li {
+  list-style: outside none none;
+}
+
+#C017_Col00 li:nth-child(2n) {
+  margin: 0 0 30px;
+}
+
+.thePledge > span {
+  color: #363636;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.thePledge {
+  display: block;
+  margin: 0 0 30px;
+  text-align: center;
+}
+
+.pledge input {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border-color: #e05d1f;
+  border-style: none none solid;
+  border-width: 0 0 1px;
+  color: #e05d1f;
+  font-family: "Open Sans",sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.pledge .title {
+  color: #8a8a8a;
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0 0 5px;
+  text-transform: uppercase;
+}
+
+.wrap.pledge a#ctl09_btnSubmit {
+  background: none repeat scroll 0 0 #e05d1f;
+  border-radius: 8px;
+  color: #fff;
+  display: block;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 100px 0 0;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out; -moz-appearance: none; -webkit-appearance: none; -o-appearance: none; cursor: pointer; }
+
+.wrap.pledge a#ctl09_btnSubmit:hover { transform: scale(0.9); -moz-transform: scale(0.9); -webkit-transform: scale(0.9); -o-transform: scale(0.9); -ms-transform: scale(0.9);}
+
+.wrap.pledge p {
+  color: #333;
+  display: block;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.pagination a {
+  background: none repeat scroll 0 0 #e05d1f;
+  border-radius: 8px;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.pagination .aspNetDisabled.prev, .pagination .aspNetDisabled.next { background:#dcdcdc; }
+
+.pagination span {
+  color: #363636;
+  font-size: 14px;
+  margin: 0 10px 0 0;
+}
+
+/* add edit */
+table.pledge-list { background-color:#fbfbfb; width:90%; display: table;}
+.pledge-list td { border:1px solid #d3d3d3; padding:10px 20px; }
+.pledge-list span { color: #5f5f5f; display:block; float:left; font-size:15px; text-align: left; }
+.pledge-list .email { width:30%; color:#0075b0; }
+.pledge-list .date {width:25%; }
+.pledge-list .note { width:25%; }
+table.pledge-list.label td { background-color:#595959; border-bottom:0px; }
+.pledge-list.label td span { color:#fff; }
+
+footer.pledge-pagination { margin:20px 0 50px; width:90%; }
+nav.pagination { margin:0 0 auto; width:260px; }
+
+h1.pList { color:#0075b0; font-size:30px; margin:40px 0 20px; }
+
+.pledge-choice > a { background-color: #0075b0; border-radius: 5px; color: #fff; font-size: 15px; margin:0 5px 10px; padding:10px 20px; float:left; display:block; }
+.pledge-choice { margin:0 15px; overflow:hidden; }
+
+h2.pledge-header { color:#0075b0; font-size:30px; padding:30px 0 0 0; }
+
+
+
+a.pledge-list {
+float: left;
+/* background: none repeat scroll 0 0 #0075B0; */
+border-radius: 8px;
+color: #0075B0;
+display: block;
+width250: 30%;
+font-size: 15px;
+font-weight: 700;
+margin250: -20px auto 50px;
+margin:10px 0 50px 24px;
+padding250: 10px 20px;
+text-align: center;
+text-transform250: uppercase;
+transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+-webkit-transition: all .3s ease-in-out;
+-o-transition: all .3s ease-in-out;
+-ms-transition: all .3s ease-in-out;
+-moz-appearance: none;
+-webkit-appearance: none;
+-o-appearance: none;
+cursor: pointer;
+}
+
+.post-list li span { display:block; font-size:13px; margin-top:2px; overflow:hidden; text-align:left; }
+
+#C017_Col00 {
+  background: #fff;
+  margin: 11% auto 0;
+  width: 100%;
+ font-family: "Open Sans",sans-serif;
+ border-bottom: 1px solid #E3E3E3;
+}
+
+#C017_Col00 ul {
+    width: 95%!important;
+    margin-top:20px;
+    padding: 30px 20px;
+}
+
+li {
+  list-style: outside none none;
+}
+
+#C017_Col00 li:nth-child(2n) {
+  margin: 0 0 20px; text-align:left;
+}
+
+#C017_Col00 > span {
+  color: #363636;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+#C017_Col00 {
+  display: block;
+  margin: 0 0 30px;
+  text-align: center;
+}
+
+#C017_Col00 input {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border-color: #AAAAAA;
+  border-style: none none solid;
+  border-width: 0 0 1px;
+  color: #4D4D44;
+  font-family: "Open Sans",sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 10px 0 2px;
+  width: 100%;
+}
+
+#C017_Col00 .title {
+  color: #8a8a8a;
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  margin250: 0 0 5px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+#C017_Col00 #C027_btnSubmit {
+background: none repeat scroll 0 0 #0075B0;
+border-radius: 8px;
+color: #fff;
+display: block;
+width: 30%;
+font-size: 15px;
+font-weight: 300;
+margin: 0px 65px 50px;
+padding: 10px 20px;
+text-align: center;
+text-transform: uppercase;
+transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+-webkit-transition: all .3s ease-in-out;
+-o-transition: all .3s ease-in-out;
+-ms-transition: all .3s ease-in-out;
+-moz-appearance: none;
+-webkit-appearance: none;
+-o-appearance: none;
+cursor: pointer;
+float: left;
+}
+
+#C017_Col00 #C027_btnSubmit:hover { transform: scale(0.9); -moz-transform: scale(0.9); -webkit-transform: scale(0.9); -o-transform: scale(0.9); -ms-transform: scale(0.9);}
+
+#C017_Col00 p {
+  color: #333;
+  display: block;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.pagination a {
+  background: none repeat scroll 0 0 #e05d1f;
+  border-radius: 8px;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.pagination span {
+  color: #363636;
+  font-size: 14px;
+  margin: 0 10px 0 0;
+}
+
+nav.pagination {
+  margin: 0 auto;
+  width: 260px;
+    display: block;
+}
+
+
+a.pledge-list:hover { /* transform: scale(0.9); -moz-transform: scale(0.9); -webkit-transform: scale(0.9); -o-transform: scale(0.9); -ms-transform: scale(0.9);*/ 
+color: #000;
+} 
+
+.clear {
+    clear: both;
+}
+
+.post-list .point {
+  background: none repeat scroll 0 0 #0075b0;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  float: right;
+  font-size: 14px;
+  margin: 10px 0 0 10px;
+  padding: 2px 5px;
+}
+
+

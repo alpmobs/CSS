@@ -1,0 +1,131 @@
+/*
+	Featured Content Slider
+	by: Chris Coyier
+*/
+
+
+					  				  
+/*
+	UTILITY STYLES
+*/				  				  
+					  				  
+.floatLeft 									{ float: left; margin-right: 10px;}
+.floatRight									{ float: right; }
+.clear 										{ clear: both; }
+a											{ outline: none; }
+
+
+/*
+	PAGE STRUCTURE
+*/
+#page-wrap {
+  background: #343434 none repeat scroll 0 0;
+  height: 350px;
+  margin-bottom: 35px;
+  position: relative;
+  width: 940px;
+}
+
+/*
+	TYPOGRAPHY
+*/
+ul											{ list-style: square inside; }
+a, a:visited								{ text-decoration: none; }
+a:hover, a:active							{}
+blockquote									{ padding: 0 20px; margin-left: 20px; border-left: 20px solid #ccc; font-size: 14px; 
+									  		  font-family: Georgia, serif; font-style: italic; margin-top: 10px;}
+
+/*
+	SLIDER
+*/
+.slider-wrap								{ width:961px; position: absolute; }			
+.stripViewer .panelContainer 
+.panel ul									{ text-align: left; margin: 0 15px 0 30px; }
+.stripViewer								{ position: relative; overflow: hidden; width:940px; height:350px; background:#000; }
+.stripViewer .panelContainer				{ position: relative; left: 0; top: 0; }
+.stripViewer .panelContainer .panel			{ float: left; height: 100%; position: relative; width:940px; }
+.stripNavL, .stripNavR, .stripNav			{ display: none; }
+.nav-thumb 									{ display:block; height:88px; padding:15px 5px 0px 10px; color: #161616; }
+.nav-thumb:hover { background:#eeeded; }
+#movers-row									{ margin:0px; height:103px; background:#f6f5f5; border-right:1px solid #cbcbcb; border-left:1px solid #cbcbcb; border-bottom:1px solid #cbcbcb; display: none; }
+#movers-row div								{ float: left; }
+#movers-row div a.cross-link 				{ float: right; }
+.photo-meta-data							{ background: url(/images/default-source/site-images/transpBlack.png); height:350px; width:330px; position: relative; left:610px; top:-350px; z-index: 9; color: white; }
+.photo-meta-data .points-wrap				{ bottom: 0; }
+
+.photo-meta-data span 						{ font-size: 13px; }
+.cross-link									{ display: block; width:191px; height:103px; background:#f6f5f5; border-right:1px solid #cbcbcb;
+											  position: relative; z-index: 9; }
+
+.cross-link.last { border-right:0px; width:190px; }
+.active-thumb .nav-thumb { background:#dcdada; display:block; border-top:5px solid #D96C0D; height:88px; padding:10px 5px 0px 10px; color: #D96C0D; }
+.slider-link { width:940px; height:350px; display:block; }
+.title-cont.title1 { top:55px; }
+.title-cont { padding:5px 5px 5px 15px; position:relative; }
+.title-cont h1 { font-weight:bold; font-size:32px; color:#fdfdfd; margin-bottom:15px; }
+.title-cont h1 a { color:#fdfdfd; }
+.title-cont h1 a:hover { color:#ffcca6; }
+.title-cont .title-desc { margin-bottom:20px; }
+.title-cont .read-more { color:#ff8e15; }
+.title-cont .read-more:hover { color:#ffd08c; }
+
+@media (min-width: 809px) {
+    .title-cont { padding: 65px 5px 5px 15px; }
+}
+
+@media (max-width: 809px) {
+    #page-wrap {
+        height: auto;
+        width: 100% !important;
+    }
+    .stripViewer {
+        height: 560px;
+        width: 100%;
+    }
+    .stripViewer .panelContainer .panel {
+        width: 100%;
+    }
+    .slider-link {
+        text-align: center;
+        width: 150%;
+    }
+    .photo-meta-data {
+        bottom: 0;
+        left: 0;
+        top: auto;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 721px) {
+    p.title-desc:nth-of-type(1) {
+        display: block !important;
+    }
+    .title-cont h1 {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 721px) { 
+    p.title-desc {
+        display: block !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .slider-link {
+        height: auto;
+    }
+    .stripViewer {
+        height: 380px;
+    }
+    .title-desc {
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    .photo-meta-data {
+        text-align: center;
+    }
+}

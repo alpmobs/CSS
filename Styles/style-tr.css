@@ -1,0 +1,1628 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ======== reset ======== */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,700italic,800italic,600italic,400italic,300italic);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+    overflow-x: hidden
+}
+body { background:#0f0f0f; margin:0px; padding:0px; font-family:'Montserrat', sans-serif; color:#363636; }
+h2, h3, h4 { font-weight:normal; }
+h2 { font-size:48px; }
+h4 { font-size:22px; text-transform:uppercase; margin:10px 0 40px; }
+p { font-size:14px; }
+
+.clearfix:after {
+  clear:both;
+  content:".";
+  display:block;
+  height:0px;
+  line-height:0px;
+  visibility:hidden;
+}
+a { text-decoration:none; }
+li { list-style:none; }
+
+/* ======== layout ======== */
+
+
+.wrap { width: 1080px; margin: 0 auto; }
+
+div  .slide {
+  min-height: 730px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative; 
+}
+
+.slide.blue.countDown { display: none; !important }
+
+div .slide article {
+  margin:0px auto; text-align:center; width: 1080px;
+}
+
+div.menu article {
+  position: relative;
+  text-align: center;
+  width: 1200px;
+  z-index: 1;
+}
+
+.about > article {
+  height: 580px;
+}
+
+.about article {
+  padding: 0 0 30px;
+}
+
+.first .wrap {
+  margin: 0 auto 250px !important;
+  width: 100%;
+  z-index: 10;
+}
+
+/* ======== backgrounds ======== */
+
+.blue { background: #032141;}
+.white { background: #ededed; color: #464646;}
+.red { background: #a90f1e;}
+.black { background: none repeat scroll 0 0 #0f0f0f; color: #969696; }
+
+.first .bg-front {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("/../images/default-source/revcon/bg-front-landing.png");
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  bottom: 0;
+  height: 149px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: 5;
+}
+
+.bg-front2 {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("/../images/default-source/revcon/bg-front-tr.png");
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  bottom: -1px;
+  height: 149px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
+
+
+.slide.first {
+  background: url("/../images/default-source/revcon/bg-landing-tk.jpg") no-repeat scroll center top / 100% 100% #032141;
+  height: 800px;
+  margin: 0;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1990px) { 
+
+.slide.first {
+  background: url("/../images/default-source/revcon/bg-landing-tk.jpg") no-repeat scroll center top / 100% auto #032141;
+}
+
+}
+.countDown article {
+  background: url("/../images/default-source/revcon/bg-countdown2.jpg") no-repeat scroll 0 30px / 100% 100% rgba(0, 0, 0, 0);
+  min-height: 730px;
+}
+
+.topbar {
+  position: relative;
+  z-index: 20;
+}
+
+
+
+
+
+/* ======== global ======== */
+
+
+
+header { border-bottom: 1px solid; padding: 80px 0 0 0; }
+.red header { border-bottom: 1px solid #d87881;}
+.white header { border-bottom: 1px solid #919191; }
+.blue header { border-bottom: 1px solid #415fa2;}
+.black header { border-bottom: 1px solid #4f4f4f;}
+header .wrap h1 { 
+  font-size: 90px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -5px;
+  color: #fff; 
+  text-align: left;
+  }
+
+.white header .wrap h1 { color: #363636;}
+.black header .wrap h1 { color: #FFF;}
+
+
+
+
+article .player {
+  width:1080px;
+  height:480px;
+  background:#000;
+  margin: 30px auto 0;
+}
+
+article .padding {
+  padding:0px 20px;
+}
+
+.topbar a {
+  color: #dfdfdf;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.topbar a:hover {
+  color: #fff;
+}
+
+.topbar-wrap input { color: #dfdfdf; }
+
+/* ======== home ======== */
+
+
+
+/* ======== teaser ======== */
+
+
+/* ======== thelogo ======== */
+
+
+.menu  {
+  display: block;
+}
+
+.menu .logo:hover {
+   transform: scale(1.05);
+   -moz-transform: scale(1.05);
+   -webkit-transform: scale(1.05);
+   -o-transform: scale(1.05);
+   -ms-transform: scale(1.05);
+}
+
+/* Preloader */
+#preloader {
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:#fff; /* change if the mask should have another color then white */
+  z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+  width:200px;
+  height:200px;
+  position:absolute;
+  left:50%; /* centers the loading animation horizontally one the screen */
+  top:50%; /* centers the loading animation vertically one the screen */
+  background-image:url(/../images/default-source/revcon/status.gif); /* path to your loading animation */
+  background-repeat:no-repeat;
+  background-position:center;
+  margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+
+.bt-trans {
+  display: inline-block;
+  margin: 0 0 0 60px;
+  position: absolute;
+  top: 7px;
+  width: 150px;
+}
+
+.bt-trans > a {
+  color: #fff;
+  display: inline-block;
+  float: left;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0 10px 0 0;
+}
+
+.counter {
+  overflow: hidden;
+  position: relative;
+  top: 145px;
+}
+
+
+.countdown {
+  float: left;
+  margin: 40px 0 0 0;
+}
+
+.countdown span {
+  display: block !important;
+}
+
+
+#countdown li {
+  color: #fff;
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+  width: 270px;
+}
+
+#countdown span {
+  font-size: 179px;
+  font-weight: 700;
+  display: block;
+} 
+#countdown p {
+  background: none repeat scroll 0 0 #1c59cd;
+  clear: both;
+  display: inline-block;
+  font-size: 34px;
+  line-height: 100%;
+  overflow: hidden;
+  padding: 5px 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.countDown .flagWrap li {
+  display: inline-block;
+  margin: 0 -1px 25px;
+  overflow: hidden;
+  padding: 0;
+}
+
+.countDown .flagWrap li img {
+  height: 80px;
+}
+
+.countDown .flagWrap {
+  margin: 55px 0 0;
+  display: none;
+}
+
+.flagWrap p {
+  color: #fff;
+  font-weight: 300;
+}
+
+.green.countDown {
+  padding: 0 0 70px;
+}
+
+.countDown article li {
+  display: inline-block;
+  float: none;
+  margin: 0 -3px -6px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.countDown h2 {
+  color: #b1d6a7;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 34px;
+  margin: 100px 0 20px;
+  padding: 0 0 15px;
+  text-align: left;
+}
+
+.countDown h2 a {
+  color: #fff;
+}
+
+.countDown h2 a:hover {
+  color: #b1d6a7;
+}
+
+.countDown .name {
+  background: url("/../images/default-source/revcon/bg-speaker.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  bottom: 5px;
+  color: #fff;
+  font-family: "Open Sans",sans-serif;
+  font-size: 14px;
+  left: 0;
+  min-height: 57px;
+  padding: 8px 8px 8px 8px;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  text-indent: 0;
+}
+
+.countDown .name h3 {
+  color: #96ff50;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.a{
+  left: 0;
+  position: relative;
+  top: 0;
+  transition: all 0.3s ease 0s;
+  z-index: 10;
+}
+
+#navigation a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.main {
+    position: relative;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+section.toggle {
+    text-align: center
+}
+
+.mask {
+  background: url("/../images/default-source/revcon/mask.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Menus
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
+/* general style for all menus */
+div.menu {
+    position: fixed;
+    z-index: 20;
+    background-color: #979797;
+    overflow-x: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+div.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+div.menu a {
+    font-weight: 300;
+    color: #fff;
+}
+
+div.menu a:hover, div.menu .current {
+  color: #FFFFFF !important;
+}
+
+
+a.close-menu:focus {
+    outline: none
+}
+div.push-menu-left {
+    top: 0;
+    width: 300px;
+    height: 100%;
+}
+div.push-menu-left li {
+    display: block;
+    text-align: center;
+    border-bottom: solid 1px #787878;
+    border-top: solid 1px #bfbfbf;
+}
+div.push-menu-left li:first-child {
+    border-top: none
+}
+div.push-menu-left li:last-child {
+    border-bottom: none
+}
+
+div.menu ul li:nth-child(3) { display: none; }
+
+div.push-menu-left a {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.close-menu {
+  display: none !important;
+}
+
+div.push-menu-left li:first-child a.close-menu {
+  background-color: #474747;
+  color: #fff;
+  display: inline-block !important;
+  margin: 10px 0;
+  padding: 10px 30px;
+}
+
+
+div.push-menu-left li:first-child a.close-menu:hover {
+  color: #fff !important;
+}
+
+
+div.push-menu-left {
+    left: -300px;
+}
+body.pml-open div.push-menu-left {
+    left: 0;
+}
+body.pml-open .main {
+    left: 300px
+}
+
+.topbar ul.dbmenu li { color: #dfdfdf; font-family: 'Open Sans',sans-serif; }
+
+.revcon2k14 .topbarMenu {
+  background: none repeat scroll 0 0 #262626;
+  left: 0;
+  margin: -21px 0 0;
+  overflow: hidden;
+  padding: 10px 0;
+  width: 100%;
+  position: relative;
+  z-index: 25;
+}
+
+.revcon2k14 .topbarMenu.visible {
+  opacity: 1;
+  position: fixed;
+  top: 21px;
+}
+
+.revcon2k14 .topbarMenu .buttons {
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+
+.topbarMenu .logo {
+  background: url("/../images/default-source/revcon/logo-mini-revcon2.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+  display: block;
+  float: right;
+  height: 41px;
+  width: 150px;
+}
+
+.topbarMenu .buttons a.nav-toggler {
+  background: url("/../images/default-source/revcon/icon-nav.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  display: block;
+  height: 34px;
+  text-indent: -9999px;
+  width: 34px;
+}
+
+.logo.logo-bsl {
+  background: url("/../images/default-source/revcon/logo-bsl-red.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  display: block;
+  height: 139px;
+  margin: 2% auto 0;
+  text-indent: -9999px;
+  width: 121px;
+  float: none;
+}
+
+.slide.first .place {
+  color: #fff;
+  font-size: 15px;
+  margin: 25px 0 0;
+  text-transform: uppercase;
+}
+
+.btn-buyTicket {
+  background: none repeat scroll 0 0 #dedede;
+  border-radius: 20px;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Montserrat',sans-serif;
+  overflow: hidden;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 300;
+
+  transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+}
+
+.buyButton.disabled {
+  background: none repeat scroll 0 0 #dedede;
+  pointer-events: none;
+   cursor: default;
+ }
+
+.countDown .btn-buyTicket {
+  margin: 220px 0 30px 0;
+  background-color: rgba(4, 16, 39, 0.5);
+  color: #dfdfdf;
+}
+
+.countDown .btn-buyTicket:hover {
+  background-color: rgba(4, 16, 39, 1);
+}
+
+.feeds .btn-buyTicket {
+  margin: 10px 0 180px;
+}
+
+.speakers .btn-buyTicket {
+  background-color: rgba(69, 14, 20, 0.5);
+  color: #fff;
+  margin: 60px 0;
+}
+
+.speakers .btn-buyTicket:hover {
+  background-color: rgba(69, 14, 20, 1);
+}
+
+.interaction .btn-buyTicket {
+  background-color: rgba(143, 224, 251, 0.5);
+  color: #FFF;
+  margin: 30px 0 60px;
+}
+
+.interaction .btn-buyTicket:hover {
+  background-color: rgba(143, 224, 251, 1);
+}
+
+.interaction .notify:before {
+  content: "*";
+  margin: 0 2px 0 0;
+}
+
+.interaction .notify {
+  font-family: "Open Sans",sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 10px 0 10px 110px;
+  text-align: left;
+  color: #8fe0fb;
+}
+
+.interaction .note {
+  color: #fff;
+}
+
+.interaction .notify > a {
+  color: #fff;
+}
+
+.interaction .notify > a:hover {
+  text-decoration: underline;
+}
+
+.interaction .item {
+  color: #fff;
+}
+
+.interaction .item .bar > span {
+  color: #8fe0fb;
+  display: block;
+  margin: 5px 0 30px;
+}
+
+.interaction .item .bar > img {
+  height: 10px;
+}
+
+
+.venueWrap .btn-buyTicket {
+  margin: 250px 0 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.venueWrap .btn-buyTicket:hover {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.contacts .btn-buyTicket, .downloads .btn-buyTicket {
+  background: none repeat scroll 0 0 #234fa3;
+  color: #ededed;
+  margin: 0 0 70px;
+}
+
+.contacts .btn-buyTicket:hover {
+  background: none repeat scroll 0 0 #102656;
+}
+
+.about .btn-buyTicket, .feeds .btn-buyTicket {
+  background-color: rgba(35, 79, 163, 0.9);
+}
+
+.about .btn-buyTicket:hover, .feeds .btn-buyTicket:hover {
+  background-color: rgba(35, 79, 163, 1);
+}
+
+.about .btn-buyTicket {
+  margin: 35px 0 0;
+}
+
+.venue {
+  margin: 5% 0 0;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.venue img {
+  display: block;
+  margin: 0 auto;
+}
+
+.venue .btn-buyTicket {
+  background-color: rgba(81, 8, 8, 0.5);
+  margin: 5% 0 1%;
+}
+
+.venue .btn-buyTicket:hover {
+  background-color: rgba(81, 8, 8, 1);
+}
+
+.interaction > article {
+  text-align: left;
+}
+
+.interaction .wrap {
+  margin: 30px auto 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.interaction .PollQuestion {
+  background: url("/../images/default-source/revcon/bg-pollq.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  clear: both;
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 60px 0 30px;
+  min-height: 80px;
+  overflow: hidden;
+  padding: 0 0 0 110px;
+  text-align: left;
+  color: #8fe0fb;
+}
+
+.interaction label {
+  color: #8fe0fb;
+  font-family: "Open Sans",sans-serif;
+  font-size: 15px;
+}
+
+.interaction table {
+  background: url("/../images/default-source/revcon/bg-polla.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  clear: both;
+  height: auto;
+  overflow: hidden;
+}
+
+.interaction tr {
+  float: left;
+  line-height: 24px;
+  margin: 0 10px 20px 0;
+  width: 45%;
+}
+
+.interaction tbody {
+  display: block;
+  margin: 0 0 0 110px;
+}
+
+.interaction input[type="radio"] {
+  height: 20px;
+  margin: 0 2px 0 0;
+  width: 20px;
+}
+
+
+
+.interaction .btn-wrap a:first-child {
+  background: none repeat scroll 0 0 #213a72;
+  border-radius: 5px;
+  color: #8fe0fb;
+  margin: 0 10px 0 0;
+  padding: 10px 20px;
+}
+
+.interaction .btn-wrap {
+  border-bottom: 1px solid #415fa2;
+  font-size: 20px;
+  height: auto;
+  overflow: hidden;
+  padding: 30px 0 50px 106px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.interaction .btn-wrap > a:last-child {
+  float: right;
+}
+
+.interaction .btn-wrap .point {
+  display: none;
+}
+
+.interaction .btn-wrap > a {
+  color: #8fe0fb;
+}
+
+.interaction #ctl35_PanelChart .item {
+  margin: 0 0 20px;
+  text-align: left;
+}
+
+.interaction #ctl35_PanelChart .item > span {
+  display: block;
+  margin: 0 0 5px;
+}
+
+.interaction #ctl35_PanelChart .item .bar {
+  background: none repeat scroll 0 0 #2c2c2c;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+.interaction #ctl35_PanelChart .item .bar > img {
+  height: 20px;
+}
+
+.interaction #ctl35_PanelChart .bar > span {
+  color: #fff;
+  font-family: "Open Sans",sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  left: 10px;
+  position: absolute;
+}
+
+
+.venueWrap .title > h2 {
+  border-bottom: 1px solid #415fa2;
+  color: #8fe0fb;
+  display: inline-block;
+  font-size: 35px !important;
+  letter-spacing: 5px;
+  margin: 40px 0 10px;
+  padding: 0 0 20px;
+}
+
+.venueWrap .title > p {
+  color: #8fe0fb;
+  font-family: "Open Sans",sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+
+.venueWrap .badge-uae {
+  background: url("/../images/default-source/revcon/badge-uae.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  display: block;
+  height: 62px;
+  margin: 20px auto 0;
+  width: 63px;
+}
+
+.venueWrap .badge-turkey {
+  background: url("/../images/default-source/revcon/badge-turkey.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  display: block;
+  height: 63px;
+  margin: 20px auto 0;
+  width: 63px;
+}
+
+.slide.blue.venueWrap {
+  background: url("/../images/default-source/revcon/bg-map2.jpg") no-repeat scroll center 435px #032141;
+  min-height: 1000px;
+}
+
+.venueWrap .venue-photo {
+  background: url("/../images/default-source/revcon/turkey-venue.jpg") no-repeat scroll center top #02172C;
+  bottom: 0;
+  display: block;
+  height: 339px;
+  margin: -74px 0 0;
+  position: relative;
+}
+
+.blue.venueWrap article {
+  width: 100%;
+}
+
+.venueWrap .venue-map {
+  height: 500px;
+  margin: 112px 0 0;
+}
+
+.about ul.photo {
+  margin: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.about .video {
+  margin: 60px 0 0;
+}
+
+.about .text-wrap > h2 {
+  border-bottom: 1px solid #cecece;
+  color: #234fa3;
+  font-size: 30px;
+  line-height: 34px;
+  margin: 30px 0 10px 0;
+  padding: 0 0 15px;
+  text-align: left;
+}
+
+.about .text-wrap > p {
+  color: #464646;
+  font-family: "Open Sans",sans-serif;
+  line-height: 24px;
+  text-align: left;
+}
+
+.about .photo > li {
+  float: left;
+  margin: 0 4px 0 0;
+}
+
+.about .photo > li:last-child {
+  margin: 0;
+}
+
+.speakers .name {
+    background: url("/../images/default-source/revcon/bg-speaker.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 5px;
+    color: #fff;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    left: 0;
+    padding: 4px 0 10px 15px;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    text-indent: 0;
+}
+.speakers li {
+    display: inline-block;
+    margin: 0 1px 0 0;
+    position: relative;
+}
+.speakers li:last-child {
+    margin: 0 !important;
+}
+.speakers .name h3 {
+    color: #8fe0fb;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 0 0px;
+}
+
+.speakers h2 {
+  color: #ffd7d7;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 100px 0 20px;
+  padding: 0 0 15px;
+  text-align: left;
+}
+
+
+.ticketWrap article {
+  color: #464646;
+}
+
+.ticketWrap h2 {
+  color: #464646;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.ticketWrap h3 {
+  font-family: "Open Sans",sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 35px 0 10px;
+  color: #464646;
+}
+
+.ticketWrap .border {
+  background: url("/../images/default-source/revcon/bg-ticket2.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+  height: 73px;
+  margin: 30px 0 0 0;
+}
+
+.ticketWrap .border:last-child {
+  margin: 30px 0 0;
+  padding: 0 0 30px;
+}
+
+.ticketWrap .buyButton {
+  background: url("/../images/default-source/revcon/bg-buyticket2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  color: #FFF;
+  display: inline-block;
+  font-size: 60px;
+  font-weight: 700;
+  height: 95px;
+  padding: 10px 0 0;
+  width: 492px;
+
+  transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+}
+
+.ticketWrap .buyButton:hover {
+  opacity: .9;
+}
+
+
+.buyButton.disabled {
+  cursor: default;
+  opacity: 0.4;
+  -moz-opacity: 0.4;
+  -webkit-opacity: 0.4;
+  -o-opacity: 0.4;
+  -ms-opacity: 0.4;
+  pointer-events: none;
+}
+
+
+.ticketWrap .price {
+  background: none repeat scroll 0 0 #909090;
+  display: block;
+  font-size: 50px;
+  margin: 30px auto 70px;
+  padding: 10px 0;
+  width: 260px;
+  color: #fff;
+}
+
+.contacts h1 {
+  color: #ededed;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 10px;
+  text-align: left;
+}
+
+.downloads h1 {
+  color: #234fa3;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 10px;
+  text-align: left;
+}
+
+.contacts h2 {
+  color: #ededed;
+  font-family: "Open Sans",sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.contacts .contact-person p {
+  color: #969696;
+  font-family: "Open Sans",sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.contact-person li {
+  float: left;
+  margin: 0 60px 0 0;
+  text-align: left;
+}
+
+.contacts .contact-person {
+  border-bottom: 1px solid #222;
+  clear: both;
+  margin: 100px 0 50px;
+  overflow: hidden;
+  padding: 0 0 50px;
+}
+
+.downloads .wallpaper {
+  border-bottom: 1px solid #cecece;
+  clear: both;
+  margin: 100px 0 50px;
+  overflow: hidden;
+  padding: 0 0 50px;
+}
+
+.contacts .socialmedia {
+  margin: 0 0 60px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.contacts .socialmedia a, .contacts .contact-person a {
+  color: #969696;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Open Sans",sans-serif;
+
+  transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+}
+
+.contacts .socialmedia a:hover, .contacts .contact-person a:hover {
+  color: #fff;
+}
+
+.contacts .socialmedia li {
+  float: left;
+  margin: 0 60px 0 0;
+  padding: 10px 0 10px 50px;
+}
+
+.contacts .socialmedia li:first-child {
+  background: url("/../images/default-source/revcon/icon-facebook.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.contacts .socialmedia li:nth-child(2) {
+  background: url("/../images/default-source/revcon/icon-twitter.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.contacts .socialmedia li:nth-child(3) {
+  background: url("/../images/default-source/revcon/icon-instagram.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.contacts .socialmedia li:last-child {
+  background: url("/../images/default-source/revcon/icon-pinterest.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  margin: 0;
+}
+
+.contacts .socialmedia > ul {
+  margin: 0;
+  overflow: hidden;
+}
+
+.contacts .socialmedia > p {
+  display: block;
+  margin: 20px 0 0;
+}
+
+.contacts .socialmedia p strong {
+  color: #ededed;
+}
+
+.contacts footer {
+  background: none repeat scroll 0 0 #0f0f0f;
+  color: #dfdfdf;
+  font-family: "Open Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 10px 0 60px;
+}
+
+.feeds table {
+  margin: 40px 0 0;
+}
+
+.feeds .wrap .sfContentBlock {
+  text-align: center;
+}
+
+.feeds tr:first-child {
+  margin: 0;
+}
+
+.feeds tr {
+  background: none repeat scroll 0 0 #70141d;
+  float: left;
+  margin: 0 40px 10px 0;
+  width: 480px;
+}
+
+.feeds .item h4 {
+  color: #fff;
+  display: block;
+  font-size: 17px;
+  font-weight: 300;
+  margin: 0;
+  overflow: hidden;
+  text-transform: none;
+  width: 340px;
+  text-align: left;
+}
+
+.feeds .imgCont {
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+.feeds .txtCont {
+  float: left;
+  padding: 5px 5px 0 0;
+}
+
+.feeds .point {
+  display: none;
+}
+
+/* Downloads Section */
+
+.wallpaper .preview li { float: left; width: 50%; margin:50px 0; }
+ul.wallpaper-list li { font-family: "Open Sans",sans-serif; font-size: 15px; list-style-type: disc !important; text-align: left; line-height:35px; }
+ul.wallpaper-list { margin-left: 25px; }
+.wallpaper > h3 { font-size: 20px; margin-bottom: 20px; text-align: left; text-indent:10px; }
+.wallpaper-list a { color:#464646; }
+.wallpaper-list a:hover { color:#234fa3; }
+.preview img { margin-bottom:30px; }
+.wallpaper .preview li:first-child { margin-top:85px; }
+
+
+@media only screen and (max-width: 1280px) { 
+
+.slide.first {
+  background: url("/../images/default-source/revcon/bg-landing-tk-1280.jpg") no-repeat scroll center top / 100% auto #032141; }
+
+.first .wrap {
+  margin: 0 auto 250px !important;
+}
+
+.venue .btn-buyTicket {
+  margin: 5% auto;
+}
+
+.logo.logo-bsl { margin: 0 auto 0;}
+
+.main .wrap {
+  background: none !important;
+}
+
+.interaction #ctl35_PanelChart .item .bar > img {
+  width: calc() !important;
+}
+
+.preview img {
+  width: auto !important;
+}
+
+}
+
+@media only screen and (max-width: 1024px) { 
+
+.first .venue {
+  margin: 2% 0 0;
+}
+
+.about .player {
+  width: 100%;
+}
+
+.player video {
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slide.first {
+  height: 540px;
+}
+
+.logo.logo-bsl {
+  margin: 4% auto 0;
+}
+
+div .slide article { width: 96% }
+.countDown article { background: none; }
+
+
+.speakers h2 { text-align: center; }
+.countDown li, .speakers li {
+  display: inline-block;
+  float: none !important;
+  margin: 0 1px 0 0;
+  position: relative;
+  width: 32%;
+}
+
+.venue img {
+  width: 34%;
+}
+
+
+.first .bg-front { bottom: -40px; }
+.revcon2k14 .first .wrap {
+  width: 100% !important;
+}
+
+.about article {
+  min-height: 770px;
+}
+
+.about .photo > li {
+  display: inline-block;
+  float: none;
+  margin: 0;
+}
+
+.logo.logo-bsl {
+  background: url("/../images/default-source/revcon/logo-bsl-red.png") no-repeat scroll center 0 / 100% auto rgba(0, 0, 0, 0);
+  margin: 2% auto 0; }
+
+.revcon2k14 .interaction .wrap {
+  width: 96% !important;
+}
+
+#countdown li {
+  display: inline-block;
+  float: none;
+}
+
+.feeds tr { margin: 0 10px 10px 0; }
+.slide .venueWrap {
+  background: url("/../images/default-source/revcon/venue-map2.jpg") no-repeat scroll 0 495px / 100% auto #000;
+  min-height: 1000px;
+}
+
+
+
+
+}
+
+@media only screen and (max-width: 3000px) { .about .mobile { display: none; } }
+
+
+@media only screen and (max-device-width: 1024px) { .about .mobile { display: block !important;} .player.desktop { display: none !important; }  }
+@media only screen and (max-width: 769px) { .player.desktop { display: none !important; } }
+/*********************************************************** 769 */
+@media only screen and (max-width: 769px) {  
+
+.revcon2k14 .topbarMenu .wrap {
+  width: 92% !important;
+}
+
+.slide.first {
+  background: url("/../images/default-source/revcon/bg-square.jpg") no-repeat scroll left top / 100% auto #032141;
+}
+
+.first .venue {
+  margin: 12% 0 0;
+}
+
+.venue img {
+  width: 65%;
+}
+
+
+.counter { top: 0; }
+#countdown li { width: 48% }
+
+.countDown .btn-buyTicket { margin: 110px 0 0; }
+header .wrap h1 { text-align: center;}
+
+
+
+.main .wrap {
+  width: 96% !important;
+}
+
+.first .main .wrap { width: 100% !important; }
+
+.countDown li ,.speakers li {
+  display: inline-block;
+  float: none;
+  width: 40%;
+}
+
+
+.about .photo > li {
+  display: inline-block;
+  float: none;
+  width: 40%;
+}
+
+.about .text-wrap > h2 { text-align: center; }
+.contacts .socialmedia li {
+  display: inline-block;
+  float: none;
+  margin: 0;
+  width: 40%;
+}
+.yellow.feeds { text-align: center; padding: 0 0 130px; }
+.feeds tr {
+  display: inline-block;
+  float: none;
+  margin: 0 0 10px 0;
+  width: 100% !important;
+}
+
+.slide.blue.venueWrap {
+  background: url("/../images/default-source/revcon/bg-map2.jpg") no-repeat scroll center 445px / 200% auto #032141 !important;
+}
+
+.venueWrap .venue-photo {
+  display: block;
+  margin: -110px 0 0;
+}
+
+.venueWrap .venue-map {
+  margin: 10% 0 0;
+}
+
+.contact-person li { margin: 0 60px 20px 0; }
+
+.wallpaper .preview li {
+  float: none;
+  width: 100%;
+}
+
+.downloads .wallpaper { margin-top: 0; }
+
+
+}
+
+/*********************************************************** 721 */
+@media only screen and (max-width: 721px) {
+
+
+.venueWrap .venue-photo { display: none; }
+.slide.blue.venueWrap {
+  background: url("/../images/default-source/revcon/venue-map2.jpg") no-repeat scroll 0 495px / 100% auto #032141;
+  min-height: 1000px;
+}
+
+.logo.logo-bsl {
+  background: url("/../images/default-source/revcon/logo-bsl-red.png") no-repeat scroll center 0 / 77% auto rgba(0, 0, 0, 0);
+  margin: 5% auto 0;
+}
+
+.feeds tr { width: 90%; margin: 0 0 10px 0; }
+.white.downloads header .wrap h1 {
+  font-size: 50px;
+}
+
+.red.feeds {
+  padding: 0 0 130px;
+}
+
+}
+
+/*********************************************************** 361 */
+@media only screen and (max-width: 361px) { 
+  .venue img {
+  width: 85%;
+}
+
+.slide.first {
+  height: 300px;
+  margin: 0 auto;
+  min-height: 300px;
+}
+
+.first .wrap {
+  margin: 0 auto !important;
+}
+
+.slide.first .place { display: none;}
+
+.bt-trans {
+  top: 0px;
+  margin: 0 0 0 40px;
+}
+
+.bt-trans > a {
+  display: block;
+  float: none;
+  font-size: 12px;
+}
+
+.venue {
+  margin: -13% 0 0;
+}
+
+.venue .btn-buyTicket {
+  margin: 10% 0 5%;
+}
+
+.logo.logo-bsl {
+  background: url("/../images/default-source/revcon/logo-bsl-red.png") no-repeat scroll center 0 / 40% auto rgba(0, 0, 0, 0);
+  margin: 1% auto 0;
+}
+  .main .wrap {
+  width: 100% !important;
+}
+
+#countdown li {
+  width: 100%;
+}
+
+.countDown li, .speakers li {
+  width: 100%;
+}
+
+.speakers h2 {
+  font-size: 20px;
+  line-height: 28px;
+  margin: 20px 0;
+}
+
+.interaction .PollQuestion { font-size: 24px; }
+
+.interaction .btn-wrap a:first-child { display: inline-block; }
+
+.interaction .btn-wrap > a:last-child {
+  display: block;
+  float: none;
+  margin: 20px 0;
+  overflow: hidden;
+}
+.interaction .btn-wrap {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.feeds .imgCont {
+  float: none;
+  margin: 0;
+}
+
+.feeds .txtCont {
+  float: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.feeds tr:first-child {
+  margin: 0 !important;
+}
+
+.feeds tr:nth-child(2n+1) {
+  background: none repeat scroll 0 0 #60040d;
+  margin: 0;
+}
+
+.red.feeds .wrap:first-child {
+  padding: 0;
+}
+
+.red.feeds .wrap {
+  overflow: hidden;
+  padding: 0 0 160px;
+}
+
+.feeds tr {
+  display: inline-block;
+  float: left !important;
+  overflow: hidden;
+  width: 49% !important;
+  margin: 0;
+}
+
+.feeds .item h4 {
+  font-size: 14px;
+  min-height: 120px;
+  width: 100%;
+}
+
+header .wrap h1 { font-size: 50px; }
+
+.about .photo > li { width: 100%; }
+.contacts .contact-person { margin: 30px 0 50px; }
+
+.ticketWrap .buyButton {
+  background: none repeat scroll 0 0 #375fab;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 36px;
+  font-weight: 300;
+  height: auto;
+  line-height: 50px;
+  margin: 0 auto;
+  padding: 5px 10px;
+  text-align: center;
+  width: 86%;
+}
+
+.countDown .btn-buyTicket {
+  margin: 20px 0 30px;
+}
+
+.slide.blue.venueWrap {
+  background: url("/../images/default-source/revcon/bg-map2.jpg") no-repeat scroll 0 495px / 100% auto #032141;
+  min-height: 500px;
+}
+
+.venueWrap .btn-buyTicket {
+  margin: 30% 0 0;
+}
+
+.venueWrap .venue-map {
+  height: 190px;
+}
+
+article .player {
+  height: 260px;
+  width: 100%;
+}
+
+.player video {
+  height: 260px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slide.blue.countDown {
+  min-height: 0;
+  padding: 30px 0 0;
+}
+
+#countdown li { width: 45%; }
+#countdown span {
+  font-size: 54px;
+  font-weight: 500;
+}
+
+#countdown p {
+  font-size: 14px;
+}
+
+.countDown article {
+  min-height: 0 !important;
+}
+
+.slide.black.venueWrap { min-height: 810px; }
+
+}

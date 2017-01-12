@@ -1,0 +1,373 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.m-container .m-content {
+  padding: 30px 0 0;
+}
+
+
+ul li {
+    list-style: none;
+}
+
+.archive .pagination {
+    border: 1px solid;
+    border-radius: 18px;
+    color: #c42a2a;
+    display: inline-block;
+    margin: 20px 0;
+    padding: 8px 18px;
+}
+
+.archive .pagination:hover {
+    background: #c42a2a;
+    color: #fff;
+    border: 1px solid #c42a2a;
+}
+
+.archive { text-align: center; margin: 0 0 50px 0; }
+
+.archive ul {
+    overflow: hidden;
+}
+
+aside.thumbnail {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 0 none;
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 0;
+  position: relative;
+}
+
+.RTL aside.thumbnail {
+  float: right;
+  margin: 0 0 0 10px;
+}
+
+.archive.channel aside.thumbnail {
+    width: 160px;
+}
+
+.video aside.thumbnail {
+    width: 253px;
+}
+
+.archive.channel aside.info {
+    float: left;
+}
+
+.video aside.info {
+    float: left;
+}
+
+.RTL .video aside.info, .RTL .archive.channel aside.info {
+  direction: rtl;
+  float: right;
+  text-align: right;
+}
+
+.archive li.item {
+    overflow: hidden;
+    margin: 0 0 30px 0;
+    text-align: left;
+}
+
+h1.page-title {
+    color: #c42a2a;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+
+aside.thumbnail .time-cont {
+    font-size: 12px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+aside.thumbnail .time-cont span {
+    background: none repeat scroll 0 0 #232323;
+    color: #fff;
+    display: inline-block;
+    padding: 2px 5px;
+}
+
+aside.info h3 {
+  color: #c42a2a;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 5px;
+  max-height: 2.6em;
+  overflow: hidden;
+}
+
+aside.info h3 a{
+  color: #c42a2a;
+}
+
+aside.info .private {
+  background: rgba(0, 0, 0, 0) url("/images/default-source/sites/sprite-batch04.png") no-repeat scroll -109px center;
+  float: left;
+  height: 14px;
+  margin: 4px 5px 5px 0;
+  overflow: hidden;
+  width: 14px;
+}
+
+.RTL aside.info .private {
+  float: right;
+  margin: 4px 0 5px 5px;
+}
+
+aside.info h3 .contentholder {
+    width: 40%;
+}
+
+aside.info .creator {
+    margin: 0 0 10px 0;
+    font-size: 12px;
+    color: #909090;
+}
+
+aside.info .creator .contentholder {
+    width: 20%;
+}
+
+aside.info .creator span {
+    color: #232323;
+}
+
+aside.info .desc {
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    padding: 5px 0;
+    font-size: 13px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+aside.info .desc p {
+  color: #909090;
+  font-family: "Open Sans",sans-serif;
+  font-size: 13px;
+  line-height: 1.5em;
+  max-height: 4.6em;
+  overflow: hidden;
+}
+
+aside.info .stats {
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+aside.info .stats .contentholder {
+    margin: 5px 0 0;
+    width: 50%;
+}
+
+aside.info .stats div {
+    color: #909090;
+    float: left;
+    font-size: 12px;
+    margin: 0 40px 0 0;
+}
+
+.RTL aside.info .stats div {
+    float: right;
+}
+
+.channel aside.info .stats div::before {
+    background: url("/images/default-source/sites/sprite-batch08.png") no-repeat scroll 0 -4px rgba(0, 0, 0, 0);
+    content: "";
+    float: left;
+    height: 24px;
+    margin: 0 6px 0 0;
+    width: 24px;
+}
+
+.channel aside.info .stats div.contentholder::before {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.channel aside.info .stats div.videos::before {
+    background-position: -100px -4px;
+}
+
+.channel aside.info .stats div.followers::before {
+    background-position: -80px -4px;
+}
+
+.channel aside.info .stats div.CHinfo::before {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  margin: 0;
+  width: auto;
+}
+.video aside.info .stats div {
+    margin: 0 15px 0 0;
+}
+
+.RTL .video aside.info .stats div {
+    margin: 0 0 0 15px;
+}
+
+.video aside.info .stats div.Locked, .video aside.info .stats div.Unlocked {
+  margin: 0;
+    display: none;
+}
+
+.video .stats .views aside {
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+.video aside.info .stats div::before {
+    background: url("/images/default-source/sites/sprite-batch08.png") no-repeat scroll 0 -4px rgba(0, 0, 0, 0);
+    content: "";
+    float: left;
+    height: 24px;
+    margin: 0 6px 0 0;
+    width: 24px;
+}
+
+.RTL .video aside.info .stats div::before {
+    float: right;
+    margin: 0 0 0 6px;
+}
+
+
+.video aside.info .stats div.views aside::before {
+  background: url("/images/default-source/sites/sprite-batch08.png") no-repeat scroll 0 -4px rgba(0, 0, 0, 0);
+  content: "";
+  float: left;
+  height: 24px;
+  margin: 0 6px 0 0;
+  width: 24px;
+}
+
+.video aside.info .stats div.views .views::before {
+  background-position: -100px -4px;
+}
+
+.video aside.info .stats div.views .likes::before {
+  background-position: -100px -4px;
+}
+
+.video aside.info .stats div.contentholder::before {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.video aside.info .stats div.views::before {
+  background-position: 0 -4px;
+}
+
+.video aside.info .stats div.likes::before {
+    background-position: -50px -4px;
+}
+
+.video aside.info .stats div.language::before {
+    background-position: -25px -3px;
+}
+
+.video aside.info .stats div.time::before {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    width: auto;
+    margin: 0;
+}
+
+.video aside.info .stats div.Locked::before {
+  background-position: -185px -4px;
+  width: 16px;
+}
+
+.video aside.info .stats div.Unlocked::before {
+  background-position: -203px -4px;
+  width: 20px;
+}
+
+.video aside.info .stats ul li {
+    margin: 0 10px 0 0;
+}
+
+.video aside.thumbnail .img-cont {
+    width: 252px;
+    height: 153px;
+}
+
+.video aside.thumbnail img {
+    width: 252px;
+    height: 153px;
+}
+
+.video aside.thumbnail .img-cont .contentholder span {
+    height: 153px;
+}
+
+.channel aside.thumbnail .img-cont {
+    width: 160px;
+    height: 160px;
+}
+
+.channel aside.thumbnail .img-cont .contentholder span {
+    height: 160px;
+}
+
+.channel aside.thumbnail img {
+    width: 160px;
+    height: 160px;
+}
+
+@media (min-width: 1025px) {
+    .side .section {
+        margin: 0 0 50px;
+        overflow: hidden;
+    }
+    .video aside.info, .archive.channel aside.info {
+        width: 505px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .m-content.channel .wrap {
+        margin: 0 auto;
+        width: 1012px;
+    }
+}
+
+@media (min-width: 1020px) and (max-width: 1025px) {
+    .video aside.thumbnail {
+  width: 212px;
+}
+    
+    .video aside.thumbnail .img-cont {
+        height: auto;
+        width: 212px;
+    }
+    .video aside.thumbnail img {
+        height: 120px;
+        width: 212px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 810px) {
+    .video aside.info, .archive.channel aside.info {
+        width: 70%;
+    }
+    
+}
+
+@media (max-width: 809px) {
+    .video aside.info, .archive.channel aside.info {
+        width: 100%;
+    }
+    .video aside.thumbnail {
+        display: block;
+        float: none;
+        margin: 0 auto 20px;
+        width: 253px;
+    }
+}
+
+

@@ -1,0 +1,6 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.mainMenu li:first-child .sfSel {
+  background: none !important;
+}

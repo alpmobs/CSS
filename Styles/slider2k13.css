@@ -1,0 +1,149 @@
+/*
+	Featured Content Slider
+	by: Chris Coyier
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+					  				  
+/*
+	UTILITY STYLES
+*/				  				  
+					  				  
+.floatLeft 									{ float: left; margin-right: 10px;}
+.floatRight									{ float: right; }
+.clear 										{ clear: both; }
+a											{ outline: none; }
+
+
+/*
+	PAGE STRUCTURE
+*/
+#page-wrap 									{ width:722px; position: relative; height:437px;
+											   }
+
+
+/*
+	TYPOGRAPHY
+*/
+ul											{ list-style: square inside; }
+a:hover, a:active							{}
+blockquote									{ padding: 0 20px; margin-left: 20px; border-left: 20px solid #ccc; font-size: 14px; 
+									  		  font-family: Georgia, serif; font-style: italic; margin-top: 10px;}
+
+/*
+	SLIDER
+*/
+.slider-wrap								{ width: 722px; position: absolute; }			
+.stripViewer .panelContainer 
+.wrapper .panel {
+	position: relative;
+}
+
+.points-wrap {
+  background: none repeat scroll 0 0 #0177C2;
+  border-radius: 5px 5px 5px 5px;
+  color: #FFFFFF;
+  font-size: 14px;
+  padding: 10px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  text-align: center;
+}
+
+.points-wrap span { display: block; font-size: 24px;}
+.panel ul									{ text-align: left; margin: 0 15px 0 30px; }
+.stripViewer								{ position: relative; overflow: hidden; width:722px; height:437px; background:#000; }
+.stripViewer .panelContainer				{ position: relative; left: 0; top: 0; }
+.stripViewer .panelContainer .panel			{ float: left; height: 100%; position: relative; width:722px; }
+.stripViewer .panelContainer .panel .wrapper { position: relative; }
+.stripNavL a, .stripNavR a{
+  display: block;
+  height: 54px;
+  position: absolute;
+  text-indent: -9999px;
+  width: 52px;
+  z-index: 30;
+    top: 140px;
+
+  opacity: .5;
+
+      transition: all 0.50s ease-in-out 0s;
+    -webkit-transition: all 0.50s ease-in-out 0s;
+    -moz-transition: all 0.50s ease-in-out 0s;
+    -o-transition: all 0.50s ease-in-out 0s;
+    -ms-transition: all 0.50s ease-in-out 0s;
+}
+
+.stripNavL a:hover, .stripNavR a:hover {
+  opacity: 1;
+}
+
+.stripNavL a {
+  background: url("../../images/default-source/site-images/sprite-home.png") repeat scroll -62px 59px rgba(0, 0, 0, 0);
+  left: 10px;
+}
+
+.stripNavR a {
+  background: url("../../images/default-source/site-images/sprite-home.png") repeat scroll -115px 59px rgba(0, 0, 0, 0);
+  right: 10px;
+}
+
+.stripNav     { display: none; }
+
+.nav-thumb 									{ display:block; padding: 2px; }
+.nav-thumb:hover { }
+#movers-row									{ display: none; margin:0px; height: auto; background: #383838; overflow: hidden; padding: 2px 0 8px 0; }
+#movers-row div								{ float: left; }
+#movers-row div a.cross-link 				{ float: right; }
+.photo-meta-data {
+  background: url("../../images/default-source/site-images/bg-slider-text.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+  bottom: 0;
+  color: #FFFFFF;
+  height: 288px;
+  left: 0;
+  position: absolute;
+  width: 722px;
+  z-index: 9;
+}
+
+.photo-meta-data .points-wrap				{ bottom: 0; }
+
+.photo-meta-data span 						{ font-size: 13px; }
+.cross-link {
+  background: none repeat scroll 0 0 #d8d8d8;
+  border-radius: 50px 50px 50px 50px;
+  color: #000;
+  display: block;
+  font-size: 12px;
+  height: auto;
+  margin: 5px 10px 0 0;
+  padding: 0 4px;
+  position: relative;
+  width: auto;
+  z-index: 9;
+}
+
+.photo-meta-data p {
+	font-size: 12px;
+}
+
+.cross-link.last { border-right:0px; width: auto; }
+.active-thumb .nav-thumb { color: #D96C0D; }
+.slider-link { width:722px; height: 437px; display:block; }
+.title-cont {
+  margin: 130px 0 0;
+  padding: 5px 10px;
+  position: relative;
+}
+
+.title-cont h1 { font-weight: normal; font-family: 'Montserrat', sans-serif; font-size:32px; color:#fff; margin-bottom:15px; }
+.title-cont h1 a { color:#fdfdfd; }
+.title-cont h1 a:hover { color:#fff; }
+.title-cont .title-desc { margin-bottom:20px; }
+.title-cont .read-more { color:#ff8e15; }
+.title-cont .read-more:hover { color:#ffd08c; }
+

@@ -1,0 +1,720 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ======== reset ======== */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,700italic,800italic,600italic,400italic,300italic);
+*.* { margin:0px; padding:0px; }
+body { background:#fff; margin:0px; padding:0px; font-family:'Open Sans', sans-serif; color:#363636; }
+h2, h3, h4, h5 { font-weight:normal; }
+h2 { font-size:48px; }
+h4 { font-size:22px; text-transform:uppercase; margin:10px 0 40px; line-height:26px; }
+p, li { font-size:14px; font-weight:300; }
+
+.clearfix:after {
+	clear:both;
+	content:".";
+	display:block;
+	height:0px;
+	line-height:0px;
+	visibility:hidden;
+}
+a { text-decoration:none; }
+ul li { list-style:none; }
+ol li {
+text-align:left;
+}
+
+/* ======== layout ======== */
+div.main { width:100%; }
+
+section.slide, section.first-a {
+	min-height:900px;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	background-position:50% 0;
+}
+
+section.slide.home{ min-height:1000px; }
+section.slide.teaser{ min-height:800px; }
+section.slide.travelguide{ min-height:1430px; overflow:hidden; }
+section.slide.thelogo{ min-height:800px; }
+section.slide.feeds{ min-height:800px; }
+section.slide.buytickets{ min-height:800px; }
+section.slide.vkids{ min-height:900px; }
+section.slide.downloads{ min-height:800px; }
+section.slide.photos{ min-height:800px; }
+section.slide.followus{ min-height:900px; }
+
+section article {
+	width:1146px; margin:0px auto; text-align:center;
+}
+
+div.menu article {
+	width:1255px; margin: -100px auto 0; text-align:center;
+}
+
+.sfContentBlock {
+	background:#1e224e; }
+
+/* ======== backgrounds ======== */
+#first { background:url(/images/default-source/vmy14-img/home-sky.jpg) no-repeat fixed; background-size:cover; }
+.first-a { background:url(/images/default-source/vmy14-img/slide01-elements.png) no-repeat; background-size:cover; }
+#second { background:url(/images/default-source/vmy14-img/violet-gradient.jpg) no-repeat fixed #744e89; background-repeat:repeat-x; }
+.second-a { background:url(/images/default-source/vmy14-img/slide02-elements.png) no-repeat fixed; background-size:cover; }
+.second-b { background:url(/images/default-source/vmy14-img/clouds.png) no-repeat fixed; }
+#third { background:url(/images/default-source/vmy14-img/slide04-main-bg.jpg) no-repeat fixed; background-size:cover; }
+.third-a { background:url(/images/default-source/vmy14-img/mountains.png) no-repeat fixed; background-size:cover; }
+.third-b { background:url(/images/default-source/vmy14-img/dots.png) no-repeat; }
+#fourth { background:url(/images/default-source/vmy14-img/violet-gradient.jpg) no-repeat fixed #d96727; background-repeat:repeat-x; }
+.fourth-a { background:url(/images/default-source/vmy14-img/lake.png) no-repeat fixed; background-size:cover; }
+.fourth-b { background:url(/images/default-source/vmy14-img/clouds.png) no-repeat fixed; }
+#fifth { background:url(/images/default-source/vmy14-img/rays-sky.jpg) no-repeat fixed #7923b9; background-size:cover; }
+.fifth-a { background:url(/images/default-source/vmy14-img/bridge.png) no-repeat; background-size:cover; }
+#sixth { background:url(/images/default-source/vmy14-img/slide05-main-bg.jpg) no-repeat fixed #1e224f; background-size:cover; }
+#seventh { background:url(/images/default-source/vmy14-img/violet-gradient.jpg) #744e89 repeat-x fixed; overflow:hidden; }
+.seventh-a { background:url(/images/default-source/vmy14-img/buildings.png) fixed; background-size:cover; }
+.seventh-b { background:url(/images/default-source/vmy14-img/clouds.png) no-repeat fixed; }
+#eight { background:url(/images/default-source/vmy14-img/ground.png) no-repeat fixed #14a79d; background-size:cover; }
+.eight-a { background:url(/images/default-source/vmy14-img/houses.png) no-repeat fixed; }
+.eight-b { background:url(/images/default-source/vmy14-img/bike-cart.png) no-repeat fixed; }
+#ninth { background:url(/images/default-source/vmy14-img/lake-boat.jpg) no-repeat fixed #1e224e; background-size:cover; }
+.ninth-a { background:url(/images/default-source/vmy14-img/train.png) no-repeat fixed; background-size:cover; }
+.ninth-b { background:url(/images/default-source/vmy14-img/trees.png) no-repeat fixed; background-size:cover; }
+#tenth { background:url(/images/default-source/vmy14-img/rays-sky.jpg) no-repeat fixed #1e224e; background-size:cover; }
+.tenth-a { background:url(/images/default-source/vmy14-img/land-bridge.png) no-repeat fixed; background-size:cover; }
+.tenth-b { background:url(/images/default-source/vmy14-img/building-roads.png) no-repeat fixed; background-size:cover; }
+
+/* ======== global ======== */
+article .player {
+	width:600px;
+	height:480px;
+	margin:0px auto;
+}
+
+article .padding {
+	padding:0px 20px;
+}
+
+/* ======== gallery ======== */
+
+ul.gallery {
+	width:1116px;
+	height:406px;
+	margin:0px auto;
+}
+
+ul.gallery li {
+	float:left;
+	width:274px;
+	height:198px;
+	margin:2px 3px 3px 2px;
+}
+
+ul.gallery li a {
+	display:block;
+	width:274px;
+	height:198px;
+}
+
+ul.gallery li a p {
+	position:absolute;
+	color:#fff;
+	font-size:22px;
+	text-transform:uppercase;
+	text-indent:17px;
+	padding-top:5px;
+	margin:0px;
+	z-index:1;
+}
+
+ul.gallery li a span {
+	display:block;
+	width:274px;
+	height:198px;
+	position:absolute;
+	opacity:0.7;
+}
+
+.logo span { background-color:#43bfc2; }
+.latest span { background-color:#55b4e3; }
+.freebies span { background-color:#a045a2; }
+.teaser span { background-color:#3a71b3; }
+.galleries span { background-color:#00c5bf; }
+.ticket span { background-color:#1a86d0; }
+.travel span { background-color:#64368d; }
+.follow span { background-color:#253072; }
+
+ul.gallery li a span:hover {
+	opacity:0;
+}
+
+/* ======== news ======== */
+
+ul.gallery.news {
+		width:1125px;
+		height:235px;
+}
+
+ul.gallery.news li {
+		margin:1px;
+		background:url(/images/default-source/vmy14-thumbs/temp.png) no-repeat top center;
+}
+
+ul.gallery.news li a {
+		width:373px;
+		height:90px;
+		position:absolute;
+		margin-top: 145px;
+		background:url(/images/default-source/vmy14-img/gray-x.png) repeat-x top center;
+}
+
+ul.gallery.news li a p {
+		font-size:17px;
+		text-indent:0px;
+		padding-top:5px;
+		padding-left:15px;
+		width:290px;
+		text-align:left;
+		line-height:22px;
+}
+
+ul.gallery.news img, ul.gallery.news li {
+	width:373px;
+	height:235px;
+}
+
+.news-item { margin: 20px 0 0 10px; overflow: hidden; }
+.news-item > li { float: left; margin: 10px 20px 10px 0; width: 45%; min-height: 40px; }
+.news-item a:before { content: "•"; float: left; font-weight: bold; margin: 0 5px 0 0; }
+.news-item a { color: #FFFFFF; text-align: left; }
+.news-item p { margin: 0; }
+
+/* ======== downloads ======== */
+
+ul.gallery.news.wallpapers img, ul.gallery.news.wallpapers li {
+  height: 235px;
+  width: 280px;
+}
+
+ul.gallery.news.wallpapers li a { width:280px; }
+
+ul.gallery.news.wallpapers li a p { width:220px; padding-top:10px; }
+ul.gallery.news.wallpapers { height: 470px; width:846px; }
+
+/* ======== home ======== */
+
+.slide.home {
+	color:#363636;	
+}
+
+.slide.home .content {
+	text-align:center;
+}
+
+.slide.home article {
+	padding-top:20px;
+	padding-bottom:95px;
+}
+
+.home .padding {
+	width:1041px;
+}
+
+.home aside {
+	width:237px;
+	height:498px;
+	float:left;
+}
+
+.home aside h1 {
+	width:237px;
+	height:458px;
+	margin-top:40px;
+	background:url(/images/default-source/vmy14-img/logo-vmy2014-small.png) no-repeat;
+	text-indent:-1000px;
+	overflow:hidden;
+}
+
+.home .counter {
+	width:804px;
+	height:170px;
+	background:url(/images/default-source/vmy14-img/counter.png) no-repeat left top;
+	float:right;
+}
+
+.home h2 {
+	padding-top:225px;
+}
+
+.home .bottom {
+	margin-top:20px; background:url(/images/default-source/vmy14-img/gray.png); padding: 20px 0;
+}
+
+/* ======== teaser ======== */
+.slide.teaser {
+	color:#fff;	
+}
+
+.slide.teaser article {
+	padding-top:95px;
+}
+
+.slide.teaser .content {
+	margin:30px 0px 0px;
+}
+
+/* ======== thelogo ======== */
+.slide.thelogo {
+	color:#363636;	
+}
+
+.thelogo aside, .thelogo aside h1 {
+	width:259px;
+	height:500px;
+	float:left;
+}
+
+.thelogo aside h1 {
+	background:url(/images/default-source/vmy14-img/logo-vmy2014-big.png) no-repeat;
+	text-indent:-1000px;
+	overflow:hidden;
+}
+
+.slide.thelogo article {
+	padding-top:90px;
+}
+
+.thelogo .content {
+	margin:100px 0 0;
+	width:736px;
+	float:right;
+}
+
+/* ======== feeds ======== */
+.slide.feeds {
+	color:#fff;	
+}
+
+.slide.feeds article {
+    padding-top:120px;
+}
+
+.feeds .bottom {
+	margin-top:50px;
+}
+
+/* ======== buytickets ======== */
+
+.slide.buytickets {
+	color:#363636;	
+}
+
+.slide.buytickets article {
+    padding-top:120px;
+}
+
+.buytickets .bottom {
+	margin-top:50px;
+	color:#fff;
+}
+
+.threecol li {
+	width:357px;
+	margin:0px 10px;
+	float:left;
+}
+
+.threecol li div {
+	padding:30px 40px 0px;
+	height:205px;
+	background:#8e2e8a;
+}
+.threecol li span {
+	display:block;
+	background-image:url(/images/default-source/vmy14-img/ribbon.png);
+	background-repeat:no-repeat;
+}
+
+.threecol li span.upbg { height:36px; background-position:0px 0px; }
+.threecol li span.downbg { height:38px; background-position:0px -39px; }
+
+.threecol h5 { font-size:25px; margin-top:40px; }
+.threecol h3 { font-size:60px; }
+
+a.submit {
+  background: none repeat scroll 0 0 #43BFC2;
+  border-radius: 7px;
+  clear: both;
+  color: #1B1C46;
+  display: inline-block;
+  font-size: 25px;
+  padding: 10px 30px;
+  position: relative;
+  top: 50px;
+}
+
+.threecol.clearfix {
+  margin: 0 auto;
+  width: 755px;
+}
+
+
+/* ======== vkids ======== */
+
+.slide.vkids {
+	color:#fff;	
+}
+
+.slide.vkids article {
+    padding-top:95px;
+}
+
+.slide.vkids p {
+	line-height:20px; font-size: 13px;
+}
+
+#sixth h4 { margin: 10px 0 20px; }
+#sixth .player { }
+#sixth section.player object { float:left; margin:0 10px; }
+
+/* ======== traveguide ======== */
+
+
+.slide.travelguide {
+	color:#fff;	
+}
+
+.slide.travelguide article {
+    padding-top:120px; width:900px;
+}
+
+.slide.travelguide p {
+	line-height:20px;
+}
+
+.slide.travelguide .content {
+	float:left;
+	width:40%;
+}
+
+.slide.travelguide aside {
+	float:right;
+	margin-top: 10px;
+}
+
+.slide.travelguide .padding {
+}
+
+.slide.travelguide .bottom h4 {
+	margin-top:0px;
+	border-bottom:1px solid #4c5290;
+	line-height: 40px;
+}
+
+.slide.travelguide .bottom p {
+	text-align:left; font-size:15px;
+}
+
+.slide.travelguide .bottom li {
+	font-size:15px;
+}
+
+.slide.travelguide a {
+	color:#efccff; font-size: 13px;
+}
+
+.slide.travelguide .bottom h4:hover {
+	cursor:pointer;
+}
+
+.padding.clearfix.emphasize {
+  margin-top: 40px;
+}
+
+.padding.clearfix.emphasize > p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+
+/* ======== downloads ======== */
+
+.slide.downloads {
+	color:#fff;	
+}
+
+.slide.downloads article {
+    padding-top:120px;
+}
+
+.slide.downloads .bottom {
+	margin-top:40px;
+}
+
+/* ======== photos ======== */
+
+.slide.photos {
+	color:#ffffff;	
+}
+
+.slide.photos article {
+    padding-top:300px;
+}
+
+/* ======== followus ======== */
+
+.slide.followus {
+	color:#363636;	
+}
+
+.slide.followus article {
+  background: url("/images/default-source/vmy14-img/white.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border-radius: 20px;
+  padding-bottom:50px;
+  padding-top: 30px;
+  position: relative;
+  top: 80px;
+  width: 1050px;
+}
+
+.mail {
+	margin-bottom:50px;
+}
+
+.content.mail.clearfix > ul {
+  margin: 0 auto;
+  width:580px;
+}
+
+.mail ul li a {
+color:#363636;
+}
+
+.socialmedia ul li, .mail ul li {
+  float: left;
+  font-size:22px;
+  line-height: 25px;
+  margin-top:40px;
+  text-align: left;
+}
+
+li.contact2 {
+  width:45%;
+}
+
+li.contact1 {
+  width:55%;
+}
+
+.socialmedia li {
+  margin-top: 40px !important;
+}
+
+.content.socialmedia > ul {
+  height: 105px;
+  margin: 0 auto;
+  width:850px;
+}
+
+.socialmedia a {
+	color:#363636;
+	text-transform:uppercase;
+	display:block;
+	height:55px;
+	background-image:url(/images/default-source/vmy14-img/socialmedia.png);
+	background-repeat:no-repeat;
+	padding-left:66px;
+}
+
+li.facebook {
+  width: 50%;
+}
+
+li.pinterest {
+  width: 50%;
+}
+
+.facebook a { background-position:0px 0px; }
+.twitter a { background-position: 0px -80px; }
+.pinterest a { background-position:0px -160px; }
+.instagram a { background-position:0px -240px; }
+	
+.slide.followus.tenth-b {
+  padding-bottom: 200px;
+}
+
+
+/* ======== misc ======== */
+
+.menu {height:55px; width:100%; position:fixed; top:0; left:0; background-color: #E92C7C; opacity:0; z-index: 5; border-bottom:9px solid #90278C; padding:0px 0px 0px; }
+.visible {opacity:1;}
+.menu a {display:block; font-size:15px; line-height:14px; float:left; padding:22px 10px 20px; font-weight:400; text-transform: uppercase; color:#ffabce; }
+.menu a:hover { color:#fff!important; }
+.menu .logo {
+  background:url("/images/default-source/vmy14-img/logo-nav.png") no-repeat scroll 0px 15px rgba(0, 0, 0, 0);
+  display: block;
+  height:126px;
+  float:none;
+  margin: -24px auto 0;
+  padding: 0;
+  text-indent: -9999px;
+  top: 0;
+  width: 133px;
+  position:relative;
+  left:0px;
+}
+
+.menu .logo:hover {
+ 	transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	
+}
+
+/* Preloader */
+#preloader {
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#fad658; /* change if the mask should have another color then white */
+	z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:50%; /* centers the loading animation horizontally one the screen */
+	top:50%; /* centers the loading animation vertically one the screen */
+	background-image:url(/images/default-source/vmy14-img/status.gif); /* path to your loading animation */
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+
+
+.countdown {
+	float: left;
+	margin: 40px 0 0 0;
+}
+
+.countdown span {
+	display: block !important;
+}
+
+#navigation li.right  { float: right; } 
+#countdown li.Labeldays { margin: 56px 0 0 48px !important; }
+#countdown li.Labeldays p { font-size: 26px;}
+#countdown li.Valdays { margin: -2px 0 0 24px !important; }
+#countdown li.Valdays span { font-size: 96px;}
+#countdown li.Labelhours { margin:82px 0 0 91px !important; }
+#countdown li.Labelhours p { font-size: 19px;}
+#countdown li.Valhours { margin:60px 0 0 24px !important; }
+#countdown li.Valhours span { font-size: 66px;}
+#countdown li.Labelseconds { margin: 99px 0 0 46px !important; }
+#countdown li.Labelseconds p { font-size: 15px;}
+#countdown li.Valseconds { margin:102px 0 0 24px!important; }
+#countdown li.Valseconds span { font-size: 36px;}
+#countdown li {
+	color: #0D153C;
+	list-style-type: none;
+	float: left;
+	margin: 0 20px 0 0;
+	text-align:center;
+}
+
+#countdown span {
+	font-size: 50px;
+	text-align:center;
+} 
+#countdown p {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+/* --------------------------------------- 721 --------------------------------------- */
+@media only screen and (max-width: 721px) { 
+
+.vmy-wrap .home aside { float: none; margin: 0 auto; }
+.slide.home article { padding-bottom: 0; }
+.vmy-wrap .home h2 { padding: 0; }
+.vmy-wrap h2 { font-size: 32px; }
+.vmy-wrap .menu { display: none; }
+section.slide { overflow: hidden; background: none !important; min-height: 100% !important; }
+
+section.slide.home { background: #FAC255 !important; }
+section.slide.teaser { background: #CF6E5E !important; }
+section.slide.thelogo { background: #FADF84 !important; padding: 0 0 10px; }
+section.slide.feeds { background: #C75C64 !important; }
+section.slide.buytickets { background: #FAC255 !important;  }
+section.slide.vkids { background: #4B5BB0 !important; }
+section.slide.travelguide { background: #AE4F71 !important; }
+section.slide.downloads { background: #67D0D2 !important; }
+section.slide.photos { background: #3B4992 !important; }
+section.slide.followus { background: #FAC255 !important; }
+
+.thelogo aside, .thelogo aside h1 { float: none; margin: 0 auto 20px; }
+.vmy-wrap .slide.teaser .content { margin: 30px auto; }
+
+ul.gallery { height: auto; }
+ul.gallery li { float: none; margin: 2px auto; }
+
+
+section.slide.vkids .content { width: 88%; }
+.slide.feeds article, .slide.buytickets article, .slide.vkids article { padding: 80px 0; }
+section.slide.travelguide #accordion .ui-accordion-content { padding: 0 20px; overflow: hidden; }
+.slide.travelguide .bottom li { line-height: 18px; margin: 0 0 10px 20px; }
+.slide.travelguide .bottom h4 { border-bottom: 1px solid #EFCCFF; }
+.slide.travelguide .content { width: 100%; }
+.slide.downloads article { padding: 60px 0 60px 0; }
+.slide.photos article { padding: 60px 0 30px 0; }
+.slide.followus article { top: 50px; padding-bottom: 150px; }
+.vmy-wrap .home .counter { display: none; }
+.vmy-wrap section article { width: 100%; }
+.vmy-wrap .home .padding { width: 100%; padding: 0; }
+
+.vmy-wrap article .player { width: 100%; }
+.vmy-wrap ul.gallery, ul.gallery.news, ul.gallery.news img, ul.gallery.news li, ul.gallery.news li a { width: 100%; }
+.vmy-wrap .threecol li span { background: none; height: auto !important; } 
+.vmy-wrap .threecol li div { padding: 10px 0 0; text-align: center; }
+.vmy-wrap .buytickets .bottom { margin: 50px 0; }
+.vmy-wrap .threecol.clearfix { width: 94%; }
+.vmy-wrap .threecol li { width: 100%; margin: 0; }
+.vmy-wrap ul.gallery.news { height: auto; }
+.vmy-wrap ul.gallery.news li { margin: 0 auto; display: block; float: none; }
+.vmy-wrap .slide.travelguide article { width: 100%; padding: 80px 0 0 0; }
+.vmy-wrap ul.gallery.news.wallpapers { width: 100%; height: auto; }
+.vmy-wrap .slide.followus article, .vmy-wrap .content.mail.clearfix > ul, .vmy-wrap .content.socialmedia > ul { width: 100%; }
+.vmy-wrap .socialmedia ul li, .vmy-wrap .mail ul li { float: none; margin: 10% 0; font-size: 14px; }
+.vmy-wrap .mail ul li { width: 100%; text-align: center; }
+
+
+
+} /* --------------------------------------- End --------------------------------------- */
+
+
+
+/* --------------------------------------- 361 --------------------------------------- */
+@media only screen and (max-width: 361px) {
+
+
+.vmy-wrap article .player { height: 210px; }
+
+
+
+
+/* --------------------------------------- End --------------------------------------- */
+}
+
+
+
+
+
+
+

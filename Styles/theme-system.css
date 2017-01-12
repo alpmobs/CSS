@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body { 
+	background: none repeat scroll 0 0 #E8E8E8 !important;
+    font-family: 'OpenSansRegular',Arial,sans-serif !important;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 960px;
+}
+
+
+#main-header .wrap {
+	margin: 0 auto;
+}
+
+#systemBody h3  {   font-family: 'SansationRegular',Arial,sans-serif; font-style: normal; color: #DF6800; font-size: 28px; margin: 0 0 20px;}
+
+
+
+#main .wrap {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 0;
+    padding: 10px;
+    width: 960px !important;
+	border-radius: 4px;
+	margin:
+}
+
+#main-header .header-cont {
+    height: 150px;
+    padding: 37px 0 0;
+    position: relative;
+}
+
+#logo {
+	background: url("../../images/default-source/site-images/logo-system-thev.png") no-repeat scroll 0 0 transparent;
+    font-size: 52px;
+    height: 48px;
+    line-height: 39px;
+    margin: 45px 0 0;
+    padding: 0 0 0 95px;
+    position: absolute;
+	color: #565254;
+	font-family: 'OpenSansLight', Arial, sans-serif; 
+}
+
+#site-footer { 
+	margin: 10px auto;
+    width: 960px;
+	color: #999;
+	background: none !important;
+}
+
+
+#site-footer .sfContentBlock { 
+	padding: 0 10px;
+}
+
+
+#content-whole a { color: #DF6800;}
+
+a#logo:hover {  color: #DF6800 !important;}
+
+
+#systemBody #sidebar .sidebar-wrap                                              {   margin: 10px 0 50px 0; }
+#systemBody #sidebar .sidebar-wrap h2                                           
+{       border-bottom: 1px solid #ddd;
+    color: #DF6800;
+    font-size: 20px;
+    padding: 0 0 3px; }
+
+
+/* Buttons */
+
+
+.input-wrap input[type="submit"] {
+	background: none repeat scroll 0 0 #565254 !important;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+	display: inline-block !important;
+    padding: 8px 20px !important;
+	font-size: 12px;
+    text-transform: uppercase;
+    cursor:  pointer;
+}
+
+
+
+.login-create-acct a.input {
+	color: #fff !important;
+}
+
+.btn-system {
+	background: none repeat scroll 0 0 #565254;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF !important;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 5px 40px;
+    text-transform: uppercase;
+}
+
+
+/* Login */
+
+.login-create-acct { 
+	margin: 20px 0 0 0;
+	padding: 10px 0 0;
+	border-top: 1px solid #c1c1c1;
+
+}
+
+
+
+#systemBody #content-whole h2 {
+	margin: 0 0 20px !important }
+
+
+#systemBody h3 {
+    color: #DF6800;
+    font-family: 'SansationRegular',Arial,sans-serif;
+    font-size: 28px !important;
+    font-style: normal;
+    margin: 0 0 20px !important;
+    border: 0;
+}
+	
+#HeaderCont_userInfo_register .welcome a {
+	color: #DF6800;
+}

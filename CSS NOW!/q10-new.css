@@ -1,0 +1,336 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+body {
+    color: #4e4e4e;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.content .wrap > h2 {
+    font-size: 30px;
+    margin: 0 0 40px;
+    text-align: center;
+}
+
+.wrap {
+    height: auto;
+    min-height: 100% !important;
+}
+
+.TopBanner {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+.TopBanner .countdown {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0 0;
+    text-align: center;
+    width: 100%;
+}
+
+.countdown .dig {
+    background: none repeat scroll 0 0 #232323;
+    border-radius: 6px;
+    color: #fff;
+    display: inline-block;
+    padding: 6px 0;
+    text-align: center;
+    width: 50px;
+}
+
+.countdown span {
+    font-size: 20px;
+}
+
+.countdown label {
+    display: block;
+    font-size: 10px;
+}
+
+.Logo em {
+    background: url("/images/default-source/q10/logo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    float: right;
+    height: 37px;
+    margin: 20px 10px 20px 0;
+    width: 180px;
+}
+
+.Logo em span {
+    text-indent: -9999px;
+    position: absolute;
+}
+
+.videos.content {
+    background: none repeat scroll 0 0 #fa8423;
+    color: #fff;
+}
+
+.videos img {
+    margin: 0 0 5px;
+}
+
+.TopBanner .wrap {
+    background: url("/images/default-source/q10/header-mobile.jpg") no-repeat scroll center 0 rgba(0, 0, 0, 0);
+    height: 327px;
+    position: relative;
+    width: 100% !important;
+}
+
+.TopBanner .wrap-header {
+    margin: 0 auto;
+    width: 96%;
+}
+
+.TopBanner header {
+    background: none repeat scroll 0 0 #232323;
+    border-radius: 15px 15px 0 0;
+    bottom: 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 24px;
+    margin: 0;
+    padding: 15px 30px;
+    position: absolute;
+}
+
+.Follow .content {
+    padding: 80px 0;
+}
+
+.schedule.content {
+    background: none repeat scroll 0 0 #da5c1a;
+    color: #fff;
+    padding: 40px 0 40px;
+}
+
+.schedule.content p {
+    font-size: 14px;
+    margin: 0 0 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.schedule li {
+    display: inline-block;
+    min-height: 200px;
+    vertical-align: top;
+    width: 238px;
+    padding: 20px 0 0 0;
+}
+
+.schedule .day {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 50%;
+    color: #da5c1a;
+    display: inline-block;
+    font-size: 24px;
+    height: 60px;
+    line-height: 61px;
+    width: 60px;
+}
+
+.schedule .day.small {
+    font-size: 16px;
+}
+
+.schedule header {
+    margin: 0 0 10px;
+}
+
+.schedule header dd {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.schedule .country {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.schedule .speakers {
+    font-size: 14px;
+}
+
+.schedule .with {
+    font-size: 12px;
+    margin: 0 0 10px;
+}
+
+.info .wrap > h2,
+.photos .wrap > h2 {
+    color: #fa8423;
+}
+
+.info.content {
+    overflow: hidden;
+}
+
+.info article p {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    line-height: 1.5em;
+    margin: 0 0 1.5em;
+    text-align: center;
+}
+
+.info .left {
+    float: none;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.info .side {
+    float: none;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.left > article {
+    margin: 8% 0 0;
+}
+
+.info article p span {
+    color: #da5c1a;
+}
+
+.videos h4 {
+    color: #fff;
+    text-align: center;
+}
+
+.wrap > ul {
+    overflow: hidden;
+    text-align: center;
+}
+
+.photos li,
+.videos li {
+    display: inline-block;
+    margin: 0 8px 16px;
+}
+
+.photos li {
+    margin: 0 auto;
+    width: 90%;
+}
+
+@media (min-width: 369px) {
+    .photos li {
+        margin: 0 5px 10px;
+        width: 316px;
+    }
+}
+
+@media (min-width: 768px) {
+    .TopBanner .countdown {
+        left: 20px;
+        position: absolute;
+        text-align: left;
+        top: 20px;
+    }
+    .countdown .dig {
+        width: 80px;
+    }
+    .countdown label {
+        display: block;
+        font-size: 12px;
+    }
+    .countdown span {
+        font-size: 32px;
+    }
+    .TopBanner .wrap {
+        background: url("/images/default-source/q10/header.jpg") repeat scroll -572px 0 rgba(0, 0, 0, 0);
+        height: 387px;
+        width: 100%;
+    }
+    .TopBanner .wrap-header {
+        width: 1012px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .TopBanner .countdown {
+        left: 0;
+        position: relative;
+        top: 120px;
+        width: 1012px;
+    }
+    .countdown .dig {
+        background: none repeat scroll 0 0 #232323;
+        border-radius: 6px;
+        color: #fff;
+        display: inline-block;
+        padding: 10px 0;
+        text-align: center;
+        width: 100px;
+    }
+    .countdown span {
+        font-size: 52px;
+    }
+    .TopBanner .wrap {
+        background: url("/images/default-source/q10/header.jpg") repeat scroll -330px 0 rgba(0, 0, 0, 0);
+        height: 387px;
+    }
+    .schedule li {
+        float: left;
+        margin: 0 20px 20px 0;
+    }
+    .schedule li:nth-child(4n) {
+        margin: 0 0 20px;
+    }
+    .schedule li:nth-child(5),
+    .schedule li:nth-child(6),
+    .schedule li:nth-child(7),
+    .schedule li:nth-child(8),
+    .schedule li:nth-child(9),
+    .schedule li:nth-child(10),
+    .schedule li:nth-child(11),
+    .schedule li:nth-child(12) {
+        border-top: 1px solid #ee8f5d;
+    }
+    .info article p {
+        font-size: 32px;
+        line-height: 1.5em;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .TopBanner .wrap {
+        background: url("/images/default-source/q10/header.jpg") no-repeat scroll center 0 #b8b8b8;
+        height: 387px;
+    }
+    .Logo em {
+        margin: 20px 0 20px 0;
+    }
+    .info article p {
+        text-align: left;
+    }
+    .left > article {
+        margin: 8% 0 0;
+    }
+    .info .left {
+        float: left;
+        width: 60%;
+        text-align: left;
+    }
+    .info .side {
+        float: right;
+        width: 30%;
+        text-align: left
+    }
+}
+
+@media (min-width: 1475px) {}

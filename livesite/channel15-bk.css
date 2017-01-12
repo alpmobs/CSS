@@ -1,0 +1,428 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.m-content.channel {
+    width: 98%;
+    padding: 0;
+    background: #f4f4f4;
+    margin: 0 auto;
+}
+
+.m-content .wrap {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.m-content .ch-cont {
+    border-bottom: 1px solid #c7c7c7;
+    background: #fff;
+}
+
+.wrap.ch-main > header {
+    overflow: hidden;
+    padding: 40px 0 15px;
+}
+
+.ch-main header .title > h3 {
+    color: #c42a2a;
+    font-size: 24px;
+}
+
+.ch-main header .title {
+    float: left;
+}
+
+.ch-main header .follow {
+    float: right;
+}
+
+.cover.clearfix {
+    position: relative;
+}
+
+.cover.clearfix > img {
+    background: none repeat scroll 0 0 #232323;
+    width: 100%;
+    display: block;
+}
+
+.cover .edit-item {
+    background: none repeat scroll 0 0 #363636;
+    border-radius: 6px;
+    color: #ababab;
+    display: block;
+    font-size: 10px;
+    padding: 0 0 5px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 10px;
+    width: 80px;
+    display: none;
+}
+
+.cover .edit-item > em {
+    background: url("/images/default-source/sites/sprite-batch03.png") no-repeat scroll -80px -3px rgba(0, 0, 0, 0);
+    content: "";
+    display: block;
+    height: 30px;
+    margin: 7px auto 5px;
+    width: 33px;
+}
+
+.CHinfo-about .thumb {
+    float: left;
+    text-align: left;
+}
+
+.CHinfo-about .thumb .contentholder span {
+    height: 90px;
+    width: 90px;
+}
+
+.CHinfo-about .thumb img {
+    height: 90px;
+    width: 90px;
+}
+
+.CHinfo-about .thumb {
+  width: 17%;
+}
+
+.CHinfo-about .content {
+    float: right;
+    text-align: left;
+    width: 82%;
+}
+
+.CHinfo-about {
+    border-bottom: 1px solid #c9c9c9;
+    margin: 0 0 30px;
+    padding: 20px 0;
+}
+
+.CHinfo-about .content p {
+    margin: 0 0 1.5em 0;
+    line-height: 1.5em;
+    font-size: 13px;
+    font-family: "Open Sans",sans-serif;
+}
+
+.CHinfo-about .content a {
+    font-size: 12px;
+    color: #c42a2a;
+}
+
+.ch-details .wrap {
+    overflow: hidden;
+    padding: 24px 0;
+}
+
+.ch-details .menu > li {
+    float: left;
+    list-style: outside none none;
+    margin: 0 100px 0 0;
+    cursor: pointer;
+}
+
+.ch-details .menu > li em {
+    background-image: url(/images/default-source/sites/sprite-batch05.png);
+    content: "";
+    display: block;
+    float: left;
+    height: 24px;
+    margin: 0 5px 0 0;
+    width: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+}
+
+.ch-details .menu > li em u {
+    text-indent: -99999px;
+    position: absolute;
+}
+
+.ch-details .menu li .value {
+    color: #868686;
+    line-height: 23px;
+    transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+}
+
+.ch-details .menu li:hover .value {
+    color: #363636;
+}
+
+.ch-details .menu > li:nth-child(1) em {
+    background-position: -58px 0;
+}
+
+.ch-details .menu > li:nth-child(1):hover em {
+    background-position: -58px -24px;
+}
+
+.ch-details .menu > li:nth-child(2) em {
+    background-position: 0 0;
+    width: 27px;
+}
+
+.ch-details .menu > li:nth-child(2):hover em {
+    background-position: 0 -24px;
+}
+
+.ch-details .menu > li:nth-child(3) em {
+    background-position: -30px 0;
+}
+
+.ch-details .menu > li:nth-child(3):hover em {
+    background-position: -30px -24px;
+}
+
+.ch-details .menu {
+    display: block;
+    overflow: hidden;
+}
+
+.ch-details .CHcont {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+}
+
+
+.ch-details .followers .item {
+  display: inline-block;
+  margin: 0 5px 10px;
+  text-align: center;
+  vertical-align: top;
+  width: 15%;
+}
+
+.ch-details .followers .item > h4 {
+  font-size: 12px;
+  height: 3em;
+  line-height: 1.5em;
+  overflow: hidden;
+}
+
+.CHcont > .item {
+  padding: 30px 0 0;
+}
+
+.channel .CHcont .followers .avatar .img-cont {
+  height: 68px;
+  margin: 0 auto 5px;
+  position: relative;
+  width: 68px;
+}
+
+.channel .CHcont .followers .avatar .img-cont img {
+  height: 70px;
+  position: absolute;
+  width: 70px;
+top: 0;
+    left: 0;
+    border-radius: 50%;
+}
+
+.ch-details .CHcont article.item {
+    margin: 20px 0;
+    transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+}
+
+.post-list .width-control {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.post-list {
+  background: #fff none repeat scroll 0 0;
+  border-top: 1px solid #cecece;
+  margin: 20px 0 0;
+  padding: 20px 0;
+}
+
+.grid-video .item .private {
+    background: url("/images/default-source/sites/sprite-batch04.png") no-repeat scroll -105px center rgba(0, 0, 0, 0);
+    float: left;
+    height: 14px;
+    margin: 3px 5px 10px 0;
+    width: 23px;
+}
+
+.ch-main .title .private {
+  background: url("/images/default-source/sites/sprite-batch03.png") no-repeat scroll 0 -47px rgba(0, 0, 0, 0);
+  display: inline-block;
+  float: right;
+  height: 24px;
+  margin: 0 0 0 2px;
+  width: 24px;
+}
+
+
+#sf_channel_details_share a {
+  display: inline-block;
+    color: #fff;
+  margin: 0 10px 0 0;
+  padding: 10px 30px 10px 40px;
+  text-transform: uppercase;
+    
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+}
+
+
+#sf_channel_details_share a:hover { transform: scale(0.9); -moz-transform: scale(0.9); -webkit-transform: scale(0.9); -o-transform: scale(0.9); -ms-transform: scale(0.9); }
+
+
+#sf_channel_details_share .twitter-share {
+  background: #659FCB url("/images/default-source/sites/share-twitter.png") no-repeat scroll 10px center;
+  border: 1px solid #659FCB;
+}
+
+#sf_channel_details_share .fb-share {
+  background: #3864A3 url("/images/default-source/sites/share-facebook.png") no-repeat scroll 10px center;
+  border: 1px solid #3864A3;
+}
+
+#sf_channel_details_share .email-btn  {
+  background: #ff9000 url("/images/default-source/sites/share-email.png") no-repeat scroll 10px center;
+  border: 1px solid #ff9000;
+}
+
+
+
+@media (min-width: 1200px) {
+    .user-CHinfo-main aside.content.video { width: 776px; }
+    .post-list .width-control {  width: 1012px; }
+        .m-content.channel .wrap { width: 1012px; }     
+
+
+}
+
+@media (min-width: 1025px) {
+    .user-CHinfo-main aside.content.video { width: 78%; }
+}
+
+
+@media (min-width: 1024px) {
+    .post-list .width-control .wrap { margin: 0 0 60px 0; width: 776px; }
+    .post-list .width-control {  width: 776px; }
+
+}
+
+@media (max-width: 1024px) {
+    .user-CHinfo-main aside.content.video { width: 70%; }
+}
+
+@media (max-width: 800px) {
+    .user-CHinfo-main aside.content.video { width: 60%; }
+}
+
+
+
+@media (min-width: 780px) {
+
+}
+
+@media (min-width: 769px) {
+    .m-content .wrap {
+        width: 98%;
+    }
+    .m-content.channel {
+        width: 100%;
+    }
+    .user-CHinfo-main aside.ch {
+        width: 210px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .user-CHinfo-main aside.content.video {
+        width: 100%;
+    }
+    .m-sidebar {
+        margin: -3px 0 0 0 !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .user-CHinfo-main aside.ch {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 610px) {
+    .cover.clearfix > img {
+        height: auto;
+    }
+    .CHinfo-about .thumb {
+        width: 15%;
+    }
+}
+
+@media (max-width: 609px) {
+    .cover.clearfix > img {
+        height: auto;
+    }
+    .user-CHinfo-main aside.content.video {
+        width: 100%;
+    }
+    .CHinfo-about .thumb {
+        width: 18%;
+    }
+}
+
+@media (max-width: 480px) {
+    .ch-main header .title {
+        float: none;
+        text-align: center;
+    }
+    .ch-main header .follow {
+        float: none;
+        margin: 0.5em auto 0;
+        text-align: center;
+    }
+    .ch-details .menu > li {
+        display: inline-block;
+        float: none;
+        margin: 0 10px;
+        vertical-align: top;
+    }
+    
+    .CHinfo-about .thumb {
+  width: 28%;
+}
+    
+    .CHinfo-about .content {
+
+  width: 71%;
+}
+    
+    
+
+}

@@ -1,0 +1,126 @@
+
+.upload-wrap {
+  background: none repeat scroll 0 0 #fff;
+  clear: both;
+  display: block;
+  margin: 80px auto;
+  padding: 0 10px;
+  width: 960px !important;
+}
+
+
+.upload-wrap .input-wrap {
+  margin: 0 0 30px !important;
+}
+
+/* Upload Moderation */
+
+
+.upload .RadUpload .ruFileWrap {
+	height: 34px;
+}
+
+.upload #ctl04_rblPublish input {
+  float: left;
+}
+.upload #ctl04_rblPublish label {
+  display: inline-block !important;
+  line-height: 14px;
+  margin: 0 0 8px 10px !important;
+}
+
+.upload #ctl04_chkMarkLocation label {
+  display: inline-block !important;
+  margin: 0 0 8px 10px !important;
+}
+
+#ctl04_rblComments label, #ctl04_rblShare label, #ctl04_rblAllowAds label {
+  display: inline-block !important;
+  margin: 0 0 0 10px !important;
+}
+
+
+.uploaded-video-wrap .avatar-wrap {
+  float: left;
+  margin: 0 0 30px;
+  overflow: hidden;
+}
+
+.uploaded-video-wrap .info {
+	float: right;
+	width: 425px;
+}
+
+.uploaded-video-wrap .video-title {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+}
+
+.uploaded-video-wrap .channel-name {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0 0 15px 0;
+}
+
+.uploaded-video-wrap label {
+  clear: both;
+  color: #999;
+  display: block;
+  font-size: 14px;
+  margin: 20px 0 0;
+}
+
+.uploaded-video-wrap .channel-details aside {
+	float: left;
+	width: 200px;
+}
+
+.uploaded-video-wrap .channel-details .group {
+	background: url("../../images/default-source/site-images/icon-groups.png") no-repeat 0 center;
+	padding: 5px 0 5px 35px;
+}
+
+.uploaded-video-wrap .channel-details .comment {
+	background: url("../../images/default-source/site-images/icon-balloon.png") no-repeat 0 center;
+	padding: 5px 0 5px 35px;
+}
+
+.uploaded-video-wrap .channel-details .privacy {
+	background: url("../../images/default-source/site-images/icon-privacy.png") no-repeat 0 center;
+	padding: 5px 0 5px 35px;
+}
+
+.uploaded-video-wrap .channel-details .rating {
+	background: url("../../images/default-source/site-images/icon-star.png") no-repeat 0 center;
+	padding: 5px 0 5px 35px;
+}
+
+.uploaded-video-wrap .submit-wrap { 
+    float: right;
+    margin: 20px 0 0;
+    padding: 10px 0;
+}
+
+.upload span.mandatory {
+    color: #E64545;
+    display: inline;
+    font-size: 15px;
+    line-height: 12px;
+}
+
+.notify-success {
+	background: url("../../images/default-source/site-images/icon-system-check.png") no-repeat scroll 0 center transparent;
+    margin: 10px 0;
+    padding: 10px 20px 10px 30px;
+	font-size: 18px;
+}
+
+.btn-black-med, .btn-black-disabled {	       
+	 background: #161616;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF !important;
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+	cursor: pointer;
+}

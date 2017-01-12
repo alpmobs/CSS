@@ -1,0 +1,513 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.container {
+    width: 1012px;
+}
+
+
+.schedules {
+  background: #fff url("/Resources/Styles/vlc/worldmap.png") no-repeat scroll center center / 100% auto !important;
+  padding: 0 0 3em !important;
+}
+
+.contacts {
+  background: #fff url("/Resources/Styles/vlc/bg-sm-vlc.png") no-repeat scroll 50px center !important;
+  padding: 3em 0 !important;
+  text-indent: 200px;
+}
+
+.description {
+    background: #ee7336 none repeat scroll 0 0;
+    color: #fff;
+    padding: 4em 0 !important;
+    text-align: center;
+}
+
+.merchandise {
+    background: #ad3341 none repeat scroll 0 0;
+    color: #fff;
+    padding: 4em 0 !important;
+    text-align: center;
+}
+
+.merchandise p {
+  margin: 0 0 1.5em;
+}
+
+.merchandise .wrapper > div {
+  margin: 0 0 4em;
+}
+
+.merchandise .wrapper div > h4 {
+  margin: 1em 0 0;
+}
+
+.videos {
+    background: #d1d1d1 none repeat scroll 0 0;
+    color: #ee7336;
+    padding: 4em 0 !important;
+    text-align: center;
+}
+
+.careerpath {
+  background: #78cfe1 none repeat scroll 0 0;
+  color: #fff;
+  padding: 4em 0 !important;
+  text-align: center;
+}
+
+.careerpath .wrapper > p {
+  margin: 0 0 30px;
+}
+
+
+.rationale {
+  background: #fff none repeat scroll 0 0;
+  color: #ee7336;
+  padding: 4em 0 !important;
+  text-align: center;
+}
+
+.rationale .wrapper {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.rationale .wrapper > p {
+  color: #232323;
+  margin: 0 0 30px;
+}
+
+.rationale .wrapper > h4 {
+  color: #232323;
+  font-size: 24px;
+  margin: 0 0 30px;
+  padding: 0 0 5px;
+}
+
+.rationale .wrapper > img {
+  margin: 20px 0 30px;
+}
+
+.benefits {
+  background: #fff url("/Resources/Styles/vlc/bg-vlc-sched.jpg") no-repeat scroll 0 bottom;
+  padding: 4em 0 !important;
+  text-align: center;
+}
+
+.benefits .wrapper {
+  float: none;
+  margin: 0 auto;
+}
+
+.benefits .wrapper > ol {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.benefits .wrapper li {
+  border-radius: 24px;
+  display: inline-block;
+  font-size: 16px;
+  max-width: 300px;
+  padding: 20px 30px;
+}
+
+.benefits .wrapper li:nth-child(2n+1) {
+  background: #14668B none repeat scroll 0 0;
+  color: #fff;
+  margin: 10px auto 10px 0;
+  text-align: left;
+}
+
+.benefits .wrapper li:nth-child(2n) {
+  background: #d8d8d8 none repeat scroll 0 0;
+  margin: 10px 0 10px auto;
+  text-align: right;
+    color: #14668B;
+}
+
+
+
+.videos a {
+    color: #232323;
+    margin: 0 0 3em;
+    min-height: 220px;
+    text-align: center;
+}
+
+.videos a:hover {
+    color: #232323;
+    text-decoration: underline;
+}
+
+.videos .img > img {
+    height: 140px !important;
+    width: 260px !important;
+}
+
+.videos .img {
+    margin: 0 0 0.7em;
+}
+
+p {
+    font-size: 14px !important;
+    line-height: 24px !important;
+}
+
+.schedules h3 {
+    display: block;
+    padding: 60px 0 30px !important;
+    color: #2f91cf !important;
+    font-size: 24px !important;
+    font-weight: 300 !important;
+    text-align: center !important;
+}
+
+.benefits h3 {
+    display: block;
+    padding: 0 0 30px !important;
+    color: #14668B !important;
+    font-size: 24px !important;
+    font-weight: 300 !important;
+    text-align: center !important;
+}
+
+.careerpath h3 {
+    display: block;
+    padding: 0 0 30px !important;
+    color: #fff !important;
+    font-size: 24px !important;
+    font-weight: 300 !important;
+    text-align: center !important;
+}
+
+.rationale h3 {
+    display: block;
+    padding: 0 0 30px !important;
+    color: #A62231 !important;
+    font-size: 24px !important;
+    font-weight: 300 !important;
+    text-align: center !important;
+}
+
+.videos h3 {
+    color: #232323 !important;
+    margin: 0 0 1.5em;
+    font-size: 24px !important;
+    font-weight: 300 !important;
+    text-align: center !important;
+}
+
+.merchandise h3 {
+    color: #fff !important;
+    margin: 0 0 1.5em;
+    font-size: 24px !important;
+    font-weight: 300 !important;
+    text-align: center !important;
+}
+
+
+.description h2 {
+    margin: 0 0 1em;
+    font-weight: 600 !important;
+    font-size: 30px !important;
+}
+
+.description .wrapper {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.description .inner {
+  float: none;
+  margin: 50px auto 0;
+}
+
+.description .inner > h3 {
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 0 20px;
+  padding: 0 0 5px;
+}
+
+.description .inner li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 auto;
+}
+
+.description .inner li:last-child {
+  float: none;
+}
+
+.description .inner li .colinside {
+  background: #c74c0f none repeat scroll 0 0;
+  border-radius: 24px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 5px -10px;
+  min-height: 190px;
+  padding: 20px 30px;
+    text-align: left;
+}
+
+.description .inner li:last-child .colinside {
+  min-height: 99px;
+}
+
+
+.sched .item {
+    background: #dedede none repeat scroll 0 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: left;
+    position: relative;
+    color: #232323;
+}
+
+.sched .item:nth-child(1), .sched .item:nth-child(2), .sched .item:nth-child(3) {
+  min-height: 430px;
+}
+
+
+
+
+.sched .item:nth-child(6n+1) {
+    background: none !important;
+    /*color: #2f91cf; */
+}
+
+.sched .item:nth-child(1) {
+    background-color: rgba(12, 111, 174, 0.7) !important;
+    color: #fff;
+}
+
+
+.sched .item:nth-child(1) a,
+.sched .item:nth-child(6n+1) a {
+    color: #fff;
+}
+
+.sched .item:nth-child(1) a:hover,
+.sched .item:nth-child(6n+1) a:hover{
+}
+
+.sched .item:nth-child(2),
+.sched .item:nth-child(2n+2) {
+    background-color: rgba(255, 255, 255, 0);
+    /*color: #2f91cf; */
+}
+
+.sched .item:nth-child(2) a,
+.sched .item:nth-child(2n+2) a {
+    color: #2f91cf;
+    border-color: #2f91cf;
+}
+
+
+.sched .item:nth-child(2) .links a ,
+.sched .item:nth-child(2n+2) .links a {
+    color: #2f91cf;
+    border-color: #2f91cf;
+}
+
+.sched .item:nth-child(2) .links a:hover ,
+.sched .item:nth-child(2n+2) .links a:hover {
+    color: #fff;
+    border-color: #2f91cf;
+    background-color: #2f91cf;
+}
+
+.sched .item:nth-child(3),
+.sched .item:nth-child(6n+3) {
+    /*background-color: rgba(62, 187, 213, 0.7);*/
+    /*ccolor: #78cfe1; */
+    background: none !important;
+}
+
+.sched .item:nth-child(3) a,
+.sched .item:nth-child(6n+3) a {
+    color: #2f91cf;
+}
+
+.sched .item:nth-child(4),
+.sched .item:nth-child(6n+4) {
+    background-color: rgba(255, 255, 255, 0);
+    background: none !important;
+   /*c color: #78cfe1; */
+}
+
+.sched .item:nth-child(4) a,
+.sched .item:nth-child(6n+4) a {
+    color: #78cfe1;
+    border-color: #78cfe1;
+}
+
+.sched .item:nth-child(5),
+.sched .item:nth-child(6n+5) {
+    /*background-color: rgba(147, 18, 33, 0.8);*/
+    /*ccolor: #a62231; */
+    background: none !important;
+}
+
+.sched .item:nth-child(5) a,
+.sched .item:nth-child(6n+5) a {
+    color: #fff;
+}
+
+.sched .item:nth-child(6),
+.sched .item:nth-child(6n+6) {
+    background-color: rgba(255, 255, 255, 0);
+    /*ccolor: #a62231; */
+}
+
+.sched .item:nth-child(6) a,
+.sched .item:nth-child(6n+5) a {
+    border-color: #a62231;
+   /*c color: #a62231; */
+}
+
+.sched .item .title {
+    margin: 0 0 1em;
+    min-height: 52px;
+    display: block;
+}
+
+.sched .item .title > h2 {
+    font-size: 24px !important;
+}
+
+.sched .item .market {
+    font-size: 12px;
+    margin: 10px 0 15px 0;
+}
+
+.sched .item .togo {
+    border-bottom: 2px solid;
+    display: inline-block;
+    font-size: 14px;
+    font-style: italic;
+    margin: 14px 0 0 8px;
+    padding: 0 0 5px;
+}
+
+.sched .date {
+    font-size: 14px;
+}
+
+.sched .item .timer {
+    clear: both;
+    overflow: hidden;
+}
+
+.sched .item h1 {
+  font-size: 14px;
+  font-weight: 100;
+  margin: 10px 0;
+    color: #666;
+}
+
+
+.sched .item .inside {
+  background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;
+  border: 1px dashed #dedede;
+  padding: 10px;
+}
+
+.sched .item .days {
+    float: left;
+    font-size: 65px;
+    font-weight: 900 !important;
+    margin: -17px 0 0;
+}
+
+.sched .item .facilitators {
+    margin: 1em 0;
+}
+
+.sched .item .facilitators li {
+    clear: both;
+    margin: 0 0 0.5em;
+    overflow: hidden;
+}
+
+.sched .item .facilitators h4 {
+    float: left;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 16px 0 0 10px;
+}
+
+.sched .item .facilitators .img-circle {
+    float: left;
+}
+
+.sched .item .links a {
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 12px;
+    margin: 0 10px 0 0;
+    padding: 5px 12px;
+}
+
+.sched .item .links {
+    position: absolute;
+}
+
+.contacts {
+  padding: 3em 0 !important;
+}
+
+.contacts p {
+  color: #ad3341 !important;
+  font-size: 30px !important;
+}
+
+.contacts a {
+  color: #ad3341 !important;
+  font-weight: 600 !important;
+}
+
+.carousel {
+    height: 760px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    img {
+        max-width: auto !important;
+        height: auto !important;
+        width: auto !important;
+    }
+    .contacts {
+        background: #fff url("/Resources/Styles/vlc/bg-sm-vlc.png") no-repeat scroll center 10% !important;
+        padding: 7em 0 3em !important;
+        text-align: center;
+        text-indent: 0;
+    }
+    .contacts p {
+        line-height: 34px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel {
+        height: 460px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .carousel {
+        height: 280px;
+    }
+}

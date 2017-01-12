@@ -1,0 +1,265 @@
+/**********************************************************************
+ * Styles.css                                                         *
+ *                                                                    *
+ * This file is initially empty and you can add any additional styles *
+ * or modify any of the styles defined in BaseStyles.css              *
+ * This file will never be overwritten.                               *
+ *                                                                    *
+ * For example, if you want to override just the top padding for a    *
+ * menu, you can simply add the following lines:                      *
+ *                                                                    *
+ * .menus {                                                           *
+ * 	padding-top: 20px;                                            *
+ * 	}                                                             *
+ *                                                                    *
+ * This will keep all the other styles of the "menus" style as-is,    *
+ * but modify the top padding to be 20px.                             *
+ *                                                                    *
+ * You can also, add a new style by just specifying it.               *
+ *                                                                    *
+ * .menus {                                                           *
+ * 	padding-top: 20px;                                            *
+ * 	text-align: center;                                           *
+ * 	}                                                             *
+ * 	                                                              *
+ * In the above case, we added the text-align style.  This style was  *
+ * not specified in the original declaration of the menus style.      *
+ *                                                                    *
+ **********************************************************************/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a:link,
+a:visited {
+    color: #d23933;
+    text-decoration: none;
+}
+
+
+
+.marginTL,
+.pcT,
+.marginTR {
+    background-color: #f0eedc;
+    border: 0;
+}
+
+.marginmL,
+.pcmL,
+.pcmC,
+.marginmR {
+    background: #f0eedc none repeat scroll 0 0;
+    border: 0 none;
+}
+
+.marginL, .pcL, .pcC, .marginR {
+    border: 0;
+}
+
+.pageBackground,
+.pBack {
+    background: #f4f4f4 none repeat scroll 0 0;
+}
+
+.signInBar {
+    color: #2e538a;
+}
+
+.signInBar a {
+    color: #d23933;
+}
+
+a.button_link,
+.bC a.button_link,
+.buttonPadding a.button_link,
+.dBody a.button_link,
+.galleryttc a.button_link,
+.popupTableCellValue a.button_link,
+.tableCellValue a.button_link,
+.thc a.button_link,
+.tic a.button_link,
+.ttc a.button_link {
+    color: #2e538a;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+.MLMmC {
+    /* horizontal menu item container */
+    border: 0;
+    font-size: 11px;
+    padding: 12px;
+}
+
+.MLMmC a {
+    /* horizontal menu item link text */
+    color: #2e538a;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-shadow: none;
+    font-weight: normal;
+}
+
+.MLMmoC {
+    /* horizontal menu item hover state */
+    background: #2e538a;
+    border: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.MLMmoC a {
+    /* horizontal menu item hover state link text */
+    color: #ffffff;
+    text-shadow: none;
+}
+
+.MLMmenusub {
+    /* horizontal submenu container (menu leaves) */
+    border: 1px solid #2e538a;
+    border-radius: 0;
+}
+
+.MLMsubmC a {
+    /* horizontal submenu item link text */
+    color: #2e538a;
+    cursor: pointer !important;
+    text-transform: none;
+    border-radius: 0;
+}
+
+.MLMsubmoC {
+    /* horizontal submenu item hover state */
+    background-color: #b6cced;
+}
+
+.MLMsubmoC a {
+    /* horizontal submenu item hover state link text */
+    color: #2e538a;
+    border-radius: 0;
+}
+
+.dialog_header_text,
+.dht {
+    color: #d23933;
+    text-shadow: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dialog_view,
+.dv,
+.panelC {
+    background-color: #f7f7f7;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: none;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+    text-align: left;
+    vertical-align: top;
+    width: 1000px;
+    border: 1px solid #bbb;
+}
+
+.themeButton {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    box-shadow: none;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 7px;
+    text-decoration: none;
+    text-shadow: none;
+    white-space: nowrap;
+}
+
+.themeButton:hover {
+	background: #2e538a;
+	border: 1px solid #2e538a;
+	box-shadow: none;
+	color: #fff !important;
+	white-space: nowrap;
+	}
+
+.themeButton:active {
+    color: #fff !important;
+}
+
+a.button_link:hover,
+.bC a.button_link:hover,
+.buttonPadding a.button_link:hover,
+.dBody a.button_link:hover,
+.galleryttc a.button_link:hover,
+.popupTableCellValue a.button_link:hover,
+.tableCellValue a.button_link:hover,
+.thc a.button_link:hover,
+.tic a.button_link:hover,
+.ttc a.button_link:hover { /* link text of buttons hover state */
+	color: #fff;
+	padding-left: 4px;
+	padding-right: 4px;
+	text-decoration: none;
+	}
+
+.marginBL,
+.pcB,
+.marginBR {
+    background: #12436E;
+}
+
+
+.dfv a, .dialog_field_value a, .galleryttc a, .popupTableCellValue a, .tableCellValue a, .ttc a, .ttch a, .ttcs a {
+    color: #2e538a;
+}
+
+.dfv a:hover,
+.dialog_field_value a:hover,
+.galleryttc a:hover,
+.popupTableCellValue a:hover,
+.tableCellValue a:hover,
+.ttc a:hover,
+.ttch a:hover,
+.ttcs a:hover { /* data grid data link text hover state */
+	color: #d23933;
+	text-decoration: none;
+	}
+
+
+.field_input,
+.fi {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    box-shadow: none;
+    color: #222;
+    font-family: Arial, Verdana, Georgia, sans-serif;
+    font-size: 12px;
+    padding: 8px;
+    vertical-align: top;
+}
+
+.imageDropshadow {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.dialog_view,
+.dv,
+.panelC {
+    background-color: #fff;
+    border: 0 none;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px #cecece;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+    text-align: left;
+    vertical-align: top;
+    width: 1000px;
+}

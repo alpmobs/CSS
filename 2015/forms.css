@@ -1,0 +1,590 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* For Sitefinity */
+
+
+.mandatory                                       {  color:#e64545; font-size:14px; }
+.rbSkinnedButton {
+	height: 30px !important;
+}
+
+#ctl00_CPContentWhole_C015_btnLogin {
+	margin: 20px 0;
+}
+
+
+.RadButton_Office2010Black.rbSkinnedButton, .RadButton_Office2010Black .rbDecorated, .RadButton_Office2010Black.rbVerticalButton, .RadButton_Office2010Black.rbVerticalButton .rbDecorated, .RadButton_Office2010Black .rbSplitRight, .RadButton_Office2010Black .rbSplitLeft {
+	background-image:none !important;
+}
+
+
+/* Registration Submit Button */
+
+#CPContentWhole_C010_btnContinue {
+	background: none repeat scroll 0 0 #565254;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    height: 40px;
+    padding: 0 50px;
+    text-transform: uppercase;
+    margin: 0 0 30px 0;
+}
+
+
+/* Upload Avatar Button */
+
+
+#CPContentWhole_C010_btnUploadPic {
+	background: none repeat scroll 0 0 #565254 !important;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    display: block !important;
+    font-size: 12px;
+    padding: 8px 20px !important;
+    text-transform: uppercase;
+}
+
+#CPContentWhole_C010_lblUpload {
+	color: #990000;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+
+/* 
+
+	Forms 
+
+*/
+
+
+#CPContentWhole_C015_chkRemember			{	margin: 20px 5px 20px 0; }
+
+
+
+.login 										{ 	margin: 0 0 0 10px; }
+.login-form 									{   margin: 20px 0 30px; 	border-bottom: 1px solid #c0bebe;	padding: 0 0 20px 0; }
+.login-form a 									{	color: #403f3f; }
+
+#content .input-wrap, #content .input-block-wrap 									{   display: block;	margin: 10px 0 10px 0; }
+#content-whole .input-wrap								{   display: block;	margin: 0 40px 20px 0; }
+#content .input-inline-wrap								{   display: inline-block;	margin: 0 0 20px 0; }
+#content-whole .input-inline-wrap						{   display: inline-block;	margin: 0 40px 20px 0; }
+#content-whole .input-block-wrap						{   display: block;	margin: 0 40px 20px 0; }
+
+
+
+
+
+#content .form-wrap label 						{   display: block;	color: #403f3f;	margin: 0 0 8px; }
+
+
+
+
+
+
+
+
+
+
+.login .forgot-wrap 							{   margin: -10px 0 0 0; }
+.forgot-wrap .input-wrap label, .activation-form-wrap .input-wrap label                  {   display: block; color: #919191; margin: 0 0 8px; }
+
+.login .input-wrap label 						{   display: block;	color: #403f3f;	margin: 0 0 8px; }
+
+.input-wrap span 								{   display: block;	color: #403f3f;	margin: 0 0 8px; }
+span.impt                                       {   display: inline; color:#e64545; font-size:15px; line-height:12px; }
+
+.login .input-wrap label.remember, 
+.login .input-wrap label.forgot 				{ 	display: inline-block;	color: #403f3f;	margin: 0 0 8px; }
+
+													
+													
+#CPContentWhole_C015_lblEmail					{ color: #919191; }													
+#CPContentWhole_C015_lblPassword 				{	margin: 20px 0 8px 0; display: block; color: #919191; }													
+
+.activation-page input[type="text"], 
+.activation-page 
+input[type="password"]  								{	border: 1px solid #a1a0a0;	background: #e9e9e9; height: 29px; width: 285px; }
+
+
+.form-wrap		 						{   margin: 20px 0 20px; }
+
+.reset-password-page .notice { background:#FEDF9C; border-radius: 5px; font-size: 14px; margin: 20px 0 0; padding: 20px 25px; color:#513103; }
+.reset-password-page .reset-wrap		 	{   margin: 0 20px; }
+.reset-password-page label              {   display: block;  color: #919191; margin: 0 0 8px; }
+
+.reset-password-page #ctl00_CPContentWhole_C005_RadCaptcha_SpamProtectorPanel label  {   display: block;  color: #919191; margin: 0 0 8px; font-size: 12px; }
+.reset-password-page #C004_txtNewPass_wrapper { display: block; }
+
+.reset-password-page .Base {
+    margin: 20px 0 10px 0;
+    border: 0 !important;
+    height: auto !important;
+    padding: 5px;
+
+    border-radius: 6px;
+    -ms-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+#C014_txtNewPass_wrapper {
+    clear: both;
+    display: block;
+    margin: 0 0 10px;
+}
+
+.reset-password-page .input-wrap {
+  margin: 30px 0 0 0;
+}
+
+.reset-password-page .input-inline-wrap {
+  margin: 30px 0 0 0;
+}
+
+#C014_rfvPassword, #C014_revIRID, #C014_cvMatch, #C009_rfvEmail, #C009_cvActivate, #C009_cvEmail {
+  font-size: 13px;
+  margin: 10px 0 20px 0;
+  color: #E64545;
+}
+
+
+.form-wrap label 						{   display: block;	color: #919191;	margin:8px 0 8px; }
+
+.form-wrap input[type="password"]  			{	border: 1px solid #a1a0a0;	background: #e9e9e9; height: 29px; width: 285px; }
+
+form .input-wrap input[type="text"].input-address						{	width: 400px;  }
+
+
+form .input-inline-wrap input[type="text"]						{	border: 1px solid #a1a0a0;	background: #ffffff; height: 29px; min-width: 200px;  }
+form .input-block-wrap input[type="text"], form .input-block-wrap input[type="password"]						{	border: 1px solid #a1a0a0;	background: #ffffff; height: 29px; min-width: 200px;  }
+
+
+.delivery-form .input-wrap aside									{ 	display: inline-block; margin: 0 20px 0 0; }
+
+
+
+form .input-wrap input[type="text"], form .input-wrap input[type="password"], form .input-wrap textarea, form .input-inline-wrap input[type="text"], form .input-inline-wrap input[type="password"] {
+    background: none repeat scroll 0 0 #E9E9E9;
+    border: 1px solid #A1A0A0 !important;
+    border-radius: 4px 4px 4px 4px;
+    height: 30px;
+    min-width: 200px;
+    padding: 1px 5px;
+    float: none;
+    transition: all 0.35s ease-in-out 0s; -moz-transition: all 0.35s ease-in-out 0s; -ms-transition: all 0.35s ease-in-out 0s; -o-transition: all 0.35s ease-in-out 0s; -webkit-transition: all 0.35s ease-in-out 0s;
+    box-sizing: content-box;
+
+}
+
+form .input-wrap input[type="text"]:focus, form .input-wrap input[type="password"]:focus, form .input-wrap textarea:focus, form .input-inline-wrap input[type="text"]:focus, form .input-inline-wrap input[type="password"]:focus {
+ background: none repeat scroll 0 0 #F2f2f2 !important;
+    border: 1px solid #666 !important;
+
+}
+
+
+
+form .input-wrap select									{	background: none repeat scroll 0 0 #ffffff; border: 1px solid #A1A0A0; font-size: 15px; height: 29px; overflow: hidden;  padding: 2px; width: 150px; }
+form .input-inline-wrap select									{	background: none repeat scroll 0 0 #ffffff; border: 1px solid #A1A0A0; font-size: 15px; height: 29px; overflow: hidden;  padding: 2px; width: 105px; }
+
+.input-inline-wrap > span {
+  font-size: 12px;
+}
+
+
+.reg-personal-info-wrap .input-wrap select				{	width: 100px; }
+.reg-personal-info-wrap .input-inline-wrap select		{	width: 100px; }
+.reg-delivery-info-wrap .input-inline-wrap .input-phone		{	width: 100px; min-width: 100px; }
+
+
+
+.payment-form .input-wrap input[type="radio"]			{ 	margin: 10px 10px 10px 0; }
+
+
+.reg-login-info-wrap, .reg-personal-info-wrap,
+.reg-delivery-info-wrap									{	border-bottom: 1px solid #bdbdbd; clear: both; overflow: hidden;}
+
+.reg-personal-info-wrap, .reg-delivery-info-wrap	h3	{	margin: 10px 0 0 0; }
+
+
+
+
+
+
+.reg-login-info-wrap .input-radio						{	margin: 0 20px 0 0; }
+.reg-login-info-wrap .input-radio input[type="radio"]	{ 	margin: 0 5px 1px 0; }
+.reg-login-info-wrap	#question-text						{ 	width: 400px; }
+.reg-personal-info-wrap .input-name, .reg-personal-info-wrap .input-email						{ 	width: 280px; }
+.registration-form .select-security				{	width: 350px; }
+
+
+.input-qty	{ width: 20px; padding: 5px; text-align: center; border: 1px solid #a1a0a0; }
+
+
+
+/* Registration Form */
+.reg-login-info-wrap .input-inline-wrap { float: left; }
+.reg-login-info-wrap .input-inline-wrap:first-child { float: none !important; }
+.registration-wrap p { font-size: 14px; color: #363636; margin: 0 0 1em 0; }
+.registration-wrap a { color: #0075B0; }
+
+.registration-wrap { margin: 0 0 30px 0; }
+.reg-login-info-wrap h3, .reg-billing-info h3, .reg-personal-info-wrap h3, .reg-shipping-info h3 {
+  color: #0075B0;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.reg-personal-info-wrap .personal-info          {}
+.reg-personal-info-wrap .personal-info .input-inline-wrap {
+  clear: right;
+  float: left;
+  width: 380px;
+}
+
+.registration-wrap input[type="submit"] {
+  background: #0075b0 none repeat scroll 0 0;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 2px;
+  box-shadow: none;
+  color: #ffffff !important;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  height: 35px;
+  padding: 2px 20px;
+  text-shadow: none;
+}
+
+.RadInput_Default, .RadInputMgr_Default {
+  font: 14px "segoe ui",arial,sans-serif !important;
+}
+
+.reg-personal-info-wrap .personal-info .input-inline-wrap2 {     display: block;
+    float: none !important;}
+
+.reg-personal-info-wrap .avatar {
+    background: none repeat scroll 0 0 #E1E1E1;
+    float: right;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 390px;
+
+    border-radius: 4px 4px 4px 4px;
+    -ms-border-radius: 4px 4px 4px 4px;
+    -o-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+}
+
+.reg-personal-info-wrap .avatar img {
+    clear: both;
+    float: left;
+    margin: 0 20px 0 0;
+    width: 140px;
+}
+
+.avatar .impt {display:block;margin-bottom:20px;}
+
+.form-note { font-size: 12px; color: #666; }
+.clearbot {
+  margin: 0 0 30px 0 !important;
+}
+
+.txtBox-email {
+  margin: 0 0 10px;
+  width: 300px;
+}
+
+#C008_cmbcountry_Input {
+  background: none repeat scroll 0 0 #E9E9E9;
+  border: 1px solid #A1A0A0 !important;
+  width: 200px;
+}
+
+.rcbInputCellLeft, .rcbArrowCellRight {
+  background: 0 !important;
+}
+
+.security-password-wrap .form-wrap .input-wrap p {
+  color: #919191;
+    display: block;
+    font-size: 12px !important;
+    margin: 0 0 8px !important;
+}
+
+.security-password-wrap a {
+    color: #0075B0;
+    font-size: 14px;
+}
+
+
+/* UPLOAD VIDEO */
+
+#C022_rblComments label {
+  display: inline-block !important;
+  margin: 0 0 0 10px !important;
+}
+
+#C022_rblShare label {
+  display: inline-block !important;
+  margin: 0 0 0 10px !important;
+}
+
+
+/* Error Summary Validation */
+#CPContentWhole_C010_ValidationSummary1 ul li { color: #E64545;}
+
+
+#CPContentWhole_C010_fuUserPic {display:block;}
+
+
+.reg-shipping-info .form-wrap, .reg-billing-info .form-wrap 	{	background: none repeat scroll 0 0 #F7F7F7; border: 1px solid #E5E5E5; padding: 10px; }
+
+.reg-login-info-wrap .form-wrap, .reg-personal-info-wrap .form-wrap, .security-password-wrap .form-wrap { padding: 10px; position: relative; overflow: hidden; }
+
+.reg-login-info-wrap #CPContentWhole_C010_rblIR td {
+	background: none repeat scroll 0 0 #EEEEEE;
+    border-radius: 6px 6px 6px 6px;
+    display: block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 10px 0 0;
+    padding: 10px;
+    width: 100px;
+}
+
+.input-wrap #CPContentWhole_C010_txtirRelation {
+	width: 400px;
+}
+
+.input-inline-wrap .select-security {
+	width: 500px;
+}
+
+.security-password-wrap .input-inline-wrap {
+	display: block;
+}
+
+.input-inline-wrap #CPContentWhole_C010_ddlCountry, .input-inline-wrap #CPContentWhole_C010_ddlShippingCountry {
+	width: 300px;
+}
+
+.reg-delivery-info-wrap .input-inline-wrap .input-postal, #CPContentWhole_C010_txtPostalCode		{	width: 100px; min-width: 100px; }
+
+
+.reg-login-info-wrap #CPContentWhole_C010_rblIR td label {
+	display: inline-block;
+	color: #403f3f;
+}
+
+.RadComboBox_Default .rcbInputCellLeft, .RadComboBox_Default .rcbInputCellLeft { background: none;}
+.reg-personal-info-wrap .RadComboBox table td.rcbArrowCell { display: none; }
+
+
+.comment-wrap .comment-form textarea, textarea {
+    background: none repeat scroll 0 0 #E9E9E9;
+    border: 1px solid #A1A0A0;
+    clear: both;
+    float: right;
+    height: 80px;
+    max-width: 620px;
+    min-height: 80px !important;
+    padding: 10px;
+    width: 620px;
+    transition: all 0.35s ease-in-out 0s; -moz-transition: all 0.35s ease-in-out 0s; -ms-transition: all 0.35s ease-in-out 0s; -o-transition: all 0.35s ease-in-out 0s; -webkit-transition: all 0.35s ease-in-out 0s;
+
+}
+
+
+
+.comment-wrap .comment-form textarea:focus, textarea:focus {
+    background: none repeat scroll 0 0 #eee;
+    border: 1px solid #C9C9C9;
+
+}
+
+
+.comment-wrap .comment-form details {
+	float: right;
+	color: #524f4f;
+	font-size: 12px;
+}
+
+.upload .upload-inner-wrap textarea {
+	width: 380px;
+	height: 100px;
+}
+
+.security-password-wrap .form-wrap .input-wrap p {
+	color: #919191;
+    display: block;
+    font-size: 12px !important;
+    margin: 0 0 8px !important;
+}
+
+
+.login-right .input-wrap .remember {
+  display: block;
+  font-size: 14px;
+  margin: -25px 0 30px;
+  overflow: hidden;
+}
+
+.input-wrap.login-row-wrap {  margin:10px 0 20px!important; }
+.login-right, .login-left {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #DDDDDD;
+  float: left;
+  margin: 20px 5px 20px 10px;
+  padding: 20px 10px 20px 40px;
+  width: 43.3%;
+  min-height:620px;
+}
+
+.login-right h3, .login-left h3 {
+  color: #0075B0;
+  font-size: 22px;
+  font-weight: normal;
+  margin: 20px 0;
+}
+
+.forgot-wrap a {
+  border-bottom: 1px solid;
+  color: #0075b0;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 0 5px;
+}
+
+.forgot-wrap p, .activation-form-wrap p {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  color: #373737;
+}
+
+.activation-form-wrap a {
+  color: #0075b0;
+  font-size: 15px;
+}
+
+.forgot-wrap p.bottom {
+  margin: 0 0 40px 0;
+}
+
+.forgot {
+  color: #919191;
+  font-size: 14px;
+}
+
+.activation-form-wrap p:nth-child(2) {
+  margin: 0 0 30px;
+}
+
+
+#C008_btnContinue, #C006_btnLogin, #C014_btnSubmit, #C009_btnSubmit, .login-left .button, .login-right input[type="submit"] {
+  background-color: #0075B0;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 2px;
+  color: #FFFFFF !important;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  height: 35px;
+  padding: 2px 20px;
+}
+
+.forgot-wrap .input-wrap > input[type="submit"], .reset-password-page .input-wrap > input[type="submit"], .activation-form-wrap .input-wrap > input[type="submit"] {
+  background-color: #0075B0;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 2px;
+  color: #FFFFFF !important;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  height: 35px;
+  padding: 2px 20px;
+}
+
+#C008_btnContinue {
+  margin: 20px 0 80px;
+}
+
+.remember > input {
+  margin: -4px 5px 0 0;
+}
+
+.separator.or { background: url("/images/default-source/site-images/separator-or.png") no-repeat scroll center; margin: 15px 0; text-align:center; width:90%; }
+.login-left li { list-style: disc; padding: 5px 0; }
+.login-left ul { margin: 0 0 20px 20px; color:#403F3F; }
+
+.login-wrap section.notice { border-radius: 5px; font-size: 14px; margin: 20px 10px 0; padding: 20px 25px; color:#ba0000; }
+
+.login-wrap .activation-finished .notice { border-radius: 5px; font-size: 14px; margin: 20px 10px 0; padding: 20px 25px; color:#ba0000; }
+.activation-finished { display:block; margin:20px 0px 20px 0px; color:#393939; }
+.login-wrap section.notice, .activation-finished .notice  { background:#e6e6e6; }
+.login-wrap .notice a { color:#0075B0; text-decoration:underline; }
+
+/* notification */
+.login-right .msg-red { background:#e6e6e6; border-radius: 5px; color: #ba0000; font-size: 14px; margin: 20px 20px 40px 0; padding: 20px 25px; }
+.login-right .msg-red a { color:#0075b0; }
+.login-right .notice { margin: 20px 20px 40px 0 !important; }
+
+/* Login Via */
+
+
+
+.login-wrap .fb_iframe_widget {
+  display: block !important;
+  height: auto;
+  margin: 0 0 20px;
+  overflow: hidden;
+}
+
+.login-wrap #gConnect.button {
+  display: block;
+  float: left;
+  height: 35px;
+  overflow: hidden;
+  width: 140px;
+}
+
+.login-right > input#Button2 {
+  clear: both;
+  display: block;
+  margin: 0 0 10px;
+}
+
+.login-wrap .login-right > iframe#WebAuthControl {
+  background: url("../../images/default-source/site-images/icon-microsoft.png") no-repeat scroll 5px 6px rgba(0, 0, 0, 0);
+  border: 1px solid #dedede;
+  float: left;
+  margin: 0 0 10px;
+  padding: 5px 0 5px 33px;
+}
+
+.login-right > input#Button3 {
+  clear: both;
+  display: inline-block;
+  margin: 0 0 0 10px;
+  overflow: hidden;
+}
+
+.remember > label {
+  display: inline-block;
+}
+
+/*
+
+ .login-wrap .input-wrap.login-row-wrap:nth-of-type(3) {
+  display: none;
+} */
+

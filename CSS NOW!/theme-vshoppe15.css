@@ -1,0 +1,1164 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+body { font-family: "Roboto",sans-serif; background: none repeat scroll 0 0 #f4f4f4; font-size: 14px; }
+
+.m-header { border-bottom-color: #f88722; }
+.m-button { background-position: -57px 0; }
+.m-sidebar h3, .m-sidebar h4 { color: #f88722; }
+.m-sidebar a {
+  color: #606060;
+}
+
+.vshoppe-logo {
+  background: url("/images/default-source/sites/logo-vshoppe.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  display: inline-block;
+  height: 61px;
+  margin: 10px 0 0;
+  width: 138px;
+}
+
+.checkout a {
+  color: #ff7800;
+}
+
+ul li { list-style: none; }
+
+.m-header .nav ul li:first-child a { color: #f88b2a; }
+.m-header .nav.logged-out ul li:last-child a { color: #f88b2a; }
+
+.m-header .nav ul li a { color: #323232; }
+.m-content.vshoppeHome {
+  padding: 0;
+  width: 100%;
+  margin: 0;
+        transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+}
+
+.TopBanners {
+  background: url("/images/default-source/vcon15/images/bg-home3.jpg") no-repeat scroll 0 center rgba(0, 0, 0, 0);
+  padding: 50px 0;
+}
+
+.TopBanners li {
+  background: none repeat scroll 0 0 #333;
+  border-radius: 6px;
+  float: left;
+  height: 300px;
+  list-style: outside none none;
+  margin: 0 5px 0 0;
+overflow: hidden;
+}
+
+.TopBanners li:last-child { margin: 0; } 
+.TopBanners li:first-child { width: 500px; }
+.TopBanners li:nth-child(2), .TopBanners li:last-child { width: 250px; }
+
+.m-content .menus {
+  padding: 2% 0;
+}
+
+.m-container.loggedin .m-content {
+    padding: 95px 0 0 0;
+}
+
+.m-category.clearfix { margin: 0 0 50px; text-align: center; }
+.m-category a {
+  background: none repeat scroll 0 0 #f88722;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  height: 120px;
+  overflow: hidden;
+  text-align: left;
+  text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+}
+
+.m-category a:hover { background: #ffa641; }
+
+.m-category a:last-child {
+  margin: 0 auto 0 auto;
+  width: 46.5%;
+}
+
+.m-category em {
+  background: url("/images/default-source/sites/sprite-batch06.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  content: "";
+  float: left;
+  height: 60px;
+  margin: 30px 10px 0 10px;
+  width: 60px;
+
+    transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+}
+
+.m-category a:nth-child(2) em, .m-category a:nth-child(3) em, .m-category a:nth-child(4) em  {
+  background-position: -1px -30px;
+}
+
+.m-category a:first-child em {
+  background-position: -180px -30px;
+}
+
+.m-category a:nth-child(5) em {
+  background-position: -69px -30px;
+  width: 37px;
+}
+
+.m-category a:nth-child(6) em {
+  background-position: 0 -93px;
+  width: 63px;
+}
+
+.m-category a:last-child em {
+  background-position: -119px -30px;
+}
+
+.m-category a:hover em {
+  transform: scale(1.1);
+}
+
+
+.m-category.clearfix span {
+  display: inline-block;
+  font-size: 14px;
+  margin: 33px 0 0;
+  padding: 0;
+  vertical-align: top;
+  width: 110px;
+}
+
+.m-category.clearfix a:last-child span {
+  font-size: 30px;
+  margin: 40px 0 0;
+  text-align: center;
+  width: 298px;
+}
+
+.m-category.clearfix a:nth-child(1) span {
+  margin: 41px 0 0;
+}
+
+
+.m-category.clearfix a:nth-child(5) span {
+  margin: 50px 0 0;
+}
+
+.m-category.clearfix a:nth-child(6) span {
+  margin: 53px 0 0;
+    width: 98px;
+}
+
+.m-category.clearfix a:nth-child(3) span {
+  font-size: 12px;
+}
+
+.m-filters { text-align: center; }
+.m-filters.clearfix li { display: inline-block; }
+.m-filters a { border-bottom: 2px solid #f4f4f4; color: #232323; font-size: 18px; margin: 0 20px; padding: 0 0 5px; text-transform: uppercase; }
+.m-filters a.active, .m-filters a:hover { border-bottom: 2px solid #f88722; }
+
+
+.category {
+  margin: 60px 0 120px;
+}
+
+.spotlight {
+  background: none repeat scroll 0 0 #ddd;
+}
+
+.spotlight .wrap {
+  padding: 70px 0;
+}
+
+.spotlight h2 , .category h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0 0 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cat-cont .item {
+  display: inline-block;
+  margin: 0 3px 40px;
+  width: 240px;
+  vertical-align: top;
+}
+.cat-cont .thumbnail {
+  background: #8f8f8f none repeat scroll 0 0;
+  border: 0 none;
+  border-radius: 6px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+.cat-cont .thumbnail img {
+  height: 240px;
+  width: 240px;
+}
+
+.cat-cont .img-cont .contentholder span {
+  height: 240px;
+  margin: 0;
+}
+
+.cat-cont .item h3 {
+  color: #3e3e3e;
+  line-height: 24px;
+  margin: 10px 0 0;
+  text-align: center;
+}
+
+.cat-cont ul { text-align: center; }
+
+
+.cat-cont .thumbnail .options {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+  bottom: 0;
+  color: #fff;
+  display: none;
+  left: 0;
+  padding: 30px 20px 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.cat-cont .item:hover .options {
+  display: block;
+}
+
+.cat-cont .item .options a {
+  border-bottom: 1px solid #555;
+  color: #fff;
+  margin: 10px 0;
+  padding: 0 0 10px; transition: all .2s ease-in-out;
+}
+
+.cat-cont .item .options a:hover span {
+  opacity: .5;
+}
+
+
+.cat-cont .item .options a span:after {
+  background: url("/images/default-source/sites/sprite-batch06.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  content: "";
+  display: block;
+  height: 27px;
+  margin: 0 auto;
+  width: 26px;
+}
+
+.cat-cont .item .options a.redeem span:after {
+  background-position: -32px 0;
+  height: 27px;
+  width: 25px;
+}
+
+.cat-cont .item .options a.watch {
+  padding: 0 0 15px;
+}
+
+.cat-cont .item .options a:last-child {
+  border: 0 none;
+}
+
+.cat-cont .item .options a.watch span:after {
+  background-position: -72px 0;
+  height: 25px;
+  margin: -20px auto 0;
+  width: 12px;
+}
+
+.cat-cont .item .options a.watch span {
+  display: block;
+  text-indent: -9999px;
+}
+
+
+.cat-cont .thumbnail .circle {
+  background: none repeat scroll 0 0 #000;
+  border-radius: 50%;
+  color: #fff;
+  display: block;
+  font-size: 9px;
+  height: 45px;
+  overflow: hidden;
+  position: absolute;
+  right: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  top: 10px;
+  width: 45px;
+}
+
+/* .cat-cont .item:hover .circle {
+  display: none;
+} */
+
+.cat-cont .thumbnail .circle.sale { background: #f84022; }
+.cat-cont .thumbnail .circle.best { background: #f88722; }
+
+.cat-cont .thumbnail .circle > span {
+  display: block;
+  margin: 9px 0 0;
+}
+
+.cat-cont .thumbnail .circle.sale > span {
+  margin: 16px 0 0;
+}
+
+.spotlight a.link, .category a.link {
+  color: #939393;
+  display: block;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+.product-cont.clearfix {
+  background: none repeat scroll 0 0 #ddd;
+  padding: 20px 0;
+margin: 40px 0 0 0;
+}
+
+.product-nav {
+  background: none repeat scroll 0 0 #f4f4f4;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.product-nav ul li {
+  display: inline-block;
+  margin: 0 60px;
+}
+
+.product-nav a {
+  color: #232323;
+  line-height: 22px;
+}
+
+.product-nav a:before {
+  background: url("/images/default-source/sites/sprite-batch07.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  content: "";
+  float: left;
+  height: 20px;
+  margin: 0 5px 0 0;
+  overflow: hidden;
+  width: 20px;
+}
+
+.product-nav a:hover:before {
+  transform: scale(.9);
+}
+
+
+.product-nav a.wishlist:before { background-position: -75px 0; }
+.product-nav a.like:before { background-position: -117px 0; }
+.product-nav a.review:before { background-position: -96px 0; }
+
+.product-cont .product-info {
+  margin: 20px 0;
+}
+
+.product-name .category {
+  color: #919191;
+  display: block;
+  font-weight: 400;
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+.product-cont .product-name h1 {
+  display: block;
+  font-size: 26px;
+  font-weight: 400;
+  overflow: hidden;
+  text-align: center;
+}
+
+.product-cont .product-name h1:after {
+  border-bottom: 1px solid #bbbbbb;
+  content: "";
+  display: block;
+  margin: 10px auto 0;
+  width: 70%;
+}
+
+.product-main .thumb {
+  margin: 0 auto;
+  padding: 45px 0;
+  width: 430px;
+}
+
+.product-main .teaser {
+  background: #f88722 none repeat scroll 0 0;
+  border-radius: 4px;
+  bottom: 40px;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 10px 20px;
+  position: absolute;
+}
+
+.product-main .teaser > span:before {
+  background: url("/images/default-source/sites/sprite-batch07.png") repeat scroll -2px -28px rgba(0, 0, 0, 0);
+  content: "";
+  float: left;
+  height: 20px;
+  margin: 0 15px 0 0;
+  overflow: hidden;
+  width: 28px;
+}
+
+.product-main .more-info {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 120px;
+  width: 280px;
+}
+
+.product-main .more-info .price-cont {
+  background: none repeat scroll 0 0 #fff;
+  border-radius: 4px;
+  margin: 0 0 20px;
+  overflow: hidden;
+}
+
+.price-cont > header {
+  background: none repeat scroll 0 0 #f88722;
+  color: #fff;
+  padding: 10px;
+}
+
+.price-cont header a {
+  color: #fff;
+  float: right;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.price-cont header span {
+  font-size: 24px;
+}
+
+.price-cont > section {
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+}
+
+.price-cont > section .border {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.price-cont > section .border:before {
+  border-bottom: 1px solid #232323 !important;
+  content: "";
+  height: 1px;
+  left: 15px;
+  position: absolute;
+  top: 21px;
+  width: 100px;
+}
+
+.price-cont > section .border:after {
+  border-bottom: 1px solid #232323 !important;
+  content: "";
+  height: 1px;
+  right: 15px;
+  position: absolute;
+  top: 21px;
+  width: 100px;
+}
+
+.price-cont > section a {
+  color: #ff7800;
+}
+
+.price-cont section .howto {
+  display: block;
+  margin: 10px 0;
+}
+
+.product-main .thumb > img {
+  height: 430px;
+  width: 430px;
+}
+
+.product-cont .topbar {
+  margin: 0 0 30px;
+  overflow: hidden;
+}
+
+.product-cont .topbar aside:first-child {
+  float: left;
+}
+
+.product-cont .topbar aside:last-child {
+  float: right;
+}
+
+.product-cont .topbar .sharing { overflow: hidden; }
+.product-cont .topbar .sharing li {
+  float: left;
+  height: 24px;
+  margin: 0 30px 0 0;
+  width: 24px;
+}
+
+.sharing li em.fb {
+  background-position: -4px 0;
+}
+
+.sharing li em.tweet {
+  background-position: -53px 0;
+  width: 20px;
+}
+
+.sharing li em.email {
+  background-position: -30px 0;
+  width: 21px;
+}
+
+.sharing li:hover em {
+  transform: scale(.9);
+}
+
+.sharing li em {
+  background: url("/images/default-source/sites/sprite-batch07.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  display: block;
+  height: 22px;
+  width: 24px;
+}
+
+.topbar .close a {
+  background: none repeat scroll 0 0 #232323;
+  display: block;
+  padding: 8px;
+}
+
+.product-cont .topbar .close em {
+  background: url("/images/default-source/sites/sprite-batch06.png") repeat scroll -94px -7px rgba(0, 0, 0, 0);
+  display: block;
+  height: 14px;
+  width: 14px;
+}
+
+.product-cont .product-main .wrap {
+  position: relative;
+}
+.product-cont .product-main {
+  background: none repeat scroll 0 0 #333;
+}
+
+.product-cont .product-name {
+  margin: 0 0 30px;
+}
+
+.product-info .wrap {
+  border-bottom: 1px solid #aeaeae;
+  padding: 0 0 50px;
+}
+
+.product-cont .product-info p {
+  font-family: "Raleway",sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.more-info .rating { text-align: center; }
+.more-info .rating .star {
+  background: url("/images/default-source/sites/sprite-batch07.png") no-repeat scroll -108px -26px rgba(0, 0, 0, 0);
+  display: inline-block;
+  height: 26px;
+  width: 28px;
+}
+
+.more-info .rating .star.hover {
+  background-position: -77px -26px;
+}
+
+
+
+.reviews-cont .rating .star {
+  background: url("/images/default-source/sites/sprite-batch07.png") no-repeat scroll -54px -29px rgba(0, 0, 0, 0);
+  display: inline-block;
+  height: 18px;
+  margin: 0 10<px;
+  width: 18px;
+}
+
+.reviews-cont .rating .star:hover, .reviews-cont .rating .star:target  {
+  background-position: -33px -29px;
+} 
+
+.reviews-cont {
+  margin: 0 0 50px;
+}
+
+.reviews-cont .wrap {
+  width: 560px;
+}
+
+.reviews-cont .wrapper > h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0 0 10px;
+}
+
+.reviews-cont h2 .item {
+  margin: 0 10px 0 0;
+}
+
+.reviews-cont textarea {
+  border: 0 none;
+  font-family: "Raleway",sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0 0 10px;
+  max-width: 94%;
+  min-height: 80px;
+  min-width: 94%;
+  padding: 15px;
+  resize: vertical;
+}
+
+.entries .item p {
+  font-family: "Raleway",sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+  margin: 0 0 10px;
+}
+
+.entries .item .img-cont {
+  width: 48px; height: 48px;
+}
+
+.reviews-cont .entries {
+  margin: 60px 0 0;
+}
+
+.reviews-cont .entries .item {
+  margin: 0 0 30px;
+  overflow: hidden;
+}
+
+.entries .item img {
+  height: 50px;
+  width: 50px;
+}
+
+
+
+.entries .item aside h3 {
+  color: #ff7800;
+  float: left;
+}
+
+.review-form .sub-cont h3 {
+  float: left;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 10px 0 0;
+}
+
+.review-form .sub-cont aside:first-child {
+  float: left;
+}
+
+.review-form .rating {
+  width: 200px;
+}
+
+.entries .item aside span {
+  color: #a9a9ab;
+  float: left;
+  font-size: 12px;
+  line-height: 24px;
+  margin: 0 0 0 50px;
+}
+
+.entries li.item .avatar {
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.entries li.item aside:last-child {
+  float: left;
+  width: 480px;
+}
+
+.entries .ratings .star {
+  background: url("/images/default-source/sites/sprite-batch07.png") no-repeat scroll -54px -29px rgba(0, 0, 0, 0);
+  display: inline-block;
+  height: 18px;
+  width: 19px;
+}
+
+.entries .item .like:before {
+  background: url("/images/default-source/sites/sprite-batch07.png") repeat scroll -138px 0 rgba(0, 0, 0, 0);
+  content: "";
+  float: left;
+  height: 20px;
+  margin: 0 5px 0 0;
+  overflow: hidden;
+  width: 20px;
+}
+
+.entries .ratings .star.active {
+  background-position: -32px -29px;
+}
+
+.entries .item li {
+  float: left;
+  margin: 0 60px 0 0;
+}
+
+.entries .item aside .like span {
+  color: #a9a9ab;
+  float: left;
+  font-size: 12px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.m-footer .v-logo {
+  background: url("/images/default-source/sites/sprite-batch06.png") repeat scroll -115px -1px rgba(0, 0, 0, 0);
+  width: 42px;
+}
+
+.fspace.clearfix { height: 140px; overflow: hidden; }
+
+.button.post {
+  float: right;
+}
+
+.button.inactive {
+ background: #ff7800;
+  border: 1px solid #ff7800;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+.button.inactive:hover {
+  background: #ff7800;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  color: #ff7800;
+}
+
+
+.button.checkout {
+ background: #ff7800;
+  border: 1px solid #ff7800;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+.button.checkout:hover {
+  background: #ff7800;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  color: #ff7800;
+}
+
+
+.modalDialog {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:1;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: auto;
+}
+
+.modalDialog > div {
+  width: 990px;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.modalDialog > div.cont {
+    padding: 10px 40px;
+}
+
+.modalDialog h2 {
+  border-bottom: 2px solid #323232;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.modalDialog.redeem .btn-continue.button2 {
+    padding: 10px 50px;
+}
+
+.modalDialog.redeem .close > a {
+    color: #232323;
+    font-size: 13px;
+}
+
+.modalDialog.redeem .close {
+    font-weight: normal;
+    margin: 10px 0 0;
+    opacity: 1;
+}
+
+.redeem .cart .row div {
+    padding: 0 50px;
+    width: 50%;
+}
+
+.redeem .cart .row div:first-child {
+    color: #999;
+    padding: 0 20px 0 0;
+    text-align: right;
+}
+.redeem .cart .row div:last-child {
+    padding: 0 0 0 20px;
+    text-align: left;
+    width: 50%;
+}
+
+.redeem .cart .row {
+    border: 0 none;
+}
+
+.redeem .cart .row:last-child {
+    border-top: 1px solid #cccccc;
+}
+
+.redeem .cart .row:last-child .right {
+    color: #ff7800;
+}
+
+.redeem .buttons-wrap {
+    margin: 30px 0 20px;
+    text-align: center;
+}
+
+.checkout .page-title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.checkout .page-title {
+  border-bottom: 2px solid #232323;
+  font-size: 24px;
+  margin: 0 0 10px;
+  padding: 0 0 25px;
+  text-align: center;
+}
+
+.transaction .page-title {
+  border-bottom: 1px solid #c9c9c9;
+  color: #f88b2a;
+  font-size: 24px;
+  margin: 0 0 10px;
+  padding: 30px 0 10px;
+  text-align: center;
+}
+
+.cart .row {
+  border-bottom: 1px solid #cccccc;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.cart .row div {
+  float: left;
+  width: 35%;
+}
+
+.cart .qty input {
+  background: none repeat scroll 0 0 #e1e1e1;
+  border: 0 none;
+  height: 14px;
+  margin: 0 0 0 10px;
+  padding: 5px;
+  text-align: center;
+  width: 14px;
+}
+
+.cart .row div:nth-child(2) {
+  text-align: center;
+  width: 30%;
+}
+.cart .row div:last-child {
+  float: right;
+  font-size: 18px;
+  text-align: right;
+}
+
+.cart .subtotal > div {
+  clear: both;
+  float: right;
+  overflow: hidden;
+  padding: 10px 0;
+  width: 40%;
+}
+
+.cart .total {
+  background: none repeat scroll 0 0 #323232;
+  color: #fff;
+  overflow: hidden;
+  padding: 10px 5px 10px 0;
+  text-align: right;
+}
+
+.cart .subtotal {
+  margin: 10px 0;
+}
+
+.modalDialog .item > h3 {
+    color: #ff7800;
+}
+
+.modalDialog .item > span {
+    color: #000;
+}
+
+.modalDialog .item > a {
+    color: #999;
+    display: block;
+    font-size: 12px;
+}
+
+.subtotal .label {
+  float: left;
+}
+
+.subtotal .amount {
+  float: right;
+}
+
+.billing {
+  margin: 40px 0;
+  overflow: hidden;
+}
+
+.billing aside h4 {
+  color: #ff7800;
+  font-size: 14px;
+  margin: 0 0 30px;
+  text-transform: uppercase;
+}
+
+.billing > aside:first-child {
+  float: left;
+  width: 30%;
+}
+
+.billing > aside:last-child {
+  float: right;
+  width: 60%;
+}
+
+.billing .row .input-col {
+  float: left;
+  width: 47%;
+}
+
+.billing .row .input-col:first-child {
+  margin: 0 30px 0 0;
+}
+
+.form-wrap .row.clearfix {
+  margin: 0 0 20px;
+}
+
+.form-wrap .row label {
+  display: block;
+  font-size: 12px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.form-wrap .row input[type="text"] {
+  display: block;
+  font-size: 12px;
+  width: 90%; 
+  background: #e1e1e1;
+  height: 40px;
+  border: 0;
+  padding: 2px 5px;
+}
+
+.form-wrap .row .input-row input[type="text"] {
+  width: 94.5%;
+}
+
+.form-wrap .row input[type='checkbox'] {
+  width: 14px;
+  height: 14px;
+  margin: 0 10px 0 0;
+}
+
+.form-wrap .row.clearfix:last-of-type {
+  display: block;
+  margin: 30px 0 20px;
+}
+
+.billing input[type="radio"] {
+  margin: 0 10px 0 0;
+}
+
+.button2 {
+  background: none repeat scroll 0 0 #ff7800;
+  border: 0 none;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}
+
+
+.button2:hover { 
+    background: #e26a00;
+    color: #fff;
+}
+
+
+.btn-checkout.button2 {
+  float: right;
+}
+
+.buttons-wrap.clearfix {
+  margin: 20px 0;
+}
+
+
+.transaction a {
+    color: #f88b2a;
+}
+
+.transaction .block {
+  display: block;
+  height: 344px;
+  margin: 40px auto 50px;
+  width: 244px;
+}
+
+.transaction .block.successful {
+  background: rgba(0, 0, 0, 0) url("/images/default-source/sites/transaction-success.png") no-repeat scroll 0 0;
+}
+
+.transaction .block.failed {
+  background: rgba(0, 0, 0, 0) url("/images/default-source/sites/transaction-failed.png") no-repeat scroll 0 0;
+}
+
+.transaction .options > h4 {
+  border-bottom: 1px solid #c9c9c9;
+  line-height: 24px;
+  margin: 0 0 10px;
+  padding: 0 0 20px;
+}
+
+.transaction .options p {
+  display: block;
+  margin: 20px 0 0;
+}
+
+.transaction .options {
+    text-align: center;
+    color: #787878;
+}
+
+.transaction .options span { color: #f88b2a; }
+
+.transaction ul li {
+  display: inline-block;
+  margin: 10px 40px;
+}
+
+@media (min-width: 369px) {} 
+@media (min-width: 769px) { 
+.reviews-cont .wrapper {
+  margin: 70px auto 0;
+  width: 560px;
+}
+@media (min-width: 767px) { 
+    
+    .m-category a {
+        width: 19%;
+    }
+}
+@media (min-width: 1024px) {
+  .m-content .wrap { margin: 0 auto; width: 1012px; }
+
+
+}
+@media (min-width: 1200px) {}
+@media (min-width: 1475px) {}
+    
+@media (min-width: 610px) {
+    .m-container.loggedin .m-content {
+        padding: 65px 0 0 0;
+    }
+}
+    
+@media (max-width: 609px) {
+    .m-container.loggedin.m-content {
+        padding: 30px 0 0 0;
+    }
+    .TopBanners ul {
+        text-align: center;
+    }
+
+    .TopBanners li {
+        display: inline-block;
+        float: none;
+        margin: 0;
+    }
+    
+    .TopBanners li:first-child {
+    margin: 0 0 10px;
+}
+    
+    .category .cat-cont { width: 100%; }
+}
+    
+    
+@media (max-width: 480px) {
+    .m-container.loggedin .m-content {
+        padding: 0 0 0;
+    }
+    
+    
+}

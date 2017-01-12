@@ -1,0 +1,190 @@
+
+@media all and (max-width:1024px) {
+.home header img {
+  width: 100%;
+}
+
+input[type="submit"] { appearance: none; -moz-appearance: none; -webkit-appearance: none; -o-appearance: none; -ms-appearance: none;} 
+.items.thumbs div:nth-child(2) { height: 305px; }
+
+
+
+}
+
+@media all and (max-width: 800px) {
+
+
+
+.news .sub tr { width: 70%; margin: 0 auto; }
+.news .sub td { width: 100%; border: none; }
+
+
+.socialmedia .full aside:last-child {
+  width: 80% !important;
+}
+
+ul.main-nav {
+  display: none;
+}
+
+.menu .pt-trigger-container .box-button:last-child nav {
+  display: block;
+  text-align: center;
+}
+
+nav ul.footer-nav li {
+  display: inline-block;
+  float: none;
+  line-height: 24px !important;
+  margin: 0 5px;
+}
+
+.menu-up .menu-wrap .main-button {
+  border-left: 60px solid transparent;
+  border-top: 60px solid #f3f3f3;
+}
+
+.home header {
+  float: none;
+  margin: 20px auto 0;
+  width: 50%;
+}
+
+.pt-page h1 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.wrap .box-overlay {
+  width: 100%;
+}
+
+.logo .full > img {
+  width: 50%;
+}
+
+.pledge .pledge-choice {
+  margin: 30px auto 0; width: 70%; }
+
+.pledge-container .pledge-choice a, .contact input[type="submit"] { float: none; display: inline-block; }
+.socialmedia .full aside {
+  display: inline-block;
+  float: none;
+  width: 47% !important;
+}
+
+.home .countdown {
+  width: 100%;
+}
+
+
+.menu .pt-trigger-container .box-button:first-child { height: auto !important; }
+
+.menu .pt-trigger-container { position: relative; }
+.menu .pt-trigger-container .box-button {
+height: 50%;
+}
+.menu .pt-trigger-container .box-button:last-child p {
+margin: 20px 0 30px 0;
+}
+
+.media.map { margin: 0;}
+
+.traditions .items dd:last-child {
+  height: 100%;
+  overflow: visible;
+}
+
+.traditions .items dd:last-child div:nth-child(2) {
+  height: auto;
+}
+
+.feeds .snapwidget-widget {
+  width: 100%;
+}
+
+}
+
+@media all and (max-width: 721px) {
+	.menu .pt-trigger-container .box-button { height: 50%; }
+  .importantwords .items.info dd { width: 48%; min-height: 130px; }
+  .news .sub .imgCont { width: 100%; min-height: 85px; }
+
+.news .sub td {
+  display: block;
+  float: none;
+  margin: 0 auto 20px;
+  width: 90%;
+}
+
+.news .sub .imgCont:before {
+background-color: rgba(0, 0, 0, 0.2);
+width: 100%;
+}
+
+.news .sub .txtCont {
+  width: 100%;
+}
+
+.aboutpenang .center nav ul li {
+  width: 100%;
+}
+
+}
+
+
+@media all and (max-width: 415px) {
+a.action { width: 90%; }
+.menu .pt-trigger-container p { font-size: 12px; padding: 0; }
+.menu-up .menu-wrap { width: 90%; }
+.menu .pt-trigger-container .box-button { height: 40%; }
+.menu-up .menu-wrap .main-button { border-left: 40px solid transparent; border-top: 40px solid #f3f3f3; width: 50%; }
+.menu-up .menu-wrap .main-button span { font-size: 14px; margin: -51px; }
+.menu-up .share-links { height: 40px; padding: 5px 0 0 5px; text-align: center; width: 50%; }
+.menu-up .share-links p { display: none; }
+
+.news .sub a h4 { text-align: center; }
+.countdown .dig {
+  display: inline-block;
+  float: none;
+  margin: 0 0 4%;
+  width: 48%;
+}
+
+.full aside { width: 100% !important; }
+.items.thumbs div:nth-child(2) { height: auto;  }
+.full aside, .full .contact-left, .full .contact-right {
+width: 95% !important;
+margin: 0 auto;
+}
+
+.socialmedia .full aside {
+width: 100% !important;
+margin: 0 0 20px 0;
+}
+
+.socialmedia .full aside:last-child {
+  width: 100% !important;
+}
+
+.items dd {
+width: 100%;
+
+}
+
+
+.aboutpenang .center nav ul li { width: 100%; }
+.aboutpenang .full aside, .venue .full aside { width: 105% !important; margin: 0 auto 10px auto; }
+
+.menu-up .share-links a, .menu-up .share-links iframe { height: 82%; }
+
+}
+
+@media all and (max-width: 361px) {
+  .menu .pt-trigger-container .box-button { height: 20%; }
+}
+

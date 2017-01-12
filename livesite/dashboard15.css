@@ -1,0 +1,2500 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+.checker {
+    display: none;
+}
+
+label {
+    font-weight: normal;
+}
+
+.container .db-title {
+    display: none;
+}
+
+.myList h3.title {
+    color: #38cea8;
+}
+
+.myList aside.thumbnail {
+    float: left;
+}
+
+.myList aside.info {
+    float: left;
+}
+
+.myList ul {
+    clear: both;
+    overflow: hidden;
+}
+
+.myList ul li.item {
+    margin: 0 0 40px 0;
+    overflow: hidden;
+}
+
+.myList .desc {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#db_playlist_name .contentholder {
+    width: 20%;
+}
+
+#db_playlist_user .contentholder {
+    width: 20%;
+}
+
+#db_mydownloads_title .contentholder {
+    width: 40%;
+}
+
+#db_mydownloads_date .contentholder {
+    width: 40%;
+}
+
+.myList aside.thumbnail .time-cont span {
+    background: none repeat scroll 0 0 #232323;
+    color: #fff;
+    display: inline-block;
+    padding: 2px 5px;
+    font-size: 12px;
+}
+
+.spcMsg {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    font-size: 18px;
+    margin: 10% 0;
+    padding: 5% 0;
+    text-align: center;
+}
+
+
+/* Overview */
+
+.m-content .box-row {
+    margin: 0 0 20px;
+}
+
+.m-content .box-row.full {
+    background: #fff;
+}
+
+.box-row .label {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0;
+    text-shadow: none;
+}
+
+.box-row > aside:first-child {
+    float: left;
+}
+
+.box-row > aside:last-child {
+    float: right;
+}
+
+.box-row > aside.points {
+    width: 48%;
+}
+
+.box-row > aside.membership {
+    width: 50%;
+}
+
+.box-row > aside.points dd {
+    color: #fff;
+    float: left;
+    height: 155px;
+    padding: 10px;
+    width: 45.8%;
+    box-sizing: content-box;
+}
+
+.box-row > aside.points dd:first-child {
+    background: none repeat scroll 0 0 #38cea8;
+}
+
+.box-row > aside.points dd:last-child {
+    background: none repeat scroll 0 0 #009b74;
+}
+
+.box-row > aside.points .amount {
+    font-size: 30px;
+    margin: 18% 0 0;
+    text-align: center;
+    line-height: 34px;
+}
+
+.box-row > aside.points .pts {
+    text-align: center;
+}
+
+.box-row > aside.points dd:first-child .pts {
+    color: #009b74;
+}
+
+.box-row > aside.points dd:last-child .pts {
+    color: #38cea8;
+}
+
+.box-row > aside.membership .main,
+.box-row > aside.klik {
+    margin: 0 0 20px;
+    overflow: hidden;
+}
+
+.box-row > aside.membership .main {
+    background: none repeat scroll 0 0 #939393;
+}
+
+.box-row > aside.membership .main aside {
+    float: left;
+    height: 86px;
+}
+
+.box-row .membership .klik {
+    background: #565656 none repeat scroll 0 0;
+    color: #b7b7b7;
+    display: block;
+    height: 43px;
+    padding: 5px 0 5px 144px;
+    position: relative;
+    display: none;
+}
+
+.box-row .membership .klik::before {
+    background: url("/images/default-source/sites/sprite-db.png") repeat scroll -73px -197px rgba(0, 0, 0, 0);
+    content: "";
+    height: 30px;
+    left: 9px;
+    overflow: hidden;
+    position: absolute;
+    top: 7px;
+    width: 99px;
+}
+
+.box-row .membership .klik .amount {
+    color: #38cea8;
+    font-size: 14px;
+    margin: 0 5px 0 0;
+}
+
+.box-row .membership .klik .label {
+    color: #b7b7b7;
+    line-height: 24px;
+}
+
+.box-row .membership .klik dd {
+    display: inline-block;
+    margin: 4px 30px 0 0;
+}
+
+.box-row .membership .klik dd:last-child {
+    margin: 0;
+}
+
+.box-row > aside.membership .main aside:first-child {
+    background: none repeat scroll 0 0 #fff;
+    color: #939393;
+    padding: 25px 20px 0 30px;
+    box-sizing: content-box;
+}
+
+.box-row > aside.membership .main aside:first-child .label {
+    color: #939393;
+}
+
+.box-row .membership .main span:first-child {
+    display: block;
+    font-size: 20px;
+    line-height: 44px;
+}
+
+.box-row .membership .main span.pro {
+    color: #d3a200;
+}
+
+.box-row > aside.membership .main aside:last-child {
+    background: none repeat scroll 0 0 #939393;
+    color: #c7c7c7;
+    overflow: hidden;
+    padding: 25px 20px 0;
+    position: relative;
+    width: 42%;
+    box-sizing: content-box;
+    float: right;
+}
+
+.box-row > aside.membership .main aside:last-child a {
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.box-row > aside.membership .main aside:last-child .date {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    line-height: 44px;
+}
+
+.box-row > aside.membership .main aside:last-child .label {
+    font-weight: normal;
+}
+
+.box-row .labelS {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.box-row > aside.profile {
+    overflow: hidden;
+    padding: 4% 3%;
+    width: 34%;
+    box-sizing: content-box;
+}
+
+.box-row > aside.mychannel {
+    overflow: hidden;
+    padding: 3%;
+    width: 53%;
+    border-left: 1px solid #dddddd;
+    box-sizing: content-box;
+}
+
+.box-row .avatar .img-cont {
+    height: 118px;
+    width: 118px;
+}
+
+.box-row .avatar img {
+    height: 120px;
+    width: 120px;
+}
+
+.box-row .profile .avatar {
+    float: left;
+    margin: 0 5% 0 0;
+}
+
+.box-row .profile .info h3 {
+    color: #38cea8;
+    float: left;
+    width: 60%;
+}
+
+.box-row .profile .info a.edit {
+    background: none repeat scroll 0 0 #232323;
+    border-radius: 4px;
+    color: #fff;
+    padding: 2px 5px;
+    position: absolute;
+    right: -20px;
+    top: 0;
+}
+
+.box-row .profile .info dd:first-child {
+    position: relative;
+}
+
+.box-row .profile .info dd:nth-child(2) {
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    line-height: 24px;
+    visibility: hidden;
+}
+
+.box-row .profile .info dd:last-child {
+    font-size: 12px;
+    color: #939393;
+}
+
+.box-row .mychannel h1 {
+    color: #38cea8;
+    margin: 0 0 10px;
+}
+
+.box-row.full.ranking {
+    display: none;
+}
+
+.box-row.full.ranking > aside {
+    padding: 10px;
+}
+
+.box-row.full.ranking .user > article {
+    overflow: hidden;
+    padding: 20px 0 20px 10px;
+}
+
+.box-row.full.ranking .user .label,
+.user .pts {
+    color: #38cea8;
+}
+
+.box-row.full.ranking .user img {
+    float: left;
+    height: auto;
+    width: 70px;
+}
+
+.box-row.full.ranking .user .info {
+    float: left;
+    margin: 0 0 0 10px;
+}
+
+.box-row.full.ranking > aside.user {
+    width: 20%;
+}
+
+.box-row.full.ranking > aside.achievement {
+    background: none repeat scroll 0 0 #f1f1f1;
+    width: 75%;
+}
+
+.achievement ul {
+    clear: both;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.achievement li {
+    float: left;
+    margin: 0 15px;
+}
+
+.achievement li.link:last-child {
+    background: none repeat scroll 0 0 #232323;
+    border-radius: 50%;
+    height: 59px;
+    padding: 5px;
+    width: 59px;
+}
+
+.achievement li:last-child a {
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 10px 0 0;
+    text-align: center;
+}
+
+.achievement .label {
+    color: #9e9e9e;
+}
+
+.achievement a {
+    color: #9e9e9e;
+    font-size: 12px;
+}
+
+.mychannel dl {
+    border: 1px solid #38cea8;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.mychannel dd {
+    float: left;
+    padding: 2%;
+    width: 26%;
+    box-sizing: content-box;
+}
+
+.mychannel dd:last-child {
+    float: right;
+}
+
+.mychannel dd:nth-child(2),
+.mychannel dd:nth-child(4) {
+    width: 1px;
+}
+
+.mychannel dd:nth-child(2):after,
+.mychannel dd:nth-child(4):after {
+    border-right: 1px solid #38cea8;
+    content: "";
+    display: block;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    top: 16px;
+}
+
+.mychannel dd .labelS {
+    color: #939393;
+    display: block;
+    font-size: 12px;
+}
+
+.mychannel dd .amount {
+    color: #38cea8;
+    font-size: 30px;
+}
+
+
+/* Points */
+
+.pts-overview header aside.left {
+    margin: 20px 0 0 40px;
+}
+
+.pts-overview header aside.right {
+    margin: 20px 40px 0;
+}
+
+.pts-overview header aside > div {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.pts-overview header .label {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 center;
+    color: #909090;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 0;
+    text-align: right;
+    text-shadow: none;
+    white-space: normal;
+    width: 70px;
+}
+
+.pts-overview header .amount {
+    color: #232323;
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.pts-overview header .pts {
+    color: #38cea8;
+    font-size: 18px;
+}
+
+.pts-overview .subCont.btn-purchase-cont {
+    clear: both;
+    margin: 30px 0 30px;
+}
+
+table.pts-overview td {
+    width: 25%;
+}
+
+table.pts-overview .status,
+table.history .status {
+    border: 2px solid;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 7px 0;
+    width: 160px;
+}
+
+.history .head5 {
+    font-size: 18px;
+}
+
+table.pts-overview .status.unused,
+table.history .status.redeemed {
+    color: #38cea8;
+    border-color: #38cea8;
+}
+
+table.pts-overview .status.used {
+    border-color: #e3e3e3;
+    color: #a3a3a3;
+}
+
+table.pts-overview tbody td:nth-child(2) {
+    font-size: 18px;
+}
+
+table.pts-history td {
+    width: 20%;
+}
+
+table.pts-history tbody td:nth-child(1) {
+    color: #38cea8;
+}
+
+
+/* My Events */
+
+table.myevents td:first-child {
+    width: 20%;
+}
+
+table.myevents td:nth-child(2) {
+    width: 60%;
+}
+
+table.myevents td:last-child {
+    width: 20%;
+}
+
+.myevents tbody td:nth-child(3) {
+    font-size: 18px;
+    color: #38cea8;
+}
+
+table.myevents td .remove {
+    color: #909090;
+    display: inline-block;
+    float: right;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+table.myevents td .view {
+    background: none repeat scroll 0 0 #38cea8;
+    border-radius: 50%;
+    float: left;
+    height: 40px;
+    overflow: hidden;
+    padding: 5px;
+    width: 40px;
+}
+
+table.myevents td .view > em {
+    background: url("/images/default-source/sites/sprite-db.png") no-repeat scroll -138px -53px rgba(0, 0, 0, 0);
+    display: block;
+    height: 24px;
+    margin: 8px 0 0 8px;
+    width: 24px;
+}
+
+
+/* Shopping/Redemption History */
+
+table.history td {
+    width: 25%;
+}
+
+table.history tbody td:first-child {
+    text-align: left;
+}
+
+table.history tbody td:first-child h3 {
+    color: #38cea8;
+}
+
+table.history td p {
+    line-height: 24px;
+}
+
+table.history td span {
+    display: block;
+    font-size: 13px;
+}
+
+table.history td span:first-child {
+    font-size: 12px;
+    margin: 5px 0 0;
+}
+
+table.history .status.success {
+    color: #38cea8;
+    border-color: #38cea8;
+}
+
+table.wishlist tbody td:first-child h3 {
+    color: #38cea8;
+}
+
+table.wishlist .remove {
+    background: rgba(0, 0, 0, 0) url("/images/default-source/sites/sprite-db.png") repeat scroll -92px -52px;
+    display: block;
+    height: 44px;
+    margin: 0 auto;
+    width: 44px;
+}
+
+
+/* Account */
+
+.account .account-wrap {
+    padding: 30px 0 30px 0;
+}
+
+.account .avatar {
+    border: 0 none;
+    border-radius: 0;
+    box-shadow: none;
+    float: left;
+    margin: 0 5% 0 2%;
+    padding: 0;
+}
+
+.account-wrap .input.info.row:first-child {
+    margin: 0;
+}
+
+.account-wrap .sf_db_profile_useruploadcont input[type="file"],
+.control-group input[type="file"] {
+    background: #eee none repeat scroll 0 0;
+    display: block;
+    padding: 5px !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 60%;
+    height: auto;
+}
+
+.sf_db_profile_useruploadcont {
+    margin: 0 0 40px 0;
+}
+
+.sf_db_profile_useruploadcont .note {
+    color: #888;
+    font-size: 12px;
+    font-style: italic;
+    margin: 5px 0 0;
+}
+
+.account .avatar .img-cont {
+    height: 118px;
+    width: 118px;
+}
+
+.account .avatar img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.account-wrap .col.bday > input {
+    width: auto;
+}
+
+.account-wrap .col.pw > a label {
+    color: #38cea8;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.account-wrap .col.gender > div#sf_sexgender {
+    line-height: 22px;
+}
+
+.account-wrap #sf_sexgender > input[type="radio"] {
+    margin: 0 5px 0 0;
+}
+
+.account aside.info {
+    float: left;
+    width: 70%;
+}
+
+.input.info label,
+.control-group label {
+    display: block;
+    font-size: 12px;
+    color: #909090;
+    margin: 0 0 5px 0;
+    font-weight: normal;
+}
+
+.input.info input[type="text"]:disabled {
+    border: 0;
+    font-size: 14px;
+    background: 0;
+    font-size: 14px;
+    color: #232323;
+    padding: 0;
+}
+
+.input.row {
+    margin: 0 0 40px;
+    clear: both;
+    overflow: hidden;
+}
+
+.input.info .pw input:disabled {
+    font-style: italic;
+}
+
+.input.info input.accType:disabled {
+    text-transform: uppercase;
+    color: #232323;
+    font-size: 18px;
+}
+
+.input.info .irID {
+    width: 25%;
+}
+
+.input.info .displayN {
+    width: 60%;
+}
+
+.input.info .irID input:disabled,
+.input.info .displayN input:disabled {
+    color: #38cea8;
+    font-size: 24px;
+}
+
+.input.row .col {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.input.row.tricols .col {
+    width: 28%;
+}
+
+.changepw .button {
+    margin: 50px 0 0 0;
+}
+
+.changepw .input-row.email:hover label {
+    color: #909090;
+}
+
+.changepw .sub label {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 30px 0 0;
+}
+
+.sub.edit.clearfix > span#C005_cvWrongPassword,
+.sub.edit.clearfix > span#C005_cvRequiredFieldValidator1 {
+    clear: both;
+    display: inherit;
+}
+
+.changepw h2 {
+    display: none;
+}
+
+.changepw .btn-submit {
+    margin: 30px auto 50px;
+    display: block;
+}
+
+.changepw .Base {
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 5px 10px;
+}
+
+.Base.L5 {
+    background: #52c25d none repeat scroll 0 0;
+}
+
+.Base.L4 {
+    background: #3f9647 none repeat scroll 0 0;
+}
+
+.Base.L3 {
+    background: #d98a2d none repeat scroll 0 0;
+}
+
+.Base.L2 {
+    background: #d05252 none repeat scroll 0 0;
+}
+
+.Base.L1 {
+    background: #f04444 none repeat scroll 0 0;
+}
+
+.changepw .input-row.email > input[type="text"] {
+    border: none;
+}
+
+.form-wrap.billing .input-row:last-of-type {
+    text-align: center;
+}
+
+.form-wrap.billing .input-row:last-of-type .button {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+.account.billing .form-wrap {
+    text-align: left;
+}
+
+.account.billing .input-inline-wrap label {
+    font-size: 12px;
+    margin: 30px 0 0;
+}
+
+.account.billing .form-wrap .input-inline-wrap > span,
+.profilebs .sub .input-inline-wrap > span {
+    color: #232323;
+    font-size: 12px;
+    line-height: 34px;
+}
+
+.account.billing .input-inline-wrap > div#C005_vsBilling {
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.account.billing .btn-right {
+    margin: 50px 0 30px;
+    text-align: center;
+}
+
+.account.billing .input-inline-wrap > input[type="checkbox"] {
+    margin: 0 5px 0 0;
+}
+
+.account.billing .form-wrap select {
+    width: 100%;
+}
+
+.profilebs .items .input-wrap {
+    margin: 0 0 20px;
+}
+
+.profilebs .sub .input-inline-wrap {
+    margin: 0 0 20px;
+}
+
+.profilebs .sub .form-wrap {
+    border-bottom: 1px solid #9e9e9e;
+    margin: 0 0 30px;
+    padding: 0 0 30px;
+}
+
+.profilebs .sub input.ruFakeInput[type="text"] {
+    border: 1px solid #999 !important;
+    height: 19px;
+    width: auto;
+}
+
+.profilebs .upload-profile {
+    display: block;
+    margin: 10px 0 0;
+}
+
+.profilebs .left strong {
+    font-weight: 100;
+}
+
+.profilebs h2 {
+    display: none;
+}
+
+.profilebs .ruFileWrap.ruStyled {
+    height: auto;
+}
+
+.profilebs table#C011_upProfile_rblGender {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.profilebs table#C011_upProfile_rblGender tr {
+    border: 0 none;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.profilebs table#C011_upProfile_rblGender tbody td {
+    padding: 0;
+}
+
+.profilebs #C011_upProfile_rblGender input {
+    margin: -3px 5px 0 0;
+}
+
+.profilebs .sub .input-inline-wrap > input {
+    margin: -4px 5px 0 0;
+}
+
+.account #C005_divLive > iframe {
+    background: rgba(0, 0, 0, 0) url("/images/default-source/site-images/icon-microsoft.png") no-repeat scroll 5px 6px;
+    border: 1px solid #dedede;
+    height: 24px;
+    padding: 5px 0 5px 35px;
+    text-decoration: none;
+    width: 120px;
+}
+
+.inner-wrap > div#C005_divFb {
+    border-bottom: 1px solid #ccc;
+}
+
+.account .inner-wrap > span#C005_lblGoogle::after {
+    border-bottom: 1px solid #ccc;
+    content: "";
+    display: block;
+    height: 1px;
+    margin: 0 0 20px;
+    width: 100%;
+}
+
+.account #C005_divGoogle > input,
+#btnLiveID {
+    background: none repeat scroll 0 0 #4e4e4e;
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    margin: 10px 0;
+    padding: 5px 10px;
+}
+
+.account .inner-wrap > span#C002_lblGoogle {
+    display: none;
+    margin: 10px 0;
+}
+
+.account .inner-wrap > span#C005_lblGoogle {
+    line-height: 54px;
+    margin: 10px 0;
+}
+
+.account .inner-wrap h2 {
+    display: none;
+}
+
+.account #C005_divGoogle .button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 center;
+    display: block;
+}
+
+.db-table .RadGrid_Default,
+.history .RadGrid_Default {
+    border: 0;
+    font-family: inherit;
+    color: #909090;
+}
+
+.db-table .RadGrid_Default .rgHeader a,
+.history .RadGrid_Default .rgHeader a {
+    color: #909090;
+}
+
+.db-table .rgHeader,
+.history .rgHeader {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 center;
+    text-align: center;
+}
+
+.db-table .RadGrid_Default .rgAltRow,
+.history .RadGrid_Default .rgAltRow {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 center;
+}
+
+.RadGrid_Default .rgPager {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 center;
+}
+
+.rgRow td,
+.rgAltRow td,
+.RadGrid_Default .rgRow td,
+.RadGrid_Default .rgAltRow td {
+    border-bottom: 1px solid #dedede;
+    padding: 35px 10px;
+    font-size: 13px;
+}
+
+.rgRow td:first-child,
+.rgAltRow td:first-child {
+    color: #38cea8;
+    font-size: 14px;
+}
+
+.rgPager tr {
+    border: 0 none;
+}
+
+.RadComboBox table {
+    margin: 0;
+}
+
+.RadGrid td.rgPagerCell {
+    padding: 5px 0 4px;
+    border: 0 !important;
+}
+
+
+/* Entitlement */
+
+.entitlement .message {
+    color: #38cea8;
+    margin: 10px 0 20px;
+}
+
+.entitlement .status {
+    color: #939393;
+}
+
+.entitlement .status span {
+    color: #38cea8;
+}
+
+.entitlement .items {
+    text-align: center;
+}
+
+.entitlement .items li {
+    display: inline-block;
+    margin: 0 0 30px;
+    padding: 0 20px;
+    text-align: left;
+    width: 250px;
+}
+
+.entitlement .items img {
+    width: 250px;
+    height: auto;
+}
+
+.entitlement .item .thumbnail {
+    margin: 0 0 10px;
+    position: relative;
+}
+
+.entitlement .items .option a {
+    background: url("/images/default-source/sites/sprite-db.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 3%;
+    height: 42px;
+    position: absolute;
+    right: 3%;
+    width: 42px;
+}
+
+.entitlement .items .option.add a {
+    background-position: -1px -53px;
+}
+
+.entitlement .items .option.redeemed a {
+    background-position: -46px -53px;
+}
+
+.entitlement .items .option.add:hover a {
+    background-position: -46px -53px;
+}
+
+.entitlement .items li a {
+    color: #909090;
+}
+
+.entitlement .items li a h3 {
+    color: #232323;
+}
+
+.entitlement .items a .category,
+.entitlement .items a .name {
+    color: #38cea8;
+    font-size: 13px;
+}
+
+.entitlement .items a > div {
+    font-size: 14px;
+}
+
+.entitlement .items a .year {
+    font-size: 12px;
+}
+
+
+/* Conversion Center */
+
+.container.conversion header {
+    margin: 0 0 30px;
+    color: #232323;
+}
+
+.container.conversion header span {
+    color: #38cea8;
+    margin: 0 0 0 10px;
+}
+
+.conversion .form-wrap .input-row:last-child {
+    margin: 100px 0 40px;
+}
+
+.container.conversion.pts header {
+    color: #38cea8;
+    margin: 30px 0 10px;
+    text-align: center;
+}
+
+.conversion .select-wrap a {
+    border: 6px solid #dddddd;
+    display: inline-block;
+    height: 173px;
+    position: relative;
+    width: 22%;
+    color: #ddd;
+}
+
+.select-wrap a aside {
+    font-size: 36px;
+}
+
+.select-wrap a aside.currency {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.select-wrap a aside.currency::before {
+    content: "$";
+    float: left;
+    font-size: 18px;
+    margin: 6px 0 0 10px;
+}
+
+.select-wrap a aside.points {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.select-wrap a aside.points::after {
+    content: "PTS";
+    float: right;
+    font-size: 18px;
+    margin: 6px 10px 0 0;
+}
+
+.select-wrap > a u {
+    background: url("/images/default-source/sites/sprite-db.png") no-repeat scroll -106px -121px rgba(0, 0, 0, 0);
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 72px;
+    left: 0;
+    margin: 46px auto 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 54px;
+    text-indent: -9999px;
+}
+
+.conversion .select-wrap {
+    margin: 0 0 70px;
+    text-align: center;
+}
+
+.select-wrap > a.active,
+.select-wrap > a:hover {
+    color: #38cea8;
+    border-color: #38cea8;
+}
+
+.select-wrap > a.active u {
+    background-position: -47px -121px;
+}
+
+.select-wrap > a.active:hover u {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+}
+
+.select-wrap > a:hover u {
+    background-position: -47px -121px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.conversion.pts footer {
+    border-bottom: 1px solid #dedede;
+    border-top: 1px solid #dedede;
+    margin: 0 0 30px;
+    padding: 10px 0;
+}
+
+.conversion.pts footer aside:first-child {
+    color: #909090;
+    float: left;
+    font-size: 14px;
+}
+
+.conversion.pts footer aside:first-child .label {
+    color: #666;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0;
+}
+
+.conversion.pts footer aside:first-child .amount {
+    font-size: 24px;
+    color: #38cea8;
+}
+
+.conversion.pts footer aside:nth-child(2) {
+    color: #909090;
+    float: left;
+    font-size: 14px;
+    margin: 4px 8% 0;
+    width: 20%;
+}
+
+.conversion.pts footer aside:nth-child(2) span {
+    color: #232323;
+}
+
+.conversion.pts footer aside:last-child {
+    float: right;
+}
+
+
+/* Rank & Achievements */
+
+.box-row.progress {
+    padding: 30px 10px;
+}
+
+.box-row.progress {
+    border-radius: 0;
+    box-shadow: none;
+    height: auto;
+}
+
+.box-row.progress .meter {
+    text-align: center;
+    overflow: hidden;
+}
+
+.box-row.progress .meter > dl {
+    margin: 10px 0;
+}
+
+.box-row.progress .meter dd {
+    background: none repeat scroll 0 0 #cbcbcb;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 35px;
+    padding: 2px 8px;
+}
+
+.box-row.progress .meter dd.active {
+    background: #38cea8;
+}
+
+.box-row.progress .level dd.active {
+    color: #38cea8;
+}
+
+.box-row.progress .level {
+    margin: 10px 0 0;
+    text-align: center;
+}
+
+.box-row.progress .bar {
+    background: none repeat scroll 0 0 #cbcbcb;
+    color: #fff;
+    height: 30px;
+    line-height: 27px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.box-row.progress .bar > h4 {
+    position: relative;
+    z-index: 2;
+    line-height: 31px;
+}
+
+.box-row.progress .level dd {
+    display: inline-block;
+    margin: 0 21px;
+}
+
+.box-row.progress .bar::after {
+    background: none repeat scroll 0 0 #38cea8;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 30%;
+    z-index: 1;
+}
+
+.container.badge {
+    border-radius: 0;
+    color: #232323;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    width: 100%;
+}
+
+.container.badge p {
+    line-height: 24px;
+    white-space: normal;
+}
+
+.badge h3 {
+    color: #38cea8;
+    margin: 0 0 10px 0;
+}
+
+.badge .badge-cont > ul {
+    text-align: center;
+    white-space: normal;
+}
+
+.badge .badge-cont li {
+    display: inline-block;
+    margin: 20px 15px 10px;
+    width: auto;
+}
+
+.badge .badge-cont li.locked::before {
+    background: url("/images/default-source/sites/badge-locked.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    content: "";
+    height: 101px;
+    position: absolute;
+    width: 101px;
+}
+
+.badge .badge-cont {
+    margin: 0 0 50px;
+}
+
+.badge .count {
+    color: #909090;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container.badge header {
+    margin: 60px 0 0;
+    padding: 0 0 10px;
+}
+
+.container.badge header a {
+    border-bottom: 1px solid #bebebe;
+    color: #bebebe;
+    float: left;
+    margin: 0 2% 0 0;
+    padding: 0 0 10px;
+    position: relative;
+    z-index: 19;
+}
+
+.container.badge dl {
+    overflow: hidden;
+}
+
+.container.badge header dl::after {
+    border-bottom: 1px solid #bebebe;
+    content: "";
+    display: block;
+    margin: 30px 0 0;
+    position: relative;
+}
+
+.container.badge header a.active,
+.container.badge header a:hover {
+    color: #38cea8;
+    border-color: #38cea8;
+}
+
+
+/* my channels */
+
+.manageCH aside.info {
+    width: 80%;
+}
+
+.manageCH .title {
+    margin: 0 0 10px 0;
+    position: relative;
+}
+
+.manageCH .title .btn-edit {
+    margin: 0 0 0 10px;
+    position: absolute;
+}
+
+.manageCH .thumbnail {
+    border: 0 none;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0 20px 0 0;
+    padding: 0;
+}
+
+.manageCH.myList ul li.item {
+    border-bottom: 1px solid #dedede;
+    margin: 1.5em 0 3em;
+    overflow: hidden;
+    padding: 0 0 1.5em;
+}
+
+.manageCH.follow.myList ul li.item {
+    border: 0 none;
+}
+
+.manageCH .thumbnail img {
+    height: 160px;
+    width: 160px;
+}
+
+.manageCH .stats dl {
+    overflow: hidden;
+}
+
+.manageCH .stats {
+    margin: 1.5em 0;
+}
+
+.manageCH .stats dd {
+    float: left;
+    margin: 0 30px 0 0;
+    line-height: 32px;
+}
+
+.manageCH .stats .label {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #909090;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0;
+    text-shadow: none;
+}
+
+.manageCH .btn-wrap {
+    margin: 20px 0 0 0;
+}
+
+.manageCH.videos aside.info {
+    width: 70%;
+}
+
+.manageCH.videos .thumbnail {
+    position: relative;
+    width: 250px;
+}
+
+.manageCH.videos .thumbnail .time-cont {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.manageCH.videos .thumbnail img {
+    width: 100%;
+    height: 150px;
+}
+
+.manageCH.videos .info .uploaded,
+.manageCH.videos .info .time {
+    color: #909090;
+    font-size: 12px;
+}
+
+.manageCH.videos .info .uploaded span {
+    color: #232323;
+}
+
+.manageCH.videos .info .time {
+    margin: 20px 0 30px 0;
+}
+
+.manageCH.follow .thumbnail {
+    width: 120px;
+}
+
+.manageCH.follow .item {
+    width: 48%;
+    float: left;
+    margin: 0 0 70px 0;
+}
+
+.manageCH.follow .img-cont {
+    width: 118px;
+    height: 118px;
+}
+
+.manageCH.follow .img-cont img {
+    width: 120px;
+    height: 120px;
+}
+
+.manageCH.follow .title {
+    margin: 10px 0 0 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.manageCH.follow .info {
+    width: 70%;
+}
+
+.manageCH.follow .connect {
+    font-size: 12px;
+    color: #909090;
+}
+
+.manageCH.follow .connect span {
+    color: #232323;
+}
+
+.manageCH.follow .section-approved {
+    border-top: 1px solid #dedede;
+    padding: 10px 0 0 0;
+}
+
+.manageCH #sf_channels_overview_list span a,
+.manageCH.videos #db_channels_myvideos_list span a {
+    background: #38cea8 none repeat scroll 0 0;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    border-radius: 30px;
+    font-size: 12px;
+    padding: 12px 40px;
+}
+
+
+/* Follow Buttons */
+
+.fbutton {
+    background: none repeat scroll 0 0 #38cea8;
+    border: 1px solid #38cea8;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    text-align: center;
+    width: 40%;
+    text-transform: uppercase;
+    margin: 0 3px 0 0;
+}
+
+.fbutton.request {
+    background: none repeat scroll 0 0 #fff;
+    color: #38cea8;
+}
+
+#sf_db_followers_link_reject,
+#sf_db_followers_link_remove,
+#sf_db_following_btn {
+    background: none repeat scroll 0 0 #fff;
+    color: #38cea8;
+    border: 1px solid #d1d1d1;
+}
+
+.fbutton.requested {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #909090;
+    color: #909090;
+}
+
+.fbutton:hover,
+#sf_db_followers_link_reject:hover,
+#sf_db_followers_link_remove:hover {
+    background: none repeat scroll 0 0 #38cea8;
+    border: 1px solid #38cea8;
+    color: #fff;
+}
+
+
+/* Playlist 1.0 */
+
+.playlist .item {
+    border-bottom: 1px solid #dedede;
+    padding: 0 0 40px;
+    position: relative;
+}
+
+.playlist ul li.item {
+    margin: 1.5em 0 3em;
+}
+
+.playlist aside.info {
+    width: 70%;
+}
+
+.playlist .thumbnail {
+    position: relative;
+    width: 250px;
+    margin: 0 20px 0 0;
+}
+
+.playlist .thumbnail .time-cont {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.playlist .thumbnail img {
+    width: 250px;
+    height: 150px;
+}
+
+.playlist aside.info .stats ul li {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.playlist aside.info .stats ul li::before {
+    background: url("/images/default-source/sites/sprite-batch08.png") no-repeat scroll 0 -4px rgba(0, 0, 0, 0);
+    content: "";
+    float: left;
+    height: 24px;
+    margin: 0 6px 0 0;
+    width: 24px;
+}
+
+.playlist aside.info .stats ul li.uploaded::before {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    margin: 0;
+    width: auto;
+}
+
+.playlist aside.info .stats ul li.views::before {
+    background-position: -100px -4px;
+}
+
+.playlist aside.info .stats ul li.likes::before {
+    background-position: -50px -4px;
+}
+
+.playlist aside.info .stats ul li.language::before {
+    background-position: -25px -3px;
+}
+
+.playlist aside.info .creator {
+    color: #909090;
+    font-size: 12px;
+    margin: 0 0 10px;
+}
+
+.playlist aside.info .creator span {
+    color: #232323;
+}
+
+.playlist aside.info .desc {
+    position: relative;
+    padding: 5px 0;
+}
+
+.playlist aside.info .desc p {
+    width: 90%;
+    color: #909090;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.playlist aside.info .stats ul {
+    color: #909090;
+    font-size: 12px;
+    margin: 10px 0 0;
+}
+
+.playlist .item .remove {
+    background: url("/images/default-source/sites/sprite-db.png") repeat scroll -92px -52px rgba(0, 0, 0, 0);
+    display: block;
+    height: 44px;
+    position: absolute;
+    right: 3%;
+    top: 4px;
+    width: 44px;
+}
+
+.playlist.klik .thumbnail,
+.myDL.dvd .thumbnail {
+    position: relative;
+    width: 250px;
+    margin: 0 20px 0 0;
+}
+
+.playlist.klik .thumbnail img,
+.myDL.dvd .thumbnail img {
+    width: 250px;
+    height: 250px;
+}
+
+.playlist.klik .category,
+.myDL.dvd .category {
+    color: #38cea8;
+    font-size: 13px;
+    margin: 15px 0 0 0;
+}
+
+.playlist.klik h3.title,
+.myDL.dvd h3.title {
+    color: #3e3e3e;
+    margin: 5px 0;
+}
+
+.playlist.klik h3.title span,
+.myDL.dvd h3.title span {
+    color: #909090;
+    font-size: 14px;
+    margin: 0 0 0 10px;
+}
+
+.playlist.klik .item {
+    color: #909090;
+}
+
+.playlist.klik .author a,
+.myDL.dvd .author a {
+    color: #38cea8;
+}
+
+.playlist.klik aside.info .desc {
+    border: 0;
+    margin: 20px 0;
+}
+
+.playlist.klik .duration {
+    font-size: 13px;
+}
+
+
+/* My Downloads */
+
+.myDL aside.info {
+    width: 70%;
+}
+
+.myDL aside.info .creator {
+    color: #909090;
+    font-size: 12px;
+    margin: 0 0 10px;
+}
+
+.myDL .thumbnail {
+    position: relative;
+    width: 250px;
+    margin: 0 20px 0 0;
+}
+
+.myDL .thumbnail .time-cont {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.myDL .thumbnail img {
+    width: 250px;
+    height: 150px;
+}
+
+.myDL aside.info .desc {
+    position: relative;
+    color: #909090;
+    font-size: 12px;
+    border-bottom: 1px solid #dedede;
+    border-top: 1px solid #dedede;
+    padding: 5px 0;
+}
+
+.myDL aside.info .date-unlocked {
+    color: #909090;
+    font-size: 12px;
+    margin: 10px 0 0 0;
+}
+
+.myDL aside.info .date-unlocked span,
+.myDL aside.info .desc span {
+    color: #232323;
+}
+
+.myDL .item {
+    position: relative;
+}
+
+.myDL .item .download {
+    background: url("/images/default-source/sites/sprite-db.png") repeat scroll 0 -123px rgba(0, 0, 0, 0);
+    display: block;
+    height: 44px;
+    position: absolute;
+    right: 0;
+    top: 8px;
+    width: 44px;
+}
+
+.myDL.dvd .author {
+    margin: 0 0 30px 0;
+}
+
+.myList.myDL ul {
+    margin: 10px 0 0;
+}
+
+
+/* Inbox */
+
+.inbox-cont {
+    font-family: "Noto Sans", sans-serif !important;
+    font-weight: normal;
+}
+
+.inbox-cont .db-wrap h2 {
+    display: none;
+}
+
+.inbox-cont .RadToolBar_Default .rtbMiddle {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+}
+
+.inbox-cont .RadToolBar_Default .rtbOuter {
+    border: 0 none;
+}
+
+.inbox-cont .rspPane,
+.inbox-cont .rspFirstItem,
+.rspLastItem,
+.inbox-cont table {
+    border-color: #dedede;
+}
+
+.inbox-cont #C003_MainSplitter {
+    height: 640px !important;
+}
+
+.container.inbox-cont table.RadSplitter {
+    margin: 0;
+}
+
+.inbox-cont .rgHeader {
+    text-align: left;
+}
+
+.inbox-cont #RAD_SPLITTER_PANE_CONTENT_C003_MessagePane {
+    height: 440px !important;
+}
+
+.db-wrap-full.line-bottom > div#C004_MainSplitter {
+    height: auto !important;
+    overflow: hidden;
+    width: 100% !important;
+}
+
+#C004_NestedSplitterPane > div {
+    width: 100% !important;
+}
+
+#RAD_SPLITTER_PANE_CONTENT_C004_NestedSplitterPane > div {
+    width: 100% !important;
+}
+
+#C004_MainSplitter img {
+    height: auto;
+    width: auto !important;
+}
+
+#C004_MessagePane > div {
+    height: 390px !important;
+    overflow-y: scroll !important;
+}
+
+.inbox-cont #C004_MessageBody_Panel1 {
+    height: 390px !important;
+    overflow-y: scroll !important;
+}
+
+.inbox-cont #C003_divNotif,
+.dashboard #TD91E5222005_divNotif {
+    background: none repeat scroll 0 0 #FFAE4F;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    margin: 0 0 10px;
+    padding: 15px;
+}
+
+.inbox-cont .rgRow td,
+.inbox-cont .rgAltRow td,
+.inbox-cont .RadGrid_Default .rgRow td {
+    border: 0 none;
+    padding: 0;
+    text-align: left;
+}
+
+.container.inbox-cont table#C004_MessageBody tbody td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.inbox-cont #C004_MessageBody_Label1 ul li {
+    list-style-type: disc;
+}
+
+.inbox-cont #C004_EmailGrid_ctl00 {
+    margin: 0;
+}
+
+.inbox-cont #C004_EmailGrid_ctl00 > tbody {
+    display: block;
+    height: 152px !important;
+    overflow: auto !important;
+    width: 100% !important;
+}
+
+.inbox-cont #C004_EmailGrid_ctl00 tr {
+    display: block;
+}
+
+.inbox-cont #C004_EmailGrid_ctl00 th {
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    display: block;
+    height: auto !important;
+    overflow: hidden;
+    width: 100%;
+}
+
+.container.inbox-cont table tr {
+    border: 0 none;
+}
+
+.ui-widget-header {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 center;
+    border: 0 none;
+    color: #38cea8;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 0.5em 0.5em 0 !important;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    display: none;
+}
+
+.ui-dialog .ui-dialog-content {
+    font-size: 13px;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    font-weight: normal;
+    color: #38cea8;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default:first-child,
+.ui-widget-header .ui-state-default:first-child {
+    background: #38cea8;
+    border: 0 none;
+    color: #fff;
+}
+
+@media (max-width: 1280px) {
+    .box-row > aside.points dd {
+        width: 44.8%;
+    }
+    .box-row > aside.membership .main aside:last-child {
+        width: 63%;
+    }
+}
+
+@media (min-width: 1010px) {
+    .container.badge {
+        width: 1012px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 810px) {
+    .box-row > aside.points dd {
+        width: 95%;
+    }
+    .box-row > aside.membership .main aside:first-child {
+        text-align: center;
+        width: 84%;
+    }
+}
+
+@media (max-width: 767px) {
+    .box-row .membership .klik::before {
+        top: 35%;
+    }
+    /* #C004_GridPane div {
+    width: -moz-max-content !important;
+    width: -webkit-max-content !important;
+    width: -o-max-content !important;
+    width: -ms-max-content !important; */
+
+.container.inbox-cont table.RadSplitter {
+    height: 100% !important;
+    margin: 0;
+    width: 99% !important;
+}
+
+
+}
+
+
+@media (max-width: 610px) {
+    .box-row > aside.points dd,
+    .box-row > aside.mychannel,
+    .box-row > aside.profile {
+        width: 94%;
+    }
+    
+    .mychannel dd {
+        float: none;
+        text-align: center;
+        width: auto;
+    }
+    
+    .mychannel dd:last-child {
+        float: none;
+    }
+    
+    .mychannel dd:nth-child(2):after,
+    .mychannel dd:nth-child(4):after {
+        border 0;
+        content: "";
+        display: none;
+    }
+    
+    .box-row .mychannel h1 {
+        font-size: 18px;
+    }
+    
+    .m-navigation .breadcrumbs {
+        display: none;
+    }
+    
+    .box-row .profile .info a.edit {
+        right: 0;
+    }
+    
+    .box-row .profile .info h3 {
+        float: none;
+    }
+    
+    .box-row > aside.membership .main aside:first-child {
+        padding: 25px 0 0;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .m-content .menu ul {
+        text-align: center;
+    }
+    
+    .m-content .menu li {
+        display: inline-block;
+        float: none;
+        margin: 10px;
+        padding: 0;
+    }
+    
+    .container header aside.left,
+    .container footer aside.left {
+        float: none;
+        margin: 0;
+    }
+    
+    .container header aside.right,
+    .container footer aside.right {
+        clear: both;
+        display: inline-block;
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .conversion .select-wrap a {
+        width: 48%;
+    }
+    
+    .box-row.progress .meter dd {
+        display: none;
+    }
+    
+    .container.badge dl {
+        text-align: center;
+        white-space: normal;
+    }
+    
+    .container.badge dd {
+        display: inline-block;
+        margin: 1% 3%;
+        text-align: center;
+        white-space: normal;
+    }
+    
+    .container.badge header a {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container.badge header dl::after {
+        border: 0 none;
+    }
+    
+    .achievement > ul {
+        text-align: center;
+    }
+    
+    .achievement li {
+        display: inline-block;
+        float: none;
+        margin: 20px 15px 10px;
+        width: auto;
+    }
+    
+    .history td {
+        width: auto;
+    }
+    
+    .account aside.info {
+        float: none;
+        width: 100%;
+    }
+    
+    .input.row .col {
+        float: none;
+        margin: 0 0 20px;
+    }
+    
+    .input.row.tricols .col {
+        width: 100%;
+    }
+    
+    .account .avatar {
+        float: none;
+        margin: 0 auto 20px;
+    }
+    
+    .input.info .irID,
+    .input.info .displayN {
+        width: 100%;
+    }
+    
+    .input.info .irID input:disabled,
+    .input.info .displayN input:disabled {
+        font-size: 16px;
+        height: auto;
+        width: 100%;
+    }
+    
+    .account.billing .input-inline-wrap select {
+        width: 100%;
+    }
+    
+    .section-approved .btn-wrap .fbutton,
+    .section-request .btn-wrap .fbutton,
+    #sf_db_followers_link_reject,
+    #sf_db_followers_link_remove,
+    #sf_db_following_btn {
+        margin: 0 0 5px;
+        width: 100%;
+    }
+    
+    .db-wrap-full.line-bottom > div#C004_MainSplitter {
+        height: auto !important;
+        width: 100% !important;
+    }
+    
+    td::before {
+        width: inherit;
+        display: none;
+    }
+}
+@media (max-width: 520px) {
+    .box-row > aside.points {
+        width: 93.5%;
+    }
+    
+    .box-row > aside.membership .main aside:last-child {
+        width: auto;
+    }
+    
+    .box-row.full.ranking > aside.user {
+        float: none;
+        width: 100%;
+    }
+    
+    .box-row.full.ranking > aside.achievement {
+        width: 100%;
+    }
+    
+    .box-row .profile .info h3 {
+        color: #38cea8;
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .box-row .profile .avatar {
+        float: none;
+        margin: 0 0 10px;
+        text-align: center;
+    }
+    
+    .avatar .img-cont {
+        margin: 0 auto;
+    }
+    
+    .m-content {
+        margin: 15px auto 0;
+    }
+    
+    table.pts-overview td {
+        width: 100%;
+    }
+    
+    .changepw .inner-wrap,
+    .account .db-wrap {
+        width: 90%;
+    }
+    
+    .box-row > aside.points dd,
+    .box-row > aside.membership {
+        width: 100%;
+    }
+    
+    .box-row > aside.membership .main aside:last-child {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .box-row > aside.membership .main,
+    .box-row > aside.klik {
+        margin: 0;
+    }
+    /* Force table to not be like tables anymore */
+    
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+    
+    tfoot tr,
+    tfoot td,
+    tfoot tbody,
+    tfoot th {
+        display: inline-block;
+    }
+    /* Hide table headers (but not display: none;, for accessibility) */
+    
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    
+    table tr:nth-child(2n) {
+        background: #f8f8f8 none repeat scroll 0 0;
+        !important
+    }
+    
+    td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+    
+    td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 100%;
+        padding-right: 10px;
+        white-space: nowrap;
+        font-size: 13px;
+    }
+    
+    table.history td {
+        width: 100%;
+    }
+    
+    table.history tbody td:first-child {
+        text-align: center;
+    }
+    /*
+	Label the data
+	*/
+    
+    .pts-overview td:nth-of-type(1):before {
+        content: "Status";
+    }
+    
+    .pts-overview td:nth-of-type(2):before {
+        content: "Purchased Number Points";
+    }
+    
+    .pts-overview td:nth-of-type(3):before {
+        content: "Activation";
+    }
+    
+    .pts-overview td:nth-of-type(4):before {
+        content: "Pin Code";
+    }
+    
+    #db_history_redemption td:nth-of-type(1):before {
+        content: "Transactions";
+    }
+    
+    #db_history_redemption td:nth-of-type(2):before {
+        content: "Total Points";
+    }
+    
+    #db_history_redemption td:nth-of-type(3):before {
+        content: "Date";
+    }
+    
+    #db_history_redemption td:nth-of-type(4):before {
+        content: "Status";
+    }
+    
+    .pts-history td:nth-of-type(1):before {
+        content: "Activity";
+    }
+    
+    .pts-history td:nth-of-type(2):before {
+        content: "Previous Points";
+    }
+    
+    .pts-history td:nth-of-type(3):before {
+        content: "Points Earned";
+    }
+    
+    .pts-history td:nth-of-type(4):before {
+        content: "Total Points";
+    }
+    
+    .pts-history td:nth-of-type(5):before {
+        content: "Date";
+    }
+    
+    .history tbody td:before {
+        color: #232323;
+    }
+    
+    .history .rgPager td:before {
+        content: "";
+    }
+    
+    .history tbody:nth-child(4) td:nth-of-type(1)::before {
+        content: "Transaction ID";
+    }
+    
+    .history tbody td:nth-of-type(2):before {
+        content: "ITEM";
+    }
+    
+    .history tbody td:nth-of-type(3):before {
+        content: "QTY";
+    }
+    
+    .history tbody td:nth-of-type(4):before {
+        content: "TOTAL PRICE";
+    }
+    
+    .history tbody td:nth-of-type(5):before {
+        content: "DATE";
+    }
+    
+    .history tbody td:nth-of-type(6):before {
+        content: "STATUS";
+    }
+    
+    .rgWrap.rgAdvPart {
+        display: none;
+    }
+    
+    .manageCH.follow .item {
+        float: none;
+        width: 100%;
+    }
+    
+    .manageCH.follow .info {
+        width: 100%;
+    }
+    
+    .manageCH.videos .thumbnail {
+        background: #000 none repeat scroll 0 0;
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .manageCH.videos aside.info {
+        float: none;
+        margin: 10px 0;
+        width: 100%;
+    }
+    
+    .manageCH .title .btn-edit {
+        margin: 0;
+        position: static;
+    }
+    
+    .myDL aside.info {
+        width: 100%;
+    }
+    
+    .myList aside.thumbnail {
+        float: none;
+        margin: 0 auto 10px;
+    }
+    
+    .subCont.compact {
+        width: 100%;
+    }
+    
+    .conversion .select-wrap a {
+        margin: 0 0 5px;
+        width: 100%;
+    }
+    
+    .conversion.pts footer aside:nth-child(2) {
+        margin: 10px 0;
+        width: 100%;
+    }
+    
+    .conversion .button.big {
+        margin: 10px 0 0;
+        white-space: normal;
+    }
+    
+    #C004_EmailGrid_ctl00 td::before {
+        display: none;
+    }
+}

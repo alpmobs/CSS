@@ -1,0 +1,326 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.fb_iframe_widget iframe {
+  width: 690px
+}
+
+.fb_iframe_widget span {
+  margin: 0 0 30px 0;
+}
+
+.post-list header.top {
+  color: #ffffff;
+  margin: 20px 0 0;
+  overflow: hidden;
+  padding: 0 15px 0 0;
+}
+
+.post-list header ul li {
+  list-style: none;
+  float: left;
+  margin: 0 10px 0 0;
+  font-size: 24px;
+  border-right: 1px solid #999;
+  padding: 0 10px 0 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.post-list header ul li.last {
+  border: none;
+}
+
+.post-list li a {
+  color: #0075B0;
+}
+
+/* .vtube li a {
+  color: #C4170F;
+} */
+
+
+
+ul li {
+	list-style: none;
+}
+
+p {
+  color: #666666;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+li.post {
+  border-bottom: 1px solid #DEDEDE;
+  margin: 0 0 30px;
+  position: relative;
+}
+
+.comment-wrap {
+  margin: 0 0 30px;
+  position: relative;
+}
+
+.comment-wrap table {
+  table-layout: fixed;
+  width: 100% !important;
+}
+
+
+.comment-wrap a {
+  color: #0075B0;
+}
+
+.post-list .txtProgress {
+  color: #999999;
+  font-size: 13px;
+}
+
+
+.post-list {
+	margin: 20px 0 0 0;
+}
+
+.post-body {
+  float: left;
+  margin: 0;
+  padding: 0 0 20px;
+  position: relative;
+  width: 70%;
+}
+
+.post-content {
+  clear: both;
+  overflow: hidden;
+  padding: 20px 0 0;
+  width: 100%;
+  border-bottom: 1px solid #DEDEDE;
+}
+
+.post-list .avatar {
+  background: url("../../images/default-source/site-images/avatar.jpg") no-repeat scroll right top #115071;
+  border-radius: 50%;
+  
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  float: left;
+  height: 70px;
+  margin: 0 20px 0 0;
+  overflow: hidden;
+  width: 70px;
+}
+
+.post .avatar img {
+	border: 5px solid #028dc7;
+	display: block;
+}
+
+.comment-signIn .avatar {
+  background: url("../../images/default-source/site-images/bg-avatar-dummy.png") no-repeat scroll right top transparent;
+  float: left;
+  margin: 0 7px 0 0;
+  width: 65px;
+}
+
+.comment-signIn img {
+  	border: 5px solid #979797;
+  	display: block;
+}
+
+.comment-textarea {
+  background: none repeat scroll 0 0 #DADCDE;
+  overflow: hidden;
+  padding: 30px 0;
+}
+
+.comment-signIn a {
+  background: none repeat scroll 0 0 #DA7C02;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 16px;
+  left: 15px;
+  padding: 5px 10px;
+  position: relative;
+}
+
+.post-user {
+	color: #00639f;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.vtube .post-user {
+  color: #A10700;
+}
+
+.post-meta {
+	color: #999;
+	font-size: 12px;
+	margin: 0 0 0 10px;
+}
+
+.post:hover .post-menu {
+	opacity: 1;
+}
+
+.post-menu {
+	float: right;
+	clear: both;
+
+	transition: all 0.2s linear 0s;
+	opacity: 0;
+}
+
+.post-menu .value {
+  line-height: 20px;
+  margin: 0 0 0 10px;
+  position: relative;
+  top: 3px;
+}
+.post-menu .like {
+  background: url("../../images/default-source/site-images/btn-like.png") no-repeat scroll 0 0 transparent;
+  display: inline-block;
+  height: 21px;
+  text-indent: -9999px;
+  width: 19px;
+}
+
+.post-menu .unlike {
+  background: url("../../images/default-source/site-images/btn-unlike.png") no-repeat scroll 0 0 transparent;
+  display: inline-block;
+  height: 21px;
+  text-indent: -9999px;
+  width: 19px;
+}
+
+.post-menu li {
+	float: left;
+	margin: 0 0 0 20px;
+}
+
+.message-content {
+	margin: 10px 0 0 0;
+	font-size: 14px;
+	color: #191919;
+}
+
+#C015_HolderComment, #C012_HolderComment, #C026_HolderComment {
+  overflow: hidden;
+  clear: both;
+  color: #999;
+}
+
+#C004_txtComment, #C012_txtComment, #C026_txtComment {
+  border: 1px solid #DEDEDE;
+  height: 100px;
+  margin: 10px 0 0;
+  padding: 10px;
+  width: 100%;
+  color: #363636;
+}
+
+#HolderComment {
+  clear: both;
+  margin: 0 0 0 50px;
+  overflow: hidden;
+  width: 92%;
+}
+
+#HolderComment .CommentTextbox {
+  border: 1px solid #DEDEDE;
+  color: #363636;
+  height: 60px;
+  margin: 10px 10px 10px 0;
+  padding: 10px;
+  float: left;
+  width: 100%
+}
+
+#HolderComment .CommentButton {
+  float: right;
+}
+
+.comment-wrap .CommentButton {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border: 0 none;
+  color: #0075B0;
+  cursor: pointer;
+  float: right;
+  font-size: 18px;
+  margin: 10px 0 0;
+  clear: both;
+}
+
+.vtube .comment-wrap .CommentButton {
+  color: #C4170F;
+}
+
+.reply-comment {
+  padding: 0 0 10px 0;
+}
+
+.reply-comment tr {
+  border: none;
+}
+
+.reply-comment .post-content {
+  width: 100%;
+  margin: 0 0 0 50px;
+  border: 0;
+}
+
+.reply-comment .txt-replyto {
+  font-size: 13px;
+  display: block;
+}
+
+.reply-comment a {
+  border-top: 1px solid #DEDEDE;
+  color: #999999;
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 0;
+  text-align: right;
+  width: 100%;
+}
+
+.pagination {
+  color: #999999;
+  float: right;
+  margin: 10px 0;
+  position: relative;
+}
+
+.pagination span {
+  font-size: 14px;
+  margin: 10px 0 0;
+  position: relative;
+  right: 10px;
+  top: -4px;
+}
+
+.pagination .prev {
+  background: url(../../images/default-source/site-images/pagination-news-left.png) no-repeat 0 0;
+  height: 21px;
+  width: 20px;
+  display: inline-block;
+  text-indent: -9999px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.pagination .next {
+  background: url(../../images/default-source/site-images/pagination-news-right.png) no-repeat 0 0;
+  height: 21px;
+  width: 20px;
+  display: inline-block;
+  text-indent: -9999px;
+  overflow: hidden;
+  margin: 0;
+}
+
+div#C027_HolderComment { clear:both; }

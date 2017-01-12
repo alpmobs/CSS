@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.recently tr {
+    border-bottom: 1px solid #C9C9C9;
+    clear: both;
+    display: block;
+    margin: 0 0 15px;
+    padding: 0 0 20px 0;
+
+    overflow: hidden;
+    content: " ";
+    font-size: 0;
+}
+
+
+.recently td {
+    padding: 10px 0 10px 0;
+
+}
+
+
+
+
+#mostviewed tr, #highestrated tr {
+    width: 205px !important;
+}

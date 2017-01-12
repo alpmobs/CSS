@@ -1,0 +1,40 @@
+name = VTube+ Video
+description = Uses the Bootstrap Framework LESS source files and must be compiled (not for beginners).
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+
+regions[content] = Content
+regions[header] = Header
+regions[sidebar] = Sidebar
+regions[footer] = Footer
+regions[mleft] = Top Header Left
+regions[mright] = Top Header Right
+regions[mhleft] = Main Header left
+regions[mhright] = Main Header Right
+regions[insidecont] = Main Content Inside Cont
+regions[viddetails] = Content
+regions[chinfovideos] = Channel Info Videos
+regions[chinfoch] = Channel Info
+regions[postlist] = Post List
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/system15.css
+stylesheets[all][] = css/theme-vtube15.css
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+
+; Disable BootstrapCDN so the compiled LESS source files can be used.
+settings[bootstrap_cdn] = ''

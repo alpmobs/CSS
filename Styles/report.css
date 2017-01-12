@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+
+body { font-family: 'Open Sans', sans-serif;}
+
+
+#ctl40_divReport > span {
+  background: none repeat scroll 0 0 #3e3e3e;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  margin: 30px 0 20px;
+  padding: 10px 20px;
+  text-align: left;
+}
+
+#ctl40_divReport > div {
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+#ctl40_divReport table {
+  margin: 30px auto;
+}
+
+#ctl40_divReport table td {
+  border: 1px solid #cecece;
+  font-size: 16px;
+  padding: 5px;
+}
+
+#ctl40_divReport table th {
+  padding: 5px;
+  text-transform: capitalize;
+}
